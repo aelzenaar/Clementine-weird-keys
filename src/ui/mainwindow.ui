@@ -536,7 +536,7 @@
     <string>Stop after this track</string>
    </property>
    <property name="shortcut">
-    <string>Ctrl+Alt+V</string>
+    <string>Ctrl+M</string>
    </property>
   </action>
   <action name="action_love">
@@ -790,9 +790,6 @@
    </property>
    <property name="text">
     <string>Mute</string>
-   </property>
-   <property name="shortcut">
-    <string>Ctrl+M</string>
    </property>
   </action>
   <action name="action_full_library_scan">
