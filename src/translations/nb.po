@@ -11,7 +11,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
-"PO-Revision-Date: 2014-10-31 11:46+0000\n"
+"PO-Revision-Date: 2014-11-13 22:18+0000\n"
 "Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
 "Language-Team: Norwegian Bokmål (http://www.transifex.com/projects/p/clementine/language/nb/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -313,7 +313,7 @@ msgid ""
 "activated.</p></body></html>"
 msgstr "<html><head/><body><p>Dette skriver poeng, tagger og statistikker til filene, for alle sangene i biblioteket.</p><p>Ikke nødvendig hvis &quot;Lagre poeng og statistikk i filene&quot;-opsjonen alltid har vært aktiv.</p></body></html>"
 
-#: ../bin/src/ui_organisedialog.h:245
+#: ../bin/src/ui_organisedialog.h:251
 msgid ""
 "<p>Tokens start with %, for example: %artist %album %title </p>\n"
 "\n"
@@ -328,7 +328,7 @@ msgstr "Til dette trenger du en Grooveshark Anywhere-konto."
 msgid "A Spotify Premium account is required."
 msgstr "Til dette trenger du en Spotify Premium-konto."
 
-#: ../bin/src/ui_networkremotesettingspage.h:190
+#: ../bin/src/ui_networkremotesettingspage.h:234
 msgid "A client can connect only, if the correct code was entered."
 msgstr "Klienter kan kun koble til hvis de oppgir riktig kode."
 
@@ -487,7 +487,7 @@ msgstr "Legg til katalog..."
 msgid "Add podcast"
 msgstr "Legg til Podcast"
 
-#: podcasts/podcastservice.cpp:328 ../bin/src/ui_mainwindow.h:709
+#: podcasts/podcastservice.cpp:331 ../bin/src/ui_mainwindow.h:709
 msgid "Add podcast..."
 msgstr "Legg til Podcast..."
 
@@ -656,7 +656,7 @@ msgstr "Avansert gruppering..."
 msgid "After "
 msgstr "Etter"
 
-#: ../bin/src/ui_organisedialog.h:236
+#: ../bin/src/ui_organisedialog.h:242
 msgid "After copying..."
 msgstr "Etter kopiering..."
 
@@ -733,11 +733,11 @@ msgstr "Alle oversetterne"
 msgid "All tracks"
 msgstr "Alle spor"
 
-#: ../bin/src/ui_networkremotesettingspage.h:195
+#: ../bin/src/ui_networkremotesettingspage.h:243
 msgid "Allow a client to download music from this computer."
 msgstr "Tillat at andre kan laste ned musikk fra denne datamaskinen."
 
-#: ../bin/src/ui_networkremotesettingspage.h:197
+#: ../bin/src/ui_networkremotesettingspage.h:245
 msgid "Allow downloads"
 msgstr "Tillat nedlastinger"
 
@@ -856,7 +856,8 @@ msgstr "Artistens initial"
 msgid "Ask when saving"
 msgstr ""
 
-#: ../bin/src/ui_transcodedialog.h:222 ../bin/src/ui_ripcd.h:323
+#: ../bin/src/ui_transcodedialog.h:222
+#: ../bin/src/ui_networkremotesettingspage.h:251 ../bin/src/ui_ripcd.h:323
 msgid "Audio format"
 msgstr "Lydformat"
 
@@ -1350,7 +1351,7 @@ msgstr "Konfigurér globalt søk..."
 msgid "Configure library..."
 msgstr "Sett opp bibliotek..."
 
-#: podcasts/addpodcastdialog.cpp:71 podcasts/podcastservice.cpp:362
+#: podcasts/addpodcastdialog.cpp:71 podcasts/podcastservice.cpp:365
 msgid "Configure podcasts..."
 msgstr "Konfigurere podcasts..."
 
@@ -1404,6 +1405,14 @@ msgstr "Konverter all musikk"
 msgid "Convert any music that the device can't play"
 msgstr "Konverter musikk som enheten ikke kan spille"
 
+#: ../bin/src/ui_networkremotesettingspage.h:248
+msgid "Convert lossless audiofiles before sending them to the remote."
+msgstr ""
+
+#: ../bin/src/ui_networkremotesettingspage.h:250
+msgid "Convert lossless files"
+msgstr ""
+
 #: internet/vkservice.cpp:322
 msgid "Copy share url to clipboard"
 msgstr ""
@@ -1412,7 +1421,7 @@ msgstr ""
 msgid "Copy to clipboard"
 msgstr "Kopiér til utklippstavla"
 
-#: library/libraryview.cpp:400 podcasts/podcastservice.cpp:349
+#: library/libraryview.cpp:400 podcasts/podcastservice.cpp:352
 #: ui/mainwindow.cpp:616 widgets/fileviewlist.cpp:43
 msgid "Copy to device..."
 msgstr "Kopier til enhet..."
@@ -1432,7 +1441,7 @@ msgid ""
 "http://localhost:4040/"
 msgstr "Kunne ikke koble til Subsonic; sjekk server-URLen. Eksempel: http://localhost:4040/"
 
-#: transcoder/transcoder.cpp:57
+#: transcoder/transcoder.cpp:58
 #, qt-format
 msgid ""
 "Could not create the GStreamer element \"%1\" - make sure you have all the "
@@ -1443,14 +1452,14 @@ msgstr "Kunne ikke lage GStreamer element \"%1\" - sørg for at du har alle de n
 msgid "Couldn't create playlist"
 msgstr ""
 
-#: transcoder/transcoder.cpp:428
+#: transcoder/transcoder.cpp:425
 #, qt-format
 msgid ""
 "Couldn't find a muxer for %1, check you have the correct GStreamer plugins "
 "installed"
 msgstr "Kunne ikke finne multiplekser for %1, sjekk at du har de riktige GStreamer programutvidelsene installert"
 
-#: transcoder/transcoder.cpp:422
+#: transcoder/transcoder.cpp:419
 #, qt-format
 msgid ""
 "Couldn't find an encoder for %1, check you have the correct GStreamer "
@@ -1664,7 +1673,7 @@ msgstr "Slett"
 msgid "Delete Grooveshark playlist"
 msgstr "Slett Grooveshark-spilleliste"
 
-#: podcasts/podcastservice.cpp:345
+#: podcasts/podcastservice.cpp:348
 msgid "Delete downloaded data"
 msgstr "Slett nedlastede data"
 
@@ -1694,7 +1703,7 @@ msgstr "Slett forhåndsinnstilling"
 msgid "Delete smart playlist"
 msgstr "Slett smart spilleliste"
 
-#: ../bin/src/ui_organisedialog.h:240
+#: ../bin/src/ui_organisedialog.h:246
 msgid "Delete the original files"
 msgstr "Slett de originale filene"
 
@@ -1710,7 +1719,7 @@ msgstr "Fjern valgte spor fra avspillingskøen"
 msgid "Dequeue track"
 msgstr "Fjern sporet fra avspillingskøen"
 
-#: ../bin/src/ui_transcodedialog.h:224 ../bin/src/ui_organisedialog.h:235
+#: ../bin/src/ui_transcodedialog.h:224 ../bin/src/ui_organisedialog.h:241
 #: ../bin/src/ui_ripcd.h:321
 msgid "Destination"
 msgstr "Destinasjon"
@@ -1861,7 +1870,7 @@ msgstr "Dobbelklikk for å åpne"
 msgid "Double clicking a song will..."
 msgstr "Når jeg dobbelklikker en sang, ..."
 
-#: podcasts/podcastservice.cpp:437
+#: podcasts/podcastservice.cpp:440
 #, c-format, qt-plural-format
 msgctxt ""
 msgid "Download %n episodes"
@@ -1883,11 +1892,15 @@ msgstr "Last ned medlemskap"
 msgid "Download new episodes automatically"
 msgstr "Last ned nye episoder automatisk"
 
-#: podcasts/podcastservice.cpp:253
+#: podcasts/podcastservice.cpp:256
 msgid "Download queued"
 msgstr "Lagt til i nedlastingskøen"
 
-#: ../bin/src/ui_networkremotesettingspage.h:202
+#: ../bin/src/ui_networkremotesettingspage.h:246
+msgid "Download settings"
+msgstr ""
+
+#: ../bin/src/ui_networkremotesettingspage.h:253
 msgid "Download the Android app"
 msgstr "Last ned Android-appen"
 
@@ -1899,7 +1912,7 @@ msgstr "Last ned dette albumet"
 msgid "Download this album..."
 msgstr "Last ned dette albumet..."
 
-#: podcasts/podcastservice.cpp:439
+#: podcasts/podcastservice.cpp:442
 msgid "Download this episode"
 msgstr "Last ned denne episoden"
 
@@ -1907,7 +1920,7 @@ msgstr "Last ned denne episoden"
 msgid "Download..."
 msgstr "Last ned..."
 
-#: podcasts/podcastservice.cpp:261
+#: podcasts/podcastservice.cpp:264
 #, qt-format
 msgid "Downloading (%1%)..."
 msgstr "Laster ned (%1%)..."
@@ -2078,7 +2091,7 @@ msgstr "Skriv adressen (URL) til en internett radiostrøm"
 msgid "Enter the name of the folder"
 msgstr "Skriv inn navn på mappa"
 
-#: ../bin/src/ui_networkremotesettingspage.h:199
+#: ../bin/src/ui_networkremotesettingspage.h:239
 msgid "Enter this IP in the App to connect to Clementine."
 msgstr "Skriv in denne IPen i Appen for å koble til Clementine."
 
@@ -2135,7 +2148,7 @@ msgstr "Kunne ikke laste inn %1"
 msgid "Error loading di.fm playlist"
 msgstr "Kunne ikke laste ned spillelista fra di.fm"
 
-#: transcoder/transcoder.cpp:393
+#: transcoder/transcoder.cpp:390
 #, qt-format
 msgid "Error processing %1: %2"
 msgstr "Kunne ikke behandle %1: %2"
@@ -2394,7 +2407,7 @@ msgstr "Første nivå"
 msgid "Fit cover to width"
 msgstr ""
 
-#: core/song.cpp:382 transcoder/transcoder.cpp:230
+#: core/song.cpp:382 transcoder/transcoder.cpp:233
 msgid "Flac"
 msgstr "FLAC"
 
@@ -2679,7 +2692,7 @@ msgstr "Hvis du fortsetter, vil enheten bli treg, og du kan kanskje ikke spille 
 msgid "If you know the URL of a podcast, enter it below and press Go."
 msgstr "Hvis du vet URLen til en podcast, skriv den inn under og trykk Gå."
 
-#: ../bin/src/ui_organisedialog.h:250
+#: ../bin/src/ui_organisedialog.h:256
 msgid "Ignore \"The\" in artist names"
 msgstr "Ignorér \"The\" i artistnavn"
 
@@ -2760,7 +2773,7 @@ msgstr "Informasjon"
 msgid "Input options"
 msgstr ""
 
-#: ../bin/src/ui_organisedialog.h:249
+#: ../bin/src/ui_organisedialog.h:255
 msgid "Insert..."
 msgstr "Sett inn..."
 
@@ -2865,7 +2878,7 @@ msgstr "Hold nede knappen i %1 sekund(er)..."
 msgid "Keep running in the background when the window is closed"
 msgstr "Fortsett i bakgrunnen selv om du lukker vinduet"
 
-#: ../bin/src/ui_organisedialog.h:239
+#: ../bin/src/ui_organisedialog.h:245
 msgid "Keep the original files"
 msgstr "Belhold originalfiler"
 
@@ -3038,7 +3051,7 @@ msgstr "Henter informasjon om spor"
 #: library/librarymodel.cpp:152 podcasts/podcastdiscoverymodel.cpp:102
 #: widgets/prettyimage.cpp:168 widgets/widgetfadehelper.cpp:96
 #: ../bin/src/ui_addpodcastdialog.h:180 ../bin/src/ui_searchpreview.h:106
-#: ../bin/src/ui_organisedialog.h:255 internet/vkservice.cpp:497
+#: ../bin/src/ui_organisedialog.h:262 internet/vkservice.cpp:497
 #: internet/vksettingspage.cpp:121
 msgid "Loading..."
 msgstr "Åpner..."
@@ -3101,11 +3114,11 @@ msgstr "Sangtekst"
 msgid "Lyrics from %1"
 msgstr "Sangtekst fra %1"
 
-#: transcoder/transcoder.cpp:232
+#: transcoder/transcoder.cpp:235
 msgid "M4A AAC"
 msgstr ""
 
-#: core/song.cpp:388 transcoder/transcoder.cpp:235
+#: core/song.cpp:388 transcoder/transcoder.cpp:238
 #: ../bin/src/ui_transcodersettingspage.h:175
 msgid "MP3"
 msgstr "MP3"
@@ -3172,11 +3185,11 @@ msgstr "Manuelt"
 msgid "Manufacturer"
 msgstr "Fabrikant"
 
-#: podcasts/podcastservice.cpp:357
+#: podcasts/podcastservice.cpp:360 ../bin/src/ui_organisedialog.h:260
 msgid "Mark as listened"
 msgstr "Merk som hørt"
 
-#: podcasts/podcastservice.cpp:356
+#: podcasts/podcastservice.cpp:359
 msgid "Mark as new"
 msgstr "Merk som ny"
 
@@ -3322,7 +3335,7 @@ msgctxt "Category label"
 msgid "Name"
 msgstr "Navn"
 
-#: ../bin/src/ui_organisedialog.h:243
+#: ../bin/src/ui_organisedialog.h:249
 msgid "Naming options"
 msgstr "Navnevalg"
 
@@ -3334,7 +3347,7 @@ msgstr "Smalbånd (SB)"
 msgid "Network Proxy"
 msgstr "Mellomtjener"
 
-#: ../bin/src/ui_networkremotesettingspage.h:178
+#: ../bin/src/ui_networkremotesettingspage.h:222
 msgid "Network Remote"
 msgstr "Tjener på nettet"
 
@@ -3493,19 +3506,19 @@ msgstr "Forhåndsvisning av notifikasjon"
 msgid "Off"
 msgstr "Av"
 
-#: core/song.cpp:390 transcoder/transcoder.cpp:241
+#: core/song.cpp:390 transcoder/transcoder.cpp:244
 msgid "Ogg Flac"
 msgstr "OGG FLAC"
 
-#: core/song.cpp:396 transcoder/transcoder.cpp:247
+#: core/song.cpp:396 transcoder/transcoder.cpp:250
 msgid "Ogg Opus"
 msgstr "Ogg Opus"
 
-#: core/song.cpp:392 transcoder/transcoder.cpp:244
+#: core/song.cpp:392 transcoder/transcoder.cpp:247
 msgid "Ogg Speex"
 msgstr "Ogg Speex"
 
-#: core/song.cpp:394 transcoder/transcoder.cpp:238
+#: core/song.cpp:394 transcoder/transcoder.cpp:241
 #: ../bin/src/ui_magnatunedownloaddialog.h:139
 #: ../bin/src/ui_magnatunesettingspage.h:170
 msgid "Ogg Vorbis"
@@ -3519,7 +3532,7 @@ msgstr "På"
 msgid "OneDrive"
 msgstr ""
 
-#: ../bin/src/ui_networkremotesettingspage.h:183
+#: ../bin/src/ui_networkremotesettingspage.h:227
 msgid ""
 "Only accept connections from clients within the ip ranges:\n"
 "10.x.x.x\n"
@@ -3527,7 +3540,7 @@ msgid ""
 "192.168.x.x"
 msgstr "Aksepter kun tilkoblinger fra klienter i IP-rangene:⏎\n10.x.x.x⏎\n172.16.0.0 - 172.31.255.255⏎\n192.168.x.x"
 
-#: ../bin/src/ui_networkremotesettingspage.h:188
+#: ../bin/src/ui_networkremotesettingspage.h:232
 msgid "Only allow connections from the local network"
 msgstr "Tillat kun tilkoblinger fra det lokale nettverket"
 
@@ -3607,7 +3620,8 @@ msgstr "Optimalisert for bitrate"
 msgid "Optimize for quality"
 msgstr "Optimalisert for kvalitet"
 
-#: ../bin/src/ui_transcodedialog.h:223 ../bin/src/ui_ripcd.h:322
+#: ../bin/src/ui_transcodedialog.h:223
+#: ../bin/src/ui_networkremotesettingspage.h:252 ../bin/src/ui_ripcd.h:322
 msgid "Options..."
 msgstr "Innstillinger..."
 
@@ -3615,7 +3629,7 @@ msgstr "Innstillinger..."
 msgid "Opus"
 msgstr "Opus"
 
-#: ../bin/src/ui_organisedialog.h:234
+#: ../bin/src/ui_organisedialog.h:240
 msgid "Organise Files"
 msgstr "Organisér filer"
 
@@ -3623,7 +3637,7 @@ msgstr "Organisér filer"
 msgid "Organise files..."
 msgstr "Organisér filer..."
 
-#: core/organise.cpp:67
+#: core/organise.cpp:69
 msgid "Organising files"
 msgstr "Organiserer filer"
 
@@ -3651,7 +3665,7 @@ msgstr "Utputt-innstillinger"
 msgid "Overwrite all"
 msgstr "Skriv over alle"
 
-#: ../bin/src/ui_organisedialog.h:253
+#: ../bin/src/ui_organisedialog.h:259
 msgid "Overwrite existing files"
 msgstr "Skriv over eksisterende filer"
 
@@ -3775,7 +3789,7 @@ msgstr "Vennligst lukk nettleseren og gå tilbake til Clementine."
 msgid "Plugin status:"
 msgstr "Modulens status:"
 
-#: podcasts/podcastservice.cpp:120 ../bin/src/ui_podcastsettingspage.h:226
+#: podcasts/podcastservice.cpp:123 ../bin/src/ui_podcastsettingspage.h:226
 msgid "Podcasts"
 msgstr "Podcaster"
 
@@ -3800,7 +3814,7 @@ msgid "Popup duration"
 msgstr "Hvor lenge skal informasjonsvinduet vises"
 
 #: ../bin/src/ui_networkproxysettingspage.h:166
-#: ../bin/src/ui_networkremotesettingspage.h:181
+#: ../bin/src/ui_networkremotesettingspage.h:225
 msgid "Port"
 msgstr "Portnummer"
 
@@ -3867,7 +3881,7 @@ msgstr "Skrivebordsmeldinginnstillinger"
 
 #: ../bin/src/ui_searchpreview.h:105 ../bin/src/ui_songinfosettingspage.h:158
 #: ../bin/src/ui_notificationssettingspage.h:453
-#: ../bin/src/ui_organisedialog.h:254
+#: ../bin/src/ui_organisedialog.h:261
 msgid "Preview"
 msgstr "Forhåndsvisning"
 
@@ -4140,7 +4154,7 @@ msgstr "Erstatt gjeldende spilleliste"
 msgid "Replace the playlist"
 msgstr "Erstatt spillelista"
 
-#: ../bin/src/ui_organisedialog.h:251
+#: ../bin/src/ui_organisedialog.h:257
 msgid "Replaces spaces with underscores"
 msgstr "Erstatt mellomrom med understrek"
 
@@ -4156,7 +4170,7 @@ msgstr "Replay Gain-modus"
 msgid "Repopulate"
 msgstr "Fyll lista igjen"
 
-#: ../bin/src/ui_networkremotesettingspage.h:192
+#: ../bin/src/ui_networkremotesettingspage.h:236
 msgid "Require authentication code"
 msgstr "Krev tilgangskode"
 
@@ -4173,7 +4187,7 @@ msgid ""
 "Restart the track, or play the previous track if within 8 seconds of start."
 msgstr "Start sporet igjen, eller spill forrige spor hvis du er innen de første 8 sekundene av sporet"
 
-#: ../bin/src/ui_organisedialog.h:252
+#: ../bin/src/ui_organisedialog.h:258
 msgid "Restrict to ASCII characters"
 msgstr "Begrens til ASCII-tegn"
 
@@ -4235,7 +4249,7 @@ msgstr "Feil i SSL-handshake, sjekk tjenerkonfigurasjon. SSLv3-valget under kan 
 msgid "Safely remove device"
 msgstr "Trygg fjerning av enhet"
 
-#: ../bin/src/ui_organisedialog.h:242
+#: ../bin/src/ui_organisedialog.h:248
 msgid "Safely remove the device after copying"
 msgstr "Kjør trygg fjerning av enhet etter kopiering"
 
@@ -4479,7 +4493,7 @@ msgstr "Sett lydstyrken til <verdi> prosent"
 msgid "Set value for all selected tracks..."
 msgstr "Sett verdi for alle de valgte sporene..."
 
-#: ../bin/src/ui_networkremotesettingspage.h:180
+#: ../bin/src/ui_networkremotesettingspage.h:224
 msgid "Settings"
 msgstr "Innstillinger"
 
@@ -4811,7 +4825,7 @@ msgid ""
 "list"
 msgstr "Skriv noe i søkeboksen over for å fylle denne resultatlisten"
 
-#: transcoder/transcoder.cpp:400
+#: transcoder/transcoder.cpp:397
 #, qt-format
 msgid "Starting %1"
 msgstr "Starter %1"
@@ -4884,7 +4898,7 @@ msgstr "Subson"
 msgid "Success!"
 msgstr "Lykkes!"
 
-#: transcoder/transcoder.cpp:188
+#: transcoder/transcoder.cpp:189
 #, qt-format
 msgid "Successfully written %1"
 msgstr "Skrev %1"
@@ -5188,7 +5202,7 @@ msgstr "Logg for omkoder"
 msgid "Transcoding"
 msgstr "Omkoding"
 
-#: transcoder/transcoder.cpp:305
+#: transcoder/transcoder.cpp:317
 #, qt-format
 msgid "Transcoding %1 files using %2 threads"
 msgstr "Koder om %1 filer i %2 tråder"
@@ -5258,7 +5272,7 @@ msgstr ""
 msgid "Unskip track"
 msgstr ""
 
-#: podcasts/addpodcastdialog.cpp:65 podcasts/podcastservice.cpp:351
+#: podcasts/addpodcastdialog.cpp:65 podcasts/podcastservice.cpp:354
 msgid "Unsubscribe"
 msgstr "Avmeld"
 
@@ -5274,7 +5288,7 @@ msgstr "Oppdater"
 msgid "Update Grooveshark playlist"
 msgstr "Oppdater Grooveshark-spilleliste"
 
-#: podcasts/podcastservice.cpp:331
+#: podcasts/podcastservice.cpp:334
 msgid "Update all podcasts"
 msgstr "Oppdater alle podcaster"
 
@@ -5286,7 +5300,7 @@ msgstr "Oppdater endringer i bibliotek mapper"
 msgid "Update the library when Clementine starts"
 msgstr "Oppdater biblioteket når Clementine starte"
 
-#: podcasts/podcastservice.cpp:339
+#: podcasts/podcastservice.cpp:342
 msgid "Update this podcast"
 msgstr "Oppdater denne podcasten"
 
@@ -5340,7 +5354,7 @@ msgstr "Bruk egendefinert fargedrakt"
 msgid "Use a custom message for notifications"
 msgstr "Bruk egendefinert meldingstype for beskjeder"
 
-#: ../bin/src/ui_networkremotesettingspage.h:179
+#: ../bin/src/ui_networkremotesettingspage.h:223
 msgid "Use a network remote control"
 msgstr "Bruk nettverksfjernkontroll"
 
@@ -5475,7 +5489,7 @@ msgstr ""
 msgid "Warn me when closing a playlist tab"
 msgstr "Advarsel når jeg lukker en spilleliste-flik"
 
-#: core/song.cpp:400 transcoder/transcoder.cpp:253
+#: core/song.cpp:400 transcoder/transcoder.cpp:256
 msgid "Wav"
 msgstr "WAV"
 
@@ -5559,7 +5573,7 @@ msgstr "Windows Media, 40k"
 msgid "Windows Media 64k"
 msgstr "Windows Media 64k"
 
-#: core/song.cpp:380 transcoder/transcoder.cpp:250
+#: core/song.cpp:380 transcoder/transcoder.cpp:253
 msgid "Windows Media audio"
 msgstr "Windows Media audio"
 
@@ -5716,7 +5730,7 @@ msgstr "Du må gå til Systeminnstillinger og slå på \"<span style=\" font-sty
 msgid "You will need to restart Clementine if you change the language."
 msgstr "Du må starte Clementine på nytt for å bytte språk."
 
-#: ../bin/src/ui_networkremotesettingspage.h:201
+#: ../bin/src/ui_networkremotesettingspage.h:241
 msgid "Your IP address:"
 msgstr "Din IP-adresse:"
 
@@ -5891,7 +5905,7 @@ msgstr "de"
 msgid "options"
 msgstr "innstillinger"
 
-#: ../bin/src/ui_networkremotesettingspage.h:203
+#: ../bin/src/ui_networkremotesettingspage.h:254
 msgid "or scan the QR code!"
 msgstr "eller scan QR-koden!"
 

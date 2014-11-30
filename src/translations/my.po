@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
-"PO-Revision-Date: 2014-10-31 11:46+0000\n"
+"PO-Revision-Date: 2014-11-13 22:18+0000\n"
 "Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
 "Language-Team: Burmese (http://www.transifex.com/projects/p/clementine/language/my/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -309,7 +309,7 @@ msgid ""
 "activated.</p></body></html>"
 msgstr "<html><head/><body><p>သီချင်းတိုက်သီချင်းများအားလံုးအတွက်သီချင်းများအဆင့်သတ်မှတ်ချက်များနှင့်ကိန်းဂဏန်းများကိုဖိုင်များအမည်များသို့ရေးလိမ့်မည်။</p><p>&quot;အဆင့်သတ်မှတ်ချက်များနှင့်ကိန်းဂဏန်းများကိုဖိုင်အမည်များ&quot;ရွေးပိုင်ခွင့်ကိုအမြဲတမ်းအသက်သွင်းထားပါကမလိုအပ်ပါ။</p></body></html>"
 
-#: ../bin/src/ui_organisedialog.h:245
+#: ../bin/src/ui_organisedialog.h:251
 msgid ""
 "<p>Tokens start with %, for example: %artist %album %title </p>\n"
 "\n"
@@ -324,7 +324,7 @@ msgstr " ဂရုရှက်အန်နီးဝဲစာရင်းတစ�
 msgid "A Spotify Premium account is required."
 msgstr "စပေါ့တီဖိုင်းအရစ်ကျစနစ်စာရင်းတစ်ခုလိုအပ်။"
 
-#: ../bin/src/ui_networkremotesettingspage.h:190
+#: ../bin/src/ui_networkremotesettingspage.h:234
 msgid "A client can connect only, if the correct code was entered."
 msgstr "မှန်ကန်သောကုဒ်ထည့်သွင်းနိုင်မှသာအသံုးပြုသူဆက်သွယ်နိုင်။"
 
@@ -483,7 +483,7 @@ msgstr "ဖိုင်တွဲအသစ်ထည့်..."
 msgid "Add podcast"
 msgstr "ပို့စ်ကဒ်ထည့်"
 
-#: podcasts/podcastservice.cpp:328 ../bin/src/ui_mainwindow.h:709
+#: podcasts/podcastservice.cpp:331 ../bin/src/ui_mainwindow.h:709
 msgid "Add podcast..."
 msgstr "ပို့စ်ကဒ်ထည့်..."
 
@@ -652,7 +652,7 @@ msgstr "အဆင့်မြင့်အုပ်စုဖွဲ့ခြင်
 msgid "After "
 msgstr "ပြီးနောက်"
 
-#: ../bin/src/ui_organisedialog.h:236
+#: ../bin/src/ui_organisedialog.h:242
 msgid "After copying..."
 msgstr "ကူးယူပြီးနောက်..."
 
@@ -729,11 +729,11 @@ msgstr "ဘာသာပြန်များအားလံုး"
 msgid "All tracks"
 msgstr "တေးသံလမ်းကြောများအားလံုး"
 
-#: ../bin/src/ui_networkremotesettingspage.h:195
+#: ../bin/src/ui_networkremotesettingspage.h:243
 msgid "Allow a client to download music from this computer."
 msgstr "ယခုကွန်ပျုတာမှသီချင်းကူးဆွဲရန်အသုံးပြုသူကိုခွင့်ပြု။"
 
-#: ../bin/src/ui_networkremotesettingspage.h:197
+#: ../bin/src/ui_networkremotesettingspage.h:245
 msgid "Allow downloads"
 msgstr "ကူးဆွဲများခွင့်ပြု"
 
@@ -852,7 +852,8 @@ msgstr "အနုပညာရှင်အမည်၏အစ"
 msgid "Ask when saving"
 msgstr ""
 
-#: ../bin/src/ui_transcodedialog.h:222 ../bin/src/ui_ripcd.h:323
+#: ../bin/src/ui_transcodedialog.h:222
+#: ../bin/src/ui_networkremotesettingspage.h:251 ../bin/src/ui_ripcd.h:323
 msgid "Audio format"
 msgstr "အသံပုံစံ"
 
@@ -1346,7 +1347,7 @@ msgstr "အနှံ့ရှာဖွေပုံစံပြင်..."
 msgid "Configure library..."
 msgstr "သီချင်းတိုက်ပုံစံပြင်..."
 
-#: podcasts/addpodcastdialog.cpp:71 podcasts/podcastservice.cpp:362
+#: podcasts/addpodcastdialog.cpp:71 podcasts/podcastservice.cpp:365
 msgid "Configure podcasts..."
 msgstr "ပို့စ်ကဒ်များပုံစံပြင်..."
 
@@ -1400,6 +1401,14 @@ msgstr "ဂီတအားလံုးကူးပြောင်း"
 msgid "Convert any music that the device can't play"
 msgstr "ယခုပစ္စည်းမဖွင့်နိုင်သောဂီတမျိုးစံုကူးပြောင်း"
 
+#: ../bin/src/ui_networkremotesettingspage.h:248
+msgid "Convert lossless audiofiles before sending them to the remote."
+msgstr ""
+
+#: ../bin/src/ui_networkremotesettingspage.h:250
+msgid "Convert lossless files"
+msgstr ""
+
 #: internet/vkservice.cpp:322
 msgid "Copy share url to clipboard"
 msgstr ""
@@ -1408,7 +1417,7 @@ msgstr ""
 msgid "Copy to clipboard"
 msgstr "အောက်ခံကတ်ပြားသို့ကူးယူ"
 
-#: library/libraryview.cpp:400 podcasts/podcastservice.cpp:349
+#: library/libraryview.cpp:400 podcasts/podcastservice.cpp:352
 #: ui/mainwindow.cpp:616 widgets/fileviewlist.cpp:43
 msgid "Copy to device..."
 msgstr "ပစ္စည်းသို့ကူးယူ"
@@ -1428,7 +1437,7 @@ msgid ""
 "http://localhost:4040/"
 msgstr "ဆပ်ဆိုးနစ်သို့မဆက်သွယ်နိုင်၊ ဆာဗာယူအာအယ်ပြန်စစ်ဆေးပါ။ ဥပမာ: http://localhost:4040/"
 
-#: transcoder/transcoder.cpp:57
+#: transcoder/transcoder.cpp:58
 #, qt-format
 msgid ""
 "Could not create the GStreamer element \"%1\" - make sure you have all the "
@@ -1439,14 +1448,14 @@ msgstr "ဂျီသီချင်းစီးကြောင်းအစိတ
 msgid "Couldn't create playlist"
 msgstr ""
 
-#: transcoder/transcoder.cpp:428
+#: transcoder/transcoder.cpp:425
 #, qt-format
 msgid ""
 "Couldn't find a muxer for %1, check you have the correct GStreamer plugins "
 "installed"
 msgstr "%1 အတွက်မြုစာမရှာဖွေနိင်၊ ဂျီသီချင်းစီးကြောင်းလိုအပ်သောဖြည့်စွက်ပရိုဂရမ်များသွင်းပြီးမပြီးစစ်ဆေး"
 
-#: transcoder/transcoder.cpp:422
+#: transcoder/transcoder.cpp:419
 #, qt-format
 msgid ""
 "Couldn't find an encoder for %1, check you have the correct GStreamer "
@@ -1660,7 +1669,7 @@ msgstr "ပယ်ဖျက်"
 msgid "Delete Grooveshark playlist"
 msgstr "ဂရုရှက်သီချင်းစာရင်းပယ်ဖျက်"
 
-#: podcasts/podcastservice.cpp:345
+#: podcasts/podcastservice.cpp:348
 msgid "Delete downloaded data"
 msgstr "ကူးဆွဲပြီးအချက်အလက်ပယ်ဖျက်"
 
@@ -1690,7 +1699,7 @@ msgstr "ကြိုတင်ထိန်းညှိပယ်ဖျက်"
 msgid "Delete smart playlist"
 msgstr "ချက်ချာသီချင်းစာရင်းပယ်ဖျက်"
 
-#: ../bin/src/ui_organisedialog.h:240
+#: ../bin/src/ui_organisedialog.h:246
 msgid "Delete the original files"
 msgstr "မူရင်းဖိုင်များပယ်ဖျက်"
 
@@ -1706,7 +1715,7 @@ msgstr "ရွေးချယ်တေးသံလမ်းကြောမျာ
 msgid "Dequeue track"
 msgstr "တေးသံလမ်းကြောမစီတန်း"
 
-#: ../bin/src/ui_transcodedialog.h:224 ../bin/src/ui_organisedialog.h:235
+#: ../bin/src/ui_transcodedialog.h:224 ../bin/src/ui_organisedialog.h:241
 #: ../bin/src/ui_ripcd.h:321
 msgid "Destination"
 msgstr "သွားမည့်နေရာ"
@@ -1857,7 +1866,7 @@ msgstr "ဖွင့်ရန်ကလစ်နှစ်ခါနှိပ်"
 msgid "Double clicking a song will..."
 msgstr "ကလစ်နှစ်ခါနှိပ်ခြင်းဖြင့်သီချင်းဟာ..."
 
-#: podcasts/podcastservice.cpp:437
+#: podcasts/podcastservice.cpp:440
 #, c-format, qt-plural-format
 msgctxt ""
 msgid "Download %n episodes"
@@ -1879,11 +1888,15 @@ msgstr "အသင်းဝင်ကူးဆွဲ"
 msgid "Download new episodes automatically"
 msgstr "တွဲအသစ်များအလိုအလျောက်ကူးဆွဲ"
 
-#: podcasts/podcastservice.cpp:253
+#: podcasts/podcastservice.cpp:256
 msgid "Download queued"
 msgstr "စီတန်းပြီးကူးဆွဲ"
 
-#: ../bin/src/ui_networkremotesettingspage.h:202
+#: ../bin/src/ui_networkremotesettingspage.h:246
+msgid "Download settings"
+msgstr ""
+
+#: ../bin/src/ui_networkremotesettingspage.h:253
 msgid "Download the Android app"
 msgstr "စက်ရုပ်အပ်များကူးဆွဲ"
 
@@ -1895,7 +1908,7 @@ msgstr "ဒီအယ်လဘမ်ကူးဆွဲ"
 msgid "Download this album..."
 msgstr "ဒီအယ်လဘမ်ကူးဆွဲ..."
 
-#: podcasts/podcastservice.cpp:439
+#: podcasts/podcastservice.cpp:442
 msgid "Download this episode"
 msgstr "ဒီတွဲကူးဆွဲ"
 
@@ -1903,7 +1916,7 @@ msgstr "ဒီတွဲကူးဆွဲ"
 msgid "Download..."
 msgstr "ကူးဆွဲ..."
 
-#: podcasts/podcastservice.cpp:261
+#: podcasts/podcastservice.cpp:264
 #, qt-format
 msgid "Downloading (%1%)..."
 msgstr "ကူးဆွဲ(%1%)..."
@@ -2074,7 +2087,7 @@ msgstr "အင်တာနက်ရေဒီယိုသီချင်းစီ
 msgid "Enter the name of the folder"
 msgstr "ဒီဖိုင်တွဲအတွက်နာမည်အသစ်တစ်ခုရွေး"
 
-#: ../bin/src/ui_networkremotesettingspage.h:199
+#: ../bin/src/ui_networkremotesettingspage.h:239
 msgid "Enter this IP in the App to connect to Clementine."
 msgstr "ကလီမန်တိုင်းသို့ချိတ်ဆက်ရန်ယခုအပ်တွင်အိုင်ပီထည့်သွင်းပါ။"
 
@@ -2131,7 +2144,7 @@ msgstr "ထည့်သွင်းခြင်းအမှားပြ %1"
 msgid "Error loading di.fm playlist"
 msgstr "ဒီအိုင်.အက်ဖ်အမ်သီချင်းစာရင်းထည့်သွင်းအမှားပြ"
 
-#: transcoder/transcoder.cpp:393
+#: transcoder/transcoder.cpp:390
 #, qt-format
 msgid "Error processing %1: %2"
 msgstr "ဆောင်ရွက်ခြင်းအမှားပြ %1: %2"
@@ -2390,7 +2403,7 @@ msgstr "ပထမဆံုးအဆင့်"
 msgid "Fit cover to width"
 msgstr ""
 
-#: core/song.cpp:382 transcoder/transcoder.cpp:230
+#: core/song.cpp:382 transcoder/transcoder.cpp:233
 msgid "Flac"
 msgstr "အက်ဖ်အယ်အေစီ"
 
@@ -2675,7 +2688,7 @@ msgstr "ဆက်လက်လုပ်လျှင်ယခုပစ္စည်
 msgid "If you know the URL of a podcast, enter it below and press Go."
 msgstr "ပို့စ်ကဒ်ယူအာအယ်ကိုသိပါကအောက်တွင်ထည့်သွင်းပြီးသွားကိုကလစ်နှိပ်ပါ။"
 
-#: ../bin/src/ui_organisedialog.h:250
+#: ../bin/src/ui_organisedialog.h:256
 msgid "Ignore \"The\" in artist names"
 msgstr "အနုပညာရှင်နာမည်များတွင်\"ဒီ\"ကိုအလေးမပေး"
 
@@ -2756,7 +2769,7 @@ msgstr "အချက်အလက်"
 msgid "Input options"
 msgstr ""
 
-#: ../bin/src/ui_organisedialog.h:249
+#: ../bin/src/ui_organisedialog.h:255
 msgid "Insert..."
 msgstr "ထည့်သွင်း..."
 
@@ -2861,7 +2874,7 @@ msgstr "ခလုတ်များကို %1 စက္ကန့်မျာ�
 msgid "Keep running in the background when the window is closed"
 msgstr "ဝင်းဒိုးပိတ်နေစဉ်နောက်ခံအလုပ်လုပ်စေခြင်း"
 
-#: ../bin/src/ui_organisedialog.h:239
+#: ../bin/src/ui_organisedialog.h:245
 msgid "Keep the original files"
 msgstr "မူရင်းဖိုင်များထိန်းထား"
 
@@ -3034,7 +3047,7 @@ msgstr "တေးသံလမ်းကြောအချက်အလက်မျ
 #: library/librarymodel.cpp:152 podcasts/podcastdiscoverymodel.cpp:102
 #: widgets/prettyimage.cpp:168 widgets/widgetfadehelper.cpp:96
 #: ../bin/src/ui_addpodcastdialog.h:180 ../bin/src/ui_searchpreview.h:106
-#: ../bin/src/ui_organisedialog.h:255 internet/vkservice.cpp:497
+#: ../bin/src/ui_organisedialog.h:262 internet/vkservice.cpp:497
 #: internet/vksettingspage.cpp:121
 msgid "Loading..."
 msgstr "ထည့်သွင်းနေ..."
@@ -3097,11 +3110,11 @@ msgstr "သီချင်းစာသားများ"
 msgid "Lyrics from %1"
 msgstr "%1 မှသီချင်းစာသားများ"
 
-#: transcoder/transcoder.cpp:232
+#: transcoder/transcoder.cpp:235
 msgid "M4A AAC"
 msgstr "MP4 AAC"
 
-#: core/song.cpp:388 transcoder/transcoder.cpp:235
+#: core/song.cpp:388 transcoder/transcoder.cpp:238
 #: ../bin/src/ui_transcodersettingspage.h:175
 msgid "MP3"
 msgstr "အမ်ပီသရီး"
@@ -3168,11 +3181,11 @@ msgstr "လက်အားသံုး"
 msgid "Manufacturer"
 msgstr "ထုတ်လုပ်သူ"
 
-#: podcasts/podcastservice.cpp:357
+#: podcasts/podcastservice.cpp:360 ../bin/src/ui_organisedialog.h:260
 msgid "Mark as listened"
 msgstr "နားထောင်ပြီးကဲ့သို့မတ်သား"
 
-#: podcasts/podcastservice.cpp:356
+#: podcasts/podcastservice.cpp:359
 msgid "Mark as new"
 msgstr "အသစ်ကဲ့သို့မတ်သား"
 
@@ -3318,7 +3331,7 @@ msgctxt "Category label"
 msgid "Name"
 msgstr "နာမည်"
 
-#: ../bin/src/ui_organisedialog.h:243
+#: ../bin/src/ui_organisedialog.h:249
 msgid "Naming options"
 msgstr "နာမည်ပေးခြင်းရွေးပိုင်ခွင့်များ"
 
@@ -3330,7 +3343,7 @@ msgstr "ရေဒီယိုလှိုင်းကျဉ်း (အန်ဘ�
 msgid "Network Proxy"
 msgstr "ကွန်ရက်ပရောက်ဇီ"
 
-#: ../bin/src/ui_networkremotesettingspage.h:178
+#: ../bin/src/ui_networkremotesettingspage.h:222
 msgid "Network Remote"
 msgstr "ကွန်ရက်အဝေးထိန်း"
 
@@ -3489,19 +3502,19 @@ msgstr "ဖန်သားပြင်ပေါ်ပံုရိပ်ကြိ
 msgid "Off"
 msgstr "ပိတ်"
 
-#: core/song.cpp:390 transcoder/transcoder.cpp:241
+#: core/song.cpp:390 transcoder/transcoder.cpp:244
 msgid "Ogg Flac"
 msgstr "အောဖ့်အက်ဖ်အယ်အေစီ"
 
-#: core/song.cpp:396 transcoder/transcoder.cpp:247
+#: core/song.cpp:396 transcoder/transcoder.cpp:250
 msgid "Ogg Opus"
 msgstr "အောဖ့်တေး"
 
-#: core/song.cpp:392 transcoder/transcoder.cpp:244
+#: core/song.cpp:392 transcoder/transcoder.cpp:247
 msgid "Ogg Speex"
 msgstr "အောဖ့်စဖိစ်"
 
-#: core/song.cpp:394 transcoder/transcoder.cpp:238
+#: core/song.cpp:394 transcoder/transcoder.cpp:241
 #: ../bin/src/ui_magnatunedownloaddialog.h:139
 #: ../bin/src/ui_magnatunesettingspage.h:170
 msgid "Ogg Vorbis"
@@ -3515,7 +3528,7 @@ msgstr "ဖွင့်"
 msgid "OneDrive"
 msgstr ""
 
-#: ../bin/src/ui_networkremotesettingspage.h:183
+#: ../bin/src/ui_networkremotesettingspage.h:227
 msgid ""
 "Only accept connections from clients within the ip ranges:\n"
 "10.x.x.x\n"
@@ -3523,7 +3536,7 @@ msgid ""
 "192.168.x.x"
 msgstr "အိုင်ပီအတွင်းရှိအသံုးပြုသူများဆက်သွယ်မှုများကိုသာလက်ခံ:⏎ ၁၀.x.x.x⏎ ၁၇၂.၁၆.၀.၀ - ၁၇၂.၃၁.၂၅၅.၂၅၅⏎ ၁၉၂.၁၆၈.x.x"
 
-#: ../bin/src/ui_networkremotesettingspage.h:188
+#: ../bin/src/ui_networkremotesettingspage.h:232
 msgid "Only allow connections from the local network"
 msgstr "ကွန်ယက်တွင်းရှိဆက်သွယ်ချက်များကိုသာခွင့်ပြု"
 
@@ -3603,7 +3616,8 @@ msgstr "ဘစ်နှုန်းအတွက်ဆောင်ရွက်"
 msgid "Optimize for quality"
 msgstr "အရည်အသွေးအတွက်ဆောင်ရွက်"
 
-#: ../bin/src/ui_transcodedialog.h:223 ../bin/src/ui_ripcd.h:322
+#: ../bin/src/ui_transcodedialog.h:223
+#: ../bin/src/ui_networkremotesettingspage.h:252 ../bin/src/ui_ripcd.h:322
 msgid "Options..."
 msgstr "ရွေးပိုင်ခွင့်များ..."
 
@@ -3611,7 +3625,7 @@ msgstr "ရွေးပိုင်ခွင့်များ..."
 msgid "Opus"
 msgstr "တေး"
 
-#: ../bin/src/ui_organisedialog.h:234
+#: ../bin/src/ui_organisedialog.h:240
 msgid "Organise Files"
 msgstr "ဖိုင်များစုစည်း"
 
@@ -3619,7 +3633,7 @@ msgstr "ဖိုင်များစုစည်း"
 msgid "Organise files..."
 msgstr "ဖိုင်များစုစည်း..."
 
-#: core/organise.cpp:67
+#: core/organise.cpp:69
 msgid "Organising files"
 msgstr "ဖိုင်များစုစည်းနေ"
 
@@ -3647,7 +3661,7 @@ msgstr "ပေးပို့ရွေးပိုင်ခွင့်မျာ
 msgid "Overwrite all"
 msgstr "အားလံုးအစားထိုးရေး"
 
-#: ../bin/src/ui_organisedialog.h:253
+#: ../bin/src/ui_organisedialog.h:259
 msgid "Overwrite existing files"
 msgstr "တည်ရှိဆဲဖိုင်များထပ်မံဖြည့်သွင်း"
 
@@ -3771,7 +3785,7 @@ msgstr "ဘရောက်ဇာကိုပိတ်ပြီးကလီမန
 msgid "Plugin status:"
 msgstr "ဖြည့်စွက်ပရိုဂရမ်အခြေအနေ:"
 
-#: podcasts/podcastservice.cpp:120 ../bin/src/ui_podcastsettingspage.h:226
+#: podcasts/podcastservice.cpp:123 ../bin/src/ui_podcastsettingspage.h:226
 msgid "Podcasts"
 msgstr "ပို့စ်ကဒ်များ"
 
@@ -3796,7 +3810,7 @@ msgid "Popup duration"
 msgstr "ထွက်ပေါ်ကြာချိန်"
 
 #: ../bin/src/ui_networkproxysettingspage.h:166
-#: ../bin/src/ui_networkremotesettingspage.h:181
+#: ../bin/src/ui_networkremotesettingspage.h:225
 msgid "Port"
 msgstr "နံပါတ်ပေါက်"
 
@@ -3863,7 +3877,7 @@ msgstr "ဖန်သားပြင်ပေါ်ပံုရိပ်လှလ
 
 #: ../bin/src/ui_searchpreview.h:105 ../bin/src/ui_songinfosettingspage.h:158
 #: ../bin/src/ui_notificationssettingspage.h:453
-#: ../bin/src/ui_organisedialog.h:254
+#: ../bin/src/ui_organisedialog.h:261
 msgid "Preview"
 msgstr "ကြိုတင်ကြည့်ရှု"
 
@@ -4136,7 +4150,7 @@ msgstr "ယခုသီချင်းစာရင်းအစားထိုး
 msgid "Replace the playlist"
 msgstr "သီချင်းစာရင်းအစားထိုး"
 
-#: ../bin/src/ui_organisedialog.h:251
+#: ../bin/src/ui_organisedialog.h:257
 msgid "Replaces spaces with underscores"
 msgstr "ကွက်လပ်များကိုအောက်မျဉ်းများနှင့်အစားထိုး"
 
@@ -4152,7 +4166,7 @@ msgstr "ဂိမ်းစနစ်ပြန်ဖွင့်"
 msgid "Repopulate"
 msgstr "ပြန်လည်ရွှေ့ပြောင်း"
 
-#: ../bin/src/ui_networkremotesettingspage.h:192
+#: ../bin/src/ui_networkremotesettingspage.h:236
 msgid "Require authentication code"
 msgstr "အထောက်အထားစစ်ဆေးခြင်းကုဒ်လိုအပ်"
 
@@ -4169,7 +4183,7 @@ msgid ""
 "Restart the track, or play the previous track if within 8 seconds of start."
 msgstr "တေးသံလမ်းကြောပြန်လည်စတင်(သို့)ယခင်တေးသံလမ်းကြောကိုစတင်ချိန်မှ၈စက္ကန့်အတွင်းပြန်ဖွင့်။"
 
-#: ../bin/src/ui_organisedialog.h:252
+#: ../bin/src/ui_organisedialog.h:258
 msgid "Restrict to ASCII characters"
 msgstr "အက်စ်စီအက္ခရာများသို့ကန့်သတ်"
 
@@ -4231,7 +4245,7 @@ msgstr "အက်စ်အက်စ်အယ်အမှားပြနေ၊ဆ
 msgid "Safely remove device"
 msgstr "ပစ္စည်းလုံလုံခြုံခြုံဖယ်ရှား"
 
-#: ../bin/src/ui_organisedialog.h:242
+#: ../bin/src/ui_organisedialog.h:248
 msgid "Safely remove the device after copying"
 msgstr "ကူးယူပြီးနောက်ပစ္စည်းလုံလုံခြုံခြုံဖယ်ရှား"
 
@@ -4475,7 +4489,7 @@ msgstr "အသံပမာဏ <value> ရာခိုင်နှုန်းခ
 msgid "Set value for all selected tracks..."
 msgstr "ရွေးချယ်တေးသံလမ်းကြောများအားလံုးအတွက်တန်ဖိုးထိန်းညှိ..."
 
-#: ../bin/src/ui_networkremotesettingspage.h:180
+#: ../bin/src/ui_networkremotesettingspage.h:224
 msgid "Settings"
 msgstr "ချိန်ညှိချက်"
 
@@ -4807,7 +4821,7 @@ msgid ""
 "list"
 msgstr "ရှာဖွေရလဒ်များစာရင်းများကိုဖြည့်ရန်ရှာဖွေနေရာတွင်တစ်ခုခုရိုက်ထည့်ပါ"
 
-#: transcoder/transcoder.cpp:400
+#: transcoder/transcoder.cpp:397
 #, qt-format
 msgid "Starting %1"
 msgstr "%1 စတင်နေ"
@@ -4880,7 +4894,7 @@ msgstr "ဆပ်ဆိုးနစ်"
 msgid "Success!"
 msgstr "ရရိုသွားပြီ!"
 
-#: transcoder/transcoder.cpp:188
+#: transcoder/transcoder.cpp:189
 #, qt-format
 msgid "Successfully written %1"
 msgstr "%1 အောင်အောင်မြင်မြင်ဖြည့်သွင်းပြီး"
@@ -5184,7 +5198,7 @@ msgstr "ပံုစံပြောင်းလဲခြင်းမှတ်တ
 msgid "Transcoding"
 msgstr "ပံုစံပြောင်းလဲခြင်း"
 
-#: transcoder/transcoder.cpp:305
+#: transcoder/transcoder.cpp:317
 #, qt-format
 msgid "Transcoding %1 files using %2 threads"
 msgstr "%2 ပရိုဂရမ်များအသံုးပြုပြီး %1 ဖိုင်များပြောင်းလဲခြင်း"
@@ -5254,7 +5268,7 @@ msgstr ""
 msgid "Unskip track"
 msgstr ""
 
-#: podcasts/addpodcastdialog.cpp:65 podcasts/podcastservice.cpp:351
+#: podcasts/addpodcastdialog.cpp:65 podcasts/podcastservice.cpp:354
 msgid "Unsubscribe"
 msgstr "မမှာယူ"
 
@@ -5270,7 +5284,7 @@ msgstr "မွမ်းမံ"
 msgid "Update Grooveshark playlist"
 msgstr "ဂရုရှက်သီချင်းစာရင်းစစ်ဆေးခြင်း"
 
-#: podcasts/podcastservice.cpp:331
+#: podcasts/podcastservice.cpp:334
 msgid "Update all podcasts"
 msgstr "ပို့စ်ကဒ်များစစ်ဆေးခြင်း"
 
@@ -5282,7 +5296,7 @@ msgstr "ပြောင်းလဲပြီးသီချင်းတိုက
 msgid "Update the library when Clementine starts"
 msgstr "ကလီမန်တိုင်းစတင်သောအခါသီချင်းတိုက်မွမ်းမံ"
 
-#: podcasts/podcastservice.cpp:339
+#: podcasts/podcastservice.cpp:342
 msgid "Update this podcast"
 msgstr "ဒီပို့စ်ကဒ်စစ်ဆေးခြင်း"
 
@@ -5336,7 +5350,7 @@ msgstr "စိတ်ကြိုက်အရောင်သတ်မှတ်သ
 msgid "Use a custom message for notifications"
 msgstr "သတိပေးချက်များအတွက်စိတ်ကြိုက်မှာကြားချက်သံုး"
 
-#: ../bin/src/ui_networkremotesettingspage.h:179
+#: ../bin/src/ui_networkremotesettingspage.h:223
 msgid "Use a network remote control"
 msgstr "ကွန်ရက်အဝေးထိန်းတစ်ခုအသုံးပြု"
 
@@ -5471,7 +5485,7 @@ msgstr ""
 msgid "Warn me when closing a playlist tab"
 msgstr "သီချင်းစာရင်းမျက်နှာစာကိုပိတ်နေတုန်းသတိပေး"
 
-#: core/song.cpp:400 transcoder/transcoder.cpp:253
+#: core/song.cpp:400 transcoder/transcoder.cpp:256
 msgid "Wav"
 msgstr "တပလူအေဗီ"
 
@@ -5555,7 +5569,7 @@ msgstr "ဝင်းဒိုးမီဒီယာ၄၀ကီလို"
 msgid "Windows Media 64k"
 msgstr "ဝင်းဒိုးမီဒီယာ၆၄ကီလို"
 
-#: core/song.cpp:380 transcoder/transcoder.cpp:250
+#: core/song.cpp:380 transcoder/transcoder.cpp:253
 msgid "Windows Media audio"
 msgstr "ဝင်းဒိုးမီဒီယာအသံ"
 
@@ -5712,7 +5726,7 @@ msgstr "စနစ်လိုလားချက်များကိုဆော
 msgid "You will need to restart Clementine if you change the language."
 msgstr "ဘာသာစကားပြောင်းလဲပါကကလီမန်တိုင်းကိုပြန်လည်စတင်ပါ။"
 
-#: ../bin/src/ui_networkremotesettingspage.h:201
+#: ../bin/src/ui_networkremotesettingspage.h:241
 msgid "Your IP address:"
 msgstr "သင့်ရဲ့အိုင်ပီလိပ်စာ:"
 
@@ -5887,7 +5901,7 @@ msgstr "အပေါ်မှာ"
 msgid "options"
 msgstr "ရွေးပိုင်ခွင့်များ"
 
-#: ../bin/src/ui_networkremotesettingspage.h:203
+#: ../bin/src/ui_networkremotesettingspage.h:254
 msgid "or scan the QR code!"
 msgstr "(သို့)ကျုအာကုဒ်ကိုဖတ်"
 

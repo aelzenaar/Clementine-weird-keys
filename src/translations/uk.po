@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
-"PO-Revision-Date: 2014-10-31 14:12+0000\n"
+"PO-Revision-Date: 2014-11-14 05:15+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/projects/p/clementine/language/uk/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -311,7 +311,7 @@ msgid ""
 "activated.</p></body></html>"
 msgstr "<html><head/><body><p>За допомогою цього пункту можна наказати програмі записувати для всіх композицій у вашій бібліотеці оцінки та статистичні дані щодо композицій до міток у файлі.</p><p>Потреби у використанні цього пункту немає, якщо постійно позначено пункт «Зберігати дані щодо оцінки та статистичні дані у мітках файлів».</p></body></html>"
 
-#: ../bin/src/ui_organisedialog.h:245
+#: ../bin/src/ui_organisedialog.h:251
 msgid ""
 "<p>Tokens start with %, for example: %artist %album %title </p>\n"
 "\n"
@@ -326,7 +326,7 @@ msgstr "Потрібен обліковий запис Grooveshark Anywhere."
 msgid "A Spotify Premium account is required."
 msgstr "Потрібен обліковий запис Spotify Premium."
 
-#: ../bin/src/ui_networkremotesettingspage.h:190
+#: ../bin/src/ui_networkremotesettingspage.h:234
 msgid "A client can connect only, if the correct code was entered."
 msgstr "Клієнтське з’єднання стане можливим лише після введення належного коду."
 
@@ -485,7 +485,7 @@ msgstr "Додати нову теку…"
 msgid "Add podcast"
 msgstr "Додати подкаст"
 
-#: podcasts/podcastservice.cpp:328 ../bin/src/ui_mainwindow.h:709
+#: podcasts/podcastservice.cpp:331 ../bin/src/ui_mainwindow.h:709
 msgid "Add podcast..."
 msgstr "Додати подкаст..."
 
@@ -654,7 +654,7 @@ msgstr "Розширене групування…"
 msgid "After "
 msgstr "Після "
 
-#: ../bin/src/ui_organisedialog.h:236
+#: ../bin/src/ui_organisedialog.h:242
 msgid "After copying..."
 msgstr "Після копіювання…"
 
@@ -731,11 +731,11 @@ msgstr "Всім перекладачам"
 msgid "All tracks"
 msgstr "Всі доріжки"
 
-#: ../bin/src/ui_networkremotesettingspage.h:195
+#: ../bin/src/ui_networkremotesettingspage.h:243
 msgid "Allow a client to download music from this computer."
 msgstr "Дозволити клієнту отримувати музику з цього комп’ютера."
 
-#: ../bin/src/ui_networkremotesettingspage.h:197
+#: ../bin/src/ui_networkremotesettingspage.h:245
 msgid "Allow downloads"
 msgstr "Дозволити отримання"
 
@@ -854,7 +854,8 @@ msgstr "Ініціали виконавця"
 msgid "Ask when saving"
 msgstr "Питати під час збереження"
 
-#: ../bin/src/ui_transcodedialog.h:222 ../bin/src/ui_ripcd.h:323
+#: ../bin/src/ui_transcodedialog.h:222
+#: ../bin/src/ui_networkremotesettingspage.h:251 ../bin/src/ui_ripcd.h:323
 msgid "Audio format"
 msgstr "Аудіо-формат"
 
@@ -1348,7 +1349,7 @@ msgstr "Налаштувати загальні правила пошуку…"
 msgid "Configure library..."
 msgstr "Налаштувати фонотеку"
 
-#: podcasts/addpodcastdialog.cpp:71 podcasts/podcastservice.cpp:362
+#: podcasts/addpodcastdialog.cpp:71 podcasts/podcastservice.cpp:365
 msgid "Configure podcasts..."
 msgstr "Налаштувати подкасти..."
 
@@ -1402,6 +1403,14 @@ msgstr "Конвертувати всю музику"
 msgid "Convert any music that the device can't play"
 msgstr "Конвертувати всю музику, яку не може відтворити пристрій"
 
+#: ../bin/src/ui_networkremotesettingspage.h:248
+msgid "Convert lossless audiofiles before sending them to the remote."
+msgstr "Перетворювати звукові файли у форматах без втрати якості перед надсиланням їх на віддалений пристрій."
+
+#: ../bin/src/ui_networkremotesettingspage.h:250
+msgid "Convert lossless files"
+msgstr "Перетворювати файли, стиснені без втрати якості"
+
 #: internet/vkservice.cpp:322
 msgid "Copy share url to clipboard"
 msgstr "Копіювати адресу оприлюднення до буфера"
@@ -1410,7 +1419,7 @@ msgstr "Копіювати адресу оприлюднення до буфер
 msgid "Copy to clipboard"
 msgstr "Копіювати до буфера"
 
-#: library/libraryview.cpp:400 podcasts/podcastservice.cpp:349
+#: library/libraryview.cpp:400 podcasts/podcastservice.cpp:352
 #: ui/mainwindow.cpp:616 widgets/fileviewlist.cpp:43
 msgid "Copy to device..."
 msgstr "Копіювати до пристрою…"
@@ -1430,7 +1439,7 @@ msgid ""
 "http://localhost:4040/"
 msgstr "Не вдалося встановити з’єднання з Subsonic, перевірте адресу сервера. Приклад: http://localhost:4040/"
 
-#: transcoder/transcoder.cpp:57
+#: transcoder/transcoder.cpp:58
 #, qt-format
 msgid ""
 "Could not create the GStreamer element \"%1\" - make sure you have all the "
@@ -1441,14 +1450,14 @@ msgstr "Не вдалось створити елемент GStreamer \"%1\" - �
 msgid "Couldn't create playlist"
 msgstr "Не вдалося створити список відтворення"
 
-#: transcoder/transcoder.cpp:428
+#: transcoder/transcoder.cpp:425
 #, qt-format
 msgid ""
 "Couldn't find a muxer for %1, check you have the correct GStreamer plugins "
 "installed"
 msgstr "Не вдалось знайти ущільнювач для %1, перевірте чи правильно встановлений модуль GStreamer"
 
-#: transcoder/transcoder.cpp:422
+#: transcoder/transcoder.cpp:419
 #, qt-format
 msgid ""
 "Couldn't find an encoder for %1, check you have the correct GStreamer "
@@ -1662,7 +1671,7 @@ msgstr "Вилучити"
 msgid "Delete Grooveshark playlist"
 msgstr "Вилучити список відтворення Grooveshark"
 
-#: podcasts/podcastservice.cpp:345
+#: podcasts/podcastservice.cpp:348
 msgid "Delete downloaded data"
 msgstr "Видалити завантажені дані"
 
@@ -1692,7 +1701,7 @@ msgstr "Скинути налаштування"
 msgid "Delete smart playlist"
 msgstr "Видалити розумний список відтворення"
 
-#: ../bin/src/ui_organisedialog.h:240
+#: ../bin/src/ui_organisedialog.h:246
 msgid "Delete the original files"
 msgstr "Вилучити оригінальні файли"
 
@@ -1708,7 +1717,7 @@ msgstr "Вилучити з черги вибрані доріжки"
 msgid "Dequeue track"
 msgstr "Вилучити з черги доріжки"
 
-#: ../bin/src/ui_transcodedialog.h:224 ../bin/src/ui_organisedialog.h:235
+#: ../bin/src/ui_transcodedialog.h:224 ../bin/src/ui_organisedialog.h:241
 #: ../bin/src/ui_ripcd.h:321
 msgid "Destination"
 msgstr "Призначення"
@@ -1859,7 +1868,7 @@ msgstr "Подвійне клацання, щоб відкрити"
 msgid "Double clicking a song will..."
 msgstr "Подвійне клацання на пісні:"
 
-#: podcasts/podcastservice.cpp:437
+#: podcasts/podcastservice.cpp:440
 #, c-format, qt-plural-format
 msgctxt ""
 msgid "Download %n episodes"
@@ -1881,11 +1890,15 @@ msgstr "Завантажити членство"
 msgid "Download new episodes automatically"
 msgstr "Завантажувати нові епізоди автоматично"
 
-#: podcasts/podcastservice.cpp:253
+#: podcasts/podcastservice.cpp:256
 msgid "Download queued"
 msgstr "Завантаження поставлено в чергу"
 
-#: ../bin/src/ui_networkremotesettingspage.h:202
+#: ../bin/src/ui_networkremotesettingspage.h:246
+msgid "Download settings"
+msgstr "Параметри отримання"
+
+#: ../bin/src/ui_networkremotesettingspage.h:253
 msgid "Download the Android app"
 msgstr "Отримати програму для Android"
 
@@ -1897,7 +1910,7 @@ msgstr "Завантажити цей альбом"
 msgid "Download this album..."
 msgstr "Завантажити цей альбом…"
 
-#: podcasts/podcastservice.cpp:439
+#: podcasts/podcastservice.cpp:442
 msgid "Download this episode"
 msgstr "Завантажити цей випуск"
 
@@ -1905,7 +1918,7 @@ msgstr "Завантажити цей випуск"
 msgid "Download..."
 msgstr "Звантажити…"
 
-#: podcasts/podcastservice.cpp:261
+#: podcasts/podcastservice.cpp:264
 #, qt-format
 msgid "Downloading (%1%)..."
 msgstr "Завантажую (%1%)..."
@@ -2076,7 +2089,7 @@ msgstr "Введіть адресу радіо-потоку:"
 msgid "Enter the name of the folder"
 msgstr "Вкажіть назву теки"
 
-#: ../bin/src/ui_networkremotesettingspage.h:199
+#: ../bin/src/ui_networkremotesettingspage.h:239
 msgid "Enter this IP in the App to connect to Clementine."
 msgstr "Вкажіть цю IP-адресу у програмі для встановлення з’єднання з Clementine."
 
@@ -2133,7 +2146,7 @@ msgstr "Помилка завантаження %1"
 msgid "Error loading di.fm playlist"
 msgstr "Помилка завантаження списку відтворення di.fm"
 
-#: transcoder/transcoder.cpp:393
+#: transcoder/transcoder.cpp:390
 #, qt-format
 msgid "Error processing %1: %2"
 msgstr "Помилка обробляння %1: %2"
@@ -2392,7 +2405,7 @@ msgstr "Перший рівень"
 msgid "Fit cover to width"
 msgstr "Підібрати розміри обкладинки за шириною"
 
-#: core/song.cpp:382 transcoder/transcoder.cpp:230
+#: core/song.cpp:382 transcoder/transcoder.cpp:233
 msgid "Flac"
 msgstr "Flac"
 
@@ -2677,7 +2690,7 @@ msgstr "Якщо продовжите, цей пристрій буде прац
 msgid "If you know the URL of a podcast, enter it below and press Go."
 msgstr "Якщо ви знаєте URL подкасту, введіть його та натисніть Вперед."
 
-#: ../bin/src/ui_organisedialog.h:250
+#: ../bin/src/ui_organisedialog.h:256
 msgid "Ignore \"The\" in artist names"
 msgstr "Ігнорувати «The» в іменах виконавців"
 
@@ -2758,7 +2771,7 @@ msgstr "Інформація"
 msgid "Input options"
 msgstr "Налаштування вхідних даних"
 
-#: ../bin/src/ui_organisedialog.h:249
+#: ../bin/src/ui_organisedialog.h:255
 msgid "Insert..."
 msgstr "Вставити…"
 
@@ -2863,7 +2876,7 @@ msgstr "Тримати кнопки %1 секунд…"
 msgid "Keep running in the background when the window is closed"
 msgstr "Продовжувати виконання у фоні коли вікно зачинено"
 
-#: ../bin/src/ui_organisedialog.h:239
+#: ../bin/src/ui_organisedialog.h:245
 msgid "Keep the original files"
 msgstr "Зберегти оригінальні файли"
 
@@ -3036,7 +3049,7 @@ msgstr "Завантажую дані доріжок"
 #: library/librarymodel.cpp:152 podcasts/podcastdiscoverymodel.cpp:102
 #: widgets/prettyimage.cpp:168 widgets/widgetfadehelper.cpp:96
 #: ../bin/src/ui_addpodcastdialog.h:180 ../bin/src/ui_searchpreview.h:106
-#: ../bin/src/ui_organisedialog.h:255 internet/vkservice.cpp:497
+#: ../bin/src/ui_organisedialog.h:262 internet/vkservice.cpp:497
 #: internet/vksettingspage.cpp:121
 msgid "Loading..."
 msgstr "Завантаження…"
@@ -3099,11 +3112,11 @@ msgstr "Тексти пісень"
 msgid "Lyrics from %1"
 msgstr "Текст пісні з %1"
 
-#: transcoder/transcoder.cpp:232
+#: transcoder/transcoder.cpp:235
 msgid "M4A AAC"
 msgstr "M4A AAC"
 
-#: core/song.cpp:388 transcoder/transcoder.cpp:235
+#: core/song.cpp:388 transcoder/transcoder.cpp:238
 #: ../bin/src/ui_transcodersettingspage.h:175
 msgid "MP3"
 msgstr "MP3"
@@ -3170,11 +3183,11 @@ msgstr "Вручну"
 msgid "Manufacturer"
 msgstr "Виробник"
 
-#: podcasts/podcastservice.cpp:357
+#: podcasts/podcastservice.cpp:360 ../bin/src/ui_organisedialog.h:260
 msgid "Mark as listened"
 msgstr "Позначити як прослуханий"
 
-#: podcasts/podcastservice.cpp:356
+#: podcasts/podcastservice.cpp:359
 msgid "Mark as new"
 msgstr "Позначити як новий"
 
@@ -3320,7 +3333,7 @@ msgctxt "Category label"
 msgid "Name"
 msgstr "Назва"
 
-#: ../bin/src/ui_organisedialog.h:243
+#: ../bin/src/ui_organisedialog.h:249
 msgid "Naming options"
 msgstr "Налаштування найменування"
 
@@ -3332,7 +3345,7 @@ msgstr "Вузька смуга (NB)"
 msgid "Network Proxy"
 msgstr "Проксі мережі"
 
-#: ../bin/src/ui_networkremotesettingspage.h:178
+#: ../bin/src/ui_networkremotesettingspage.h:222
 msgid "Network Remote"
 msgstr "Дистанційне керування з мережі"
 
@@ -3491,19 +3504,19 @@ msgstr "Повідомлення OSD"
 msgid "Off"
 msgstr "Вимкн."
 
-#: core/song.cpp:390 transcoder/transcoder.cpp:241
+#: core/song.cpp:390 transcoder/transcoder.cpp:244
 msgid "Ogg Flac"
 msgstr "Ogg Flac"
 
-#: core/song.cpp:396 transcoder/transcoder.cpp:247
+#: core/song.cpp:396 transcoder/transcoder.cpp:250
 msgid "Ogg Opus"
 msgstr "Opus Ogg"
 
-#: core/song.cpp:392 transcoder/transcoder.cpp:244
+#: core/song.cpp:392 transcoder/transcoder.cpp:247
 msgid "Ogg Speex"
 msgstr "Ogg Speex"
 
-#: core/song.cpp:394 transcoder/transcoder.cpp:238
+#: core/song.cpp:394 transcoder/transcoder.cpp:241
 #: ../bin/src/ui_magnatunedownloaddialog.h:139
 #: ../bin/src/ui_magnatunesettingspage.h:170
 msgid "Ogg Vorbis"
@@ -3517,7 +3530,7 @@ msgstr "Увімкн."
 msgid "OneDrive"
 msgstr "OneDrive"
 
-#: ../bin/src/ui_networkremotesettingspage.h:183
+#: ../bin/src/ui_networkremotesettingspage.h:227
 msgid ""
 "Only accept connections from clients within the ip ranges:\n"
 "10.x.x.x\n"
@@ -3525,7 +3538,7 @@ msgid ""
 "192.168.x.x"
 msgstr "Підтримувати зв’язок лише з клієнтами у таких діапазонах IP-адрес:\n10.x.x.x\n172.16.0.0 - 172.31.255.255\n192.168.x.x"
 
-#: ../bin/src/ui_networkremotesettingspage.h:188
+#: ../bin/src/ui_networkremotesettingspage.h:232
 msgid "Only allow connections from the local network"
 msgstr "З’єднуватися лише у межах локальної мережі"
 
@@ -3605,7 +3618,8 @@ msgstr "Оптимізувати для бітової швидкості"
 msgid "Optimize for quality"
 msgstr "Оптимізувати для якості"
 
-#: ../bin/src/ui_transcodedialog.h:223 ../bin/src/ui_ripcd.h:322
+#: ../bin/src/ui_transcodedialog.h:223
+#: ../bin/src/ui_networkremotesettingspage.h:252 ../bin/src/ui_ripcd.h:322
 msgid "Options..."
 msgstr "Налаштування…"
 
@@ -3613,7 +3627,7 @@ msgstr "Налаштування…"
 msgid "Opus"
 msgstr "Opus"
 
-#: ../bin/src/ui_organisedialog.h:234
+#: ../bin/src/ui_organisedialog.h:240
 msgid "Organise Files"
 msgstr "Упорядкування файлів"
 
@@ -3621,7 +3635,7 @@ msgstr "Упорядкування файлів"
 msgid "Organise files..."
 msgstr "Упорядкування файлів…"
 
-#: core/organise.cpp:67
+#: core/organise.cpp:69
 msgid "Organising files"
 msgstr "Упорядкування файлів"
 
@@ -3649,7 +3663,7 @@ msgstr "Налаштування виведення"
 msgid "Overwrite all"
 msgstr "Перезаписати все"
 
-#: ../bin/src/ui_organisedialog.h:253
+#: ../bin/src/ui_organisedialog.h:259
 msgid "Overwrite existing files"
 msgstr "Перезаписати існуючі файли"
 
@@ -3773,7 +3787,7 @@ msgstr "Будь ласка, закрийте вікно програми для
 msgid "Plugin status:"
 msgstr "Статус модуля:"
 
-#: podcasts/podcastservice.cpp:120 ../bin/src/ui_podcastsettingspage.h:226
+#: podcasts/podcastservice.cpp:123 ../bin/src/ui_podcastsettingspage.h:226
 msgid "Podcasts"
 msgstr "Подкасти"
 
@@ -3798,7 +3812,7 @@ msgid "Popup duration"
 msgstr "Тривалість виринаючого повідомлення"
 
 #: ../bin/src/ui_networkproxysettingspage.h:166
-#: ../bin/src/ui_networkremotesettingspage.h:181
+#: ../bin/src/ui_networkremotesettingspage.h:225
 msgid "Port"
 msgstr "Порт"
 
@@ -3865,7 +3879,7 @@ msgstr "Налаштування OSD"
 
 #: ../bin/src/ui_searchpreview.h:105 ../bin/src/ui_songinfosettingspage.h:158
 #: ../bin/src/ui_notificationssettingspage.h:453
-#: ../bin/src/ui_organisedialog.h:254
+#: ../bin/src/ui_organisedialog.h:261
 msgid "Preview"
 msgstr "Перегляд"
 
@@ -4138,7 +4152,7 @@ msgstr "Замінити список відтворення"
 msgid "Replace the playlist"
 msgstr "Замінити список відтворення"
 
-#: ../bin/src/ui_organisedialog.h:251
+#: ../bin/src/ui_organisedialog.h:257
 msgid "Replaces spaces with underscores"
 msgstr "Замінити пробіли підкресленнями"
 
@@ -4154,7 +4168,7 @@ msgstr "Режим вирівнювання гучності"
 msgid "Repopulate"
 msgstr "Знов наповнити"
 
-#: ../bin/src/ui_networkremotesettingspage.h:192
+#: ../bin/src/ui_networkremotesettingspage.h:236
 msgid "Require authentication code"
 msgstr "Потрібен код розпізнавання"
 
@@ -4171,7 +4185,7 @@ msgid ""
 "Restart the track, or play the previous track if within 8 seconds of start."
 msgstr "Повторно відтворити композицію або відтворити попередню композицію, якщо було відтворено не більше 8 секунд поточної композиції."
 
-#: ../bin/src/ui_organisedialog.h:252
+#: ../bin/src/ui_organisedialog.h:258
 msgid "Restrict to ASCII characters"
 msgstr "Обмежитись символами ASCII"
 
@@ -4233,7 +4247,7 @@ msgstr "Помилка під час спроби встановлення з’
 msgid "Safely remove device"
 msgstr "Безпечно вилучити пристрій"
 
-#: ../bin/src/ui_organisedialog.h:242
+#: ../bin/src/ui_organisedialog.h:248
 msgid "Safely remove the device after copying"
 msgstr "Безпечне вилучення пристрою після копіювання"
 
@@ -4477,7 +4491,7 @@ msgstr "Встановити гучність до <value> відсотків"
 msgid "Set value for all selected tracks..."
 msgstr "Встановити значення для всіх вибраних доріжок…"
 
-#: ../bin/src/ui_networkremotesettingspage.h:180
+#: ../bin/src/ui_networkremotesettingspage.h:224
 msgid "Settings"
 msgstr "Параметри"
 
@@ -4809,7 +4823,7 @@ msgid ""
 "list"
 msgstr "Введіть щось у полі пошуку, розташованому вище, щоб побачити на цій панелі список результатів пошуку"
 
-#: transcoder/transcoder.cpp:400
+#: transcoder/transcoder.cpp:397
 #, qt-format
 msgid "Starting %1"
 msgstr "Запуск %1"
@@ -4882,7 +4896,7 @@ msgstr "Subsonic"
 msgid "Success!"
 msgstr "Виконано!"
 
-#: transcoder/transcoder.cpp:188
+#: transcoder/transcoder.cpp:189
 #, qt-format
 msgid "Successfully written %1"
 msgstr "Успішно записано %1"
@@ -5186,7 +5200,7 @@ msgstr "Журнал перекодування"
 msgid "Transcoding"
 msgstr "Перекодування"
 
-#: transcoder/transcoder.cpp:305
+#: transcoder/transcoder.cpp:317
 #, qt-format
 msgid "Transcoding %1 files using %2 threads"
 msgstr "Перекодовано %1 файлів, використовуючи %2 гілки"
@@ -5256,7 +5270,7 @@ msgstr "Не пропускати позначені композиції"
 msgid "Unskip track"
 msgstr "Не пропускати композицію"
 
-#: podcasts/addpodcastdialog.cpp:65 podcasts/podcastservice.cpp:351
+#: podcasts/addpodcastdialog.cpp:65 podcasts/podcastservice.cpp:354
 msgid "Unsubscribe"
 msgstr "Відписатися"
 
@@ -5272,7 +5286,7 @@ msgstr "Оновити"
 msgid "Update Grooveshark playlist"
 msgstr "Оновити список відтворення на Grooveshark"
 
-#: podcasts/podcastservice.cpp:331
+#: podcasts/podcastservice.cpp:334
 msgid "Update all podcasts"
 msgstr "Оновити всі подкасти"
 
@@ -5284,7 +5298,7 @@ msgstr "Оновити змінені теки у фонотеці"
 msgid "Update the library when Clementine starts"
 msgstr "Оновлювати фонотеку під час запуску Clementine"
 
-#: podcasts/podcastservice.cpp:339
+#: podcasts/podcastservice.cpp:342
 msgid "Update this podcast"
 msgstr "Оновити цей подкаст"
 
@@ -5338,7 +5352,7 @@ msgstr "Використати власну палітру"
 msgid "Use a custom message for notifications"
 msgstr "Використати власне повідомлення для сповіщень"
 
-#: ../bin/src/ui_networkremotesettingspage.h:179
+#: ../bin/src/ui_networkremotesettingspage.h:223
 msgid "Use a network remote control"
 msgstr "Використовувати віддалене керування мережею"
 
@@ -5473,7 +5487,7 @@ msgstr "Стіна"
 msgid "Warn me when closing a playlist tab"
 msgstr "Попереджати про закриття вкладки списку відтворення"
 
-#: core/song.cpp:400 transcoder/transcoder.cpp:253
+#: core/song.cpp:400 transcoder/transcoder.cpp:256
 msgid "Wav"
 msgstr "Wav"
 
@@ -5557,7 +5571,7 @@ msgstr "Windows Media, 40 кб"
 msgid "Windows Media 64k"
 msgstr "Windows Media, 64 кб"
 
-#: core/song.cpp:380 transcoder/transcoder.cpp:250
+#: core/song.cpp:380 transcoder/transcoder.cpp:253
 msgid "Windows Media audio"
 msgstr "Windows Media audio"
 
@@ -5714,7 +5728,7 @@ msgstr "Потрібно запустити «Системні налаштув�
 msgid "You will need to restart Clementine if you change the language."
 msgstr "Потрібно перезапустити Clementine, щоб змінити мову."
 
-#: ../bin/src/ui_networkremotesettingspage.h:201
+#: ../bin/src/ui_networkremotesettingspage.h:241
 msgid "Your IP address:"
 msgstr "Ваша IP-адреса:"
 
@@ -5889,7 +5903,7 @@ msgstr "на"
 msgid "options"
 msgstr "налаштування"
 
-#: ../bin/src/ui_networkremotesettingspage.h:203
+#: ../bin/src/ui_networkremotesettingspage.h:254
 msgid "or scan the QR code!"
 msgstr "або скануйте QR-код!"
 

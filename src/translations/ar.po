@@ -15,7 +15,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
-"PO-Revision-Date: 2014-10-31 11:46+0000\n"
+"PO-Revision-Date: 2014-11-13 22:18+0000\n"
 "Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
 "Language-Team: Arabic (http://www.transifex.com/projects/p/clementine/language/ar/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -317,7 +317,7 @@ msgid ""
 "activated.</p></body></html>"
 msgstr "<html><head/><body><p>سيتم كتابة تقييمات المقاطع والاحصائيات في وسوم الملفات لكل المقاطع التي بمكتبتك الصوتية.</p><p> هذا ليس ضرويا إن كان قد تم تفعيل خياري \"احفظ التقييمات والاحصائيات في وسوم الملف إن أمكن ذلك\".</p></body></html>"
 
-#: ../bin/src/ui_organisedialog.h:245
+#: ../bin/src/ui_organisedialog.h:251
 msgid ""
 "<p>Tokens start with %, for example: %artist %album %title </p>\n"
 "\n"
@@ -332,7 +332,7 @@ msgstr " Grooveshark   يجب التوفر على حساب في "
 msgid "A Spotify Premium account is required."
 msgstr "يجب أن تتوفر على حساب في Spotify"
 
-#: ../bin/src/ui_networkremotesettingspage.h:190
+#: ../bin/src/ui_networkremotesettingspage.h:234
 msgid "A client can connect only, if the correct code was entered."
 msgstr "لا يمكن لعميل الاتصال، إلا إن أدخل شفرة صحيحة."
 
@@ -491,7 +491,7 @@ msgstr "أضف مجلد جديد..."
 msgid "Add podcast"
 msgstr "إضافة بودكاست"
 
-#: podcasts/podcastservice.cpp:328 ../bin/src/ui_mainwindow.h:709
+#: podcasts/podcastservice.cpp:331 ../bin/src/ui_mainwindow.h:709
 msgid "Add podcast..."
 msgstr "إضافة بودكاست..."
 
@@ -660,7 +660,7 @@ msgstr "تجميع متقدم..."
 msgid "After "
 msgstr "بعد"
 
-#: ../bin/src/ui_organisedialog.h:236
+#: ../bin/src/ui_organisedialog.h:242
 msgid "After copying..."
 msgstr "بعد النسخ..."
 
@@ -737,11 +737,11 @@ msgstr "كل المترجمين"
 msgid "All tracks"
 msgstr "كل المقطوعات"
 
-#: ../bin/src/ui_networkremotesettingspage.h:195
+#: ../bin/src/ui_networkremotesettingspage.h:243
 msgid "Allow a client to download music from this computer."
 msgstr "اسمح للعملاء بتحميل المقاطع من هذا الحاسوب."
 
-#: ../bin/src/ui_networkremotesettingspage.h:197
+#: ../bin/src/ui_networkremotesettingspage.h:245
 msgid "Allow downloads"
 msgstr "اسمح بالتحميل"
 
@@ -860,7 +860,8 @@ msgstr "بداية الفنان"
 msgid "Ask when saving"
 msgstr ""
 
-#: ../bin/src/ui_transcodedialog.h:222 ../bin/src/ui_ripcd.h:323
+#: ../bin/src/ui_transcodedialog.h:222
+#: ../bin/src/ui_networkremotesettingspage.h:251 ../bin/src/ui_ripcd.h:323
 msgid "Audio format"
 msgstr "صيغة الصوت"
 
@@ -1354,7 +1355,7 @@ msgstr "إعدادات البحث العامة..."
 msgid "Configure library..."
 msgstr "إعدادات المكتبة"
 
-#: podcasts/addpodcastdialog.cpp:71 podcasts/podcastservice.cpp:362
+#: podcasts/addpodcastdialog.cpp:71 podcasts/podcastservice.cpp:365
 msgid "Configure podcasts..."
 msgstr "إعدادات بودكاست..."
 
@@ -1408,6 +1409,14 @@ msgstr "حول جميع المقاطع"
 msgid "Convert any music that the device can't play"
 msgstr "حول جميع المقاطع التي لا يستطيع الجهاز تشغيلها"
 
+#: ../bin/src/ui_networkremotesettingspage.h:248
+msgid "Convert lossless audiofiles before sending them to the remote."
+msgstr ""
+
+#: ../bin/src/ui_networkremotesettingspage.h:250
+msgid "Convert lossless files"
+msgstr ""
+
 #: internet/vkservice.cpp:322
 msgid "Copy share url to clipboard"
 msgstr "انسخ الرابط إلى الحافظة"
@@ -1416,7 +1425,7 @@ msgstr "انسخ الرابط إلى الحافظة"
 msgid "Copy to clipboard"
 msgstr "نسخ إلى المكتبة..."
 
-#: library/libraryview.cpp:400 podcasts/podcastservice.cpp:349
+#: library/libraryview.cpp:400 podcasts/podcastservice.cpp:352
 #: ui/mainwindow.cpp:616 widgets/fileviewlist.cpp:43
 msgid "Copy to device..."
 msgstr "نسخ إلى جهاز..."
@@ -1436,7 +1445,7 @@ msgid ""
 "http://localhost:4040/"
 msgstr "تعذر الاتصال بخادم Subsonic، تأكد من عنوان الخادم. مثال للعنوان: http://localhost:4040/"
 
-#: transcoder/transcoder.cpp:57
+#: transcoder/transcoder.cpp:58
 #, qt-format
 msgid ""
 "Could not create the GStreamer element \"%1\" - make sure you have all the "
@@ -1447,14 +1456,14 @@ msgstr "تعذر إنشاء عنصر Gstreamer \"%1\" - تأكد أن جميع �
 msgid "Couldn't create playlist"
 msgstr "لا تنشئ قائمة تشغيل"
 
-#: transcoder/transcoder.cpp:428
+#: transcoder/transcoder.cpp:425
 #, qt-format
 msgid ""
 "Couldn't find a muxer for %1, check you have the correct GStreamer plugins "
 "installed"
 msgstr "تعذر العثور على معدد من أجل %1، تأكد أن ملحقات GStreamer الضرورية مثبتة"
 
-#: transcoder/transcoder.cpp:422
+#: transcoder/transcoder.cpp:419
 #, qt-format
 msgid ""
 "Couldn't find an encoder for %1, check you have the correct GStreamer "
@@ -1668,7 +1677,7 @@ msgstr "احذف"
 msgid "Delete Grooveshark playlist"
 msgstr "احذف قائمة تسغيل Grooveshark"
 
-#: podcasts/podcastservice.cpp:345
+#: podcasts/podcastservice.cpp:348
 msgid "Delete downloaded data"
 msgstr "حذف البيانات المحملة"
 
@@ -1698,7 +1707,7 @@ msgstr "احذف ملف الإعدادات"
 msgid "Delete smart playlist"
 msgstr "احذف لائحة التشغيل الذكية"
 
-#: ../bin/src/ui_organisedialog.h:240
+#: ../bin/src/ui_organisedialog.h:246
 msgid "Delete the original files"
 msgstr "احذف الملفات الأصلية"
 
@@ -1714,7 +1723,7 @@ msgstr "أزل المختارة من لائحة الانتظار"
 msgid "Dequeue track"
 msgstr "أزل المقطع من لائحة الانتظار"
 
-#: ../bin/src/ui_transcodedialog.h:224 ../bin/src/ui_organisedialog.h:235
+#: ../bin/src/ui_transcodedialog.h:224 ../bin/src/ui_organisedialog.h:241
 #: ../bin/src/ui_ripcd.h:321
 msgid "Destination"
 msgstr "الوجهة"
@@ -1865,7 +1874,7 @@ msgstr "النقر مرتين للتشغيل"
 msgid "Double clicking a song will..."
 msgstr "النقر مرتين على مقطع سـ..."
 
-#: podcasts/podcastservice.cpp:437
+#: podcasts/podcastservice.cpp:440
 #, c-format, qt-plural-format
 msgctxt ""
 msgid "Download %n episodes"
@@ -1887,11 +1896,15 @@ msgstr "عضوية التحميل"
 msgid "Download new episodes automatically"
 msgstr "حمل الحلقات الجديدة تلقائيا"
 
-#: podcasts/podcastservice.cpp:253
+#: podcasts/podcastservice.cpp:256
 msgid "Download queued"
 msgstr "حمل مقاطع لائحة الانتظار"
 
-#: ../bin/src/ui_networkremotesettingspage.h:202
+#: ../bin/src/ui_networkremotesettingspage.h:246
+msgid "Download settings"
+msgstr ""
+
+#: ../bin/src/ui_networkremotesettingspage.h:253
 msgid "Download the Android app"
 msgstr "حمل تطبيق أندرويد"
 
@@ -1903,7 +1916,7 @@ msgstr "حمل هذا الألبوم"
 msgid "Download this album..."
 msgstr "حمل هذا الألبوم..."
 
-#: podcasts/podcastservice.cpp:439
+#: podcasts/podcastservice.cpp:442
 msgid "Download this episode"
 msgstr "حمل هذه الحلقة"
 
@@ -1911,7 +1924,7 @@ msgstr "حمل هذه الحلقة"
 msgid "Download..."
 msgstr "حمل..."
 
-#: podcasts/podcastservice.cpp:261
+#: podcasts/podcastservice.cpp:264
 #, qt-format
 msgid "Downloading (%1%)..."
 msgstr "تحميل (%1%)..."
@@ -2082,7 +2095,7 @@ msgstr "أدخل رابط الراديو"
 msgid "Enter the name of the folder"
 msgstr "أدخل اسم المجلد"
 
-#: ../bin/src/ui_networkremotesettingspage.h:199
+#: ../bin/src/ui_networkremotesettingspage.h:239
 msgid "Enter this IP in the App to connect to Clementine."
 msgstr "أدخل عنوان الايبي - IP - في التطبيق للاتصال بكلمنتاين."
 
@@ -2139,7 +2152,7 @@ msgstr "خطأ في تحميل %1"
 msgid "Error loading di.fm playlist"
 msgstr "خطأ في تحميل قائمة تشغيل di.fm"
 
-#: transcoder/transcoder.cpp:393
+#: transcoder/transcoder.cpp:390
 #, qt-format
 msgid "Error processing %1: %2"
 msgstr "حدث خطأ بتطبيق %1:%2"
@@ -2398,7 +2411,7 @@ msgstr "المستوى الأول"
 msgid "Fit cover to width"
 msgstr ""
 
-#: core/song.cpp:382 transcoder/transcoder.cpp:230
+#: core/song.cpp:382 transcoder/transcoder.cpp:233
 msgid "Flac"
 msgstr "Flac"
 
@@ -2683,7 +2696,7 @@ msgstr "إذا قررت الاستمرار، سيشتغل هذا الجهاز ب
 msgid "If you know the URL of a podcast, enter it below and press Go."
 msgstr "إن كنت تتوفر على رابط البودكاست، أدخله أسفله واضغط اذهب."
 
-#: ../bin/src/ui_organisedialog.h:250
+#: ../bin/src/ui_organisedialog.h:256
 msgid "Ignore \"The\" in artist names"
 msgstr "تجاهل \"The\" في أسماء الفنانين"
 
@@ -2764,7 +2777,7 @@ msgstr "معلومات"
 msgid "Input options"
 msgstr "خيارات المدخل"
 
-#: ../bin/src/ui_organisedialog.h:249
+#: ../bin/src/ui_organisedialog.h:255
 msgid "Insert..."
 msgstr "إدارج..."
 
@@ -2869,7 +2882,7 @@ msgstr "أبق الأزار لمدة %1 ثواني"
 msgid "Keep running in the background when the window is closed"
 msgstr "تابع التشغيل في الخلفية عند إغلاق النافذة"
 
-#: ../bin/src/ui_organisedialog.h:239
+#: ../bin/src/ui_organisedialog.h:245
 msgid "Keep the original files"
 msgstr "أبقي على الملفات الأصلية"
 
@@ -3042,7 +3055,7 @@ msgstr "جاري تحميل معلومات المقاطع"
 #: library/librarymodel.cpp:152 podcasts/podcastdiscoverymodel.cpp:102
 #: widgets/prettyimage.cpp:168 widgets/widgetfadehelper.cpp:96
 #: ../bin/src/ui_addpodcastdialog.h:180 ../bin/src/ui_searchpreview.h:106
-#: ../bin/src/ui_organisedialog.h:255 internet/vkservice.cpp:497
+#: ../bin/src/ui_organisedialog.h:262 internet/vkservice.cpp:497
 #: internet/vksettingspage.cpp:121
 msgid "Loading..."
 msgstr "جاري التحميل"
@@ -3105,11 +3118,11 @@ msgstr "كلمات المقطع"
 msgid "Lyrics from %1"
 msgstr "كلمات المقطع من %1"
 
-#: transcoder/transcoder.cpp:232
+#: transcoder/transcoder.cpp:235
 msgid "M4A AAC"
 msgstr "M4A AAC"
 
-#: core/song.cpp:388 transcoder/transcoder.cpp:235
+#: core/song.cpp:388 transcoder/transcoder.cpp:238
 #: ../bin/src/ui_transcodersettingspage.h:175
 msgid "MP3"
 msgstr "MP3"
@@ -3176,11 +3189,11 @@ msgstr "يدويا"
 msgid "Manufacturer"
 msgstr "المصنع"
 
-#: podcasts/podcastservice.cpp:357
+#: podcasts/podcastservice.cpp:360 ../bin/src/ui_organisedialog.h:260
 msgid "Mark as listened"
 msgstr "علم كمستمع إليه"
 
-#: podcasts/podcastservice.cpp:356
+#: podcasts/podcastservice.cpp:359
 msgid "Mark as new"
 msgstr "علم كجديد"
 
@@ -3326,7 +3339,7 @@ msgctxt "Category label"
 msgid "Name"
 msgstr "الاسم"
 
-#: ../bin/src/ui_organisedialog.h:243
+#: ../bin/src/ui_organisedialog.h:249
 msgid "Naming options"
 msgstr "إعدادات التسمية"
 
@@ -3338,7 +3351,7 @@ msgstr "Narrow band (NB)"
 msgid "Network Proxy"
 msgstr "شبكة بروكسي"
 
-#: ../bin/src/ui_networkremotesettingspage.h:178
+#: ../bin/src/ui_networkremotesettingspage.h:222
 msgid "Network Remote"
 msgstr "شبكة عن بعد"
 
@@ -3497,19 +3510,19 @@ msgstr "معاينة التنبيهات"
 msgid "Off"
 msgstr "معطل"
 
-#: core/song.cpp:390 transcoder/transcoder.cpp:241
+#: core/song.cpp:390 transcoder/transcoder.cpp:244
 msgid "Ogg Flac"
 msgstr "Ogg Flac"
 
-#: core/song.cpp:396 transcoder/transcoder.cpp:247
+#: core/song.cpp:396 transcoder/transcoder.cpp:250
 msgid "Ogg Opus"
 msgstr "Ogg Opus"
 
-#: core/song.cpp:392 transcoder/transcoder.cpp:244
+#: core/song.cpp:392 transcoder/transcoder.cpp:247
 msgid "Ogg Speex"
 msgstr "Ogg Speex"
 
-#: core/song.cpp:394 transcoder/transcoder.cpp:238
+#: core/song.cpp:394 transcoder/transcoder.cpp:241
 #: ../bin/src/ui_magnatunedownloaddialog.h:139
 #: ../bin/src/ui_magnatunesettingspage.h:170
 msgid "Ogg Vorbis"
@@ -3523,7 +3536,7 @@ msgstr "مفعل"
 msgid "OneDrive"
 msgstr "OneDrive"
 
-#: ../bin/src/ui_networkremotesettingspage.h:183
+#: ../bin/src/ui_networkremotesettingspage.h:227
 msgid ""
 "Only accept connections from clients within the ip ranges:\n"
 "10.x.x.x\n"
@@ -3531,7 +3544,7 @@ msgid ""
 "192.168.x.x"
 msgstr "اقبل الاتصال فقط من العملاء بمجال الايبي - IP - التالي:\n10.x.x.x\n172.16.0.0 - 172.31.255.255\n192.168.x.x"
 
-#: ../bin/src/ui_networkremotesettingspage.h:188
+#: ../bin/src/ui_networkremotesettingspage.h:232
 msgid "Only allow connections from the local network"
 msgstr "اسمح بالاتصال من الشبكة المحلية فقط"
 
@@ -3611,7 +3624,8 @@ msgstr "تحسين لصبيب أفضل"
 msgid "Optimize for quality"
 msgstr "تحسين لجودة أفضل"
 
-#: ../bin/src/ui_transcodedialog.h:223 ../bin/src/ui_ripcd.h:322
+#: ../bin/src/ui_transcodedialog.h:223
+#: ../bin/src/ui_networkremotesettingspage.h:252 ../bin/src/ui_ripcd.h:322
 msgid "Options..."
 msgstr "الإعدادات..."
 
@@ -3619,7 +3633,7 @@ msgstr "الإعدادات..."
 msgid "Opus"
 msgstr "Opus"
 
-#: ../bin/src/ui_organisedialog.h:234
+#: ../bin/src/ui_organisedialog.h:240
 msgid "Organise Files"
 msgstr "ترتيب الملفات"
 
@@ -3627,7 +3641,7 @@ msgstr "ترتيب الملفات"
 msgid "Organise files..."
 msgstr "ترتيب الملفات..."
 
-#: core/organise.cpp:67
+#: core/organise.cpp:69
 msgid "Organising files"
 msgstr "ترتيب الملفات"
 
@@ -3655,7 +3669,7 @@ msgstr "خيارات المخرج"
 msgid "Overwrite all"
 msgstr "استبدل الكل"
 
-#: ../bin/src/ui_organisedialog.h:253
+#: ../bin/src/ui_organisedialog.h:259
 msgid "Overwrite existing files"
 msgstr "أكتب على الملفات الموجودة"
 
@@ -3779,7 +3793,7 @@ msgstr "الرجاء إغلاق متصفحك والعودة إلى كلمنتا�
 msgid "Plugin status:"
 msgstr "حالة الملحق:"
 
-#: podcasts/podcastservice.cpp:120 ../bin/src/ui_podcastsettingspage.h:226
+#: podcasts/podcastservice.cpp:123 ../bin/src/ui_podcastsettingspage.h:226
 msgid "Podcasts"
 msgstr "بودكاست"
 
@@ -3804,7 +3818,7 @@ msgid "Popup duration"
 msgstr "مدة نافذة الانبثاق"
 
 #: ../bin/src/ui_networkproxysettingspage.h:166
-#: ../bin/src/ui_networkremotesettingspage.h:181
+#: ../bin/src/ui_networkremotesettingspage.h:225
 msgid "Port"
 msgstr "المنفذ"
 
@@ -3871,7 +3885,7 @@ msgstr "إعدادات تنبيهات كلمنتاين"
 
 #: ../bin/src/ui_searchpreview.h:105 ../bin/src/ui_songinfosettingspage.h:158
 #: ../bin/src/ui_notificationssettingspage.h:453
-#: ../bin/src/ui_organisedialog.h:254
+#: ../bin/src/ui_organisedialog.h:261
 msgid "Preview"
 msgstr "المعاينة"
 
@@ -4144,7 +4158,7 @@ msgstr "استبدل قائمة التشغيل الحالية"
 msgid "Replace the playlist"
 msgstr "استبدل قائمة التشغيل"
 
-#: ../bin/src/ui_organisedialog.h:251
+#: ../bin/src/ui_organisedialog.h:257
 msgid "Replaces spaces with underscores"
 msgstr "استبدل الفراغات برمز \"_\""
 
@@ -4160,7 +4174,7 @@ msgstr "نمط Replay Gain"
 msgid "Repopulate"
 msgstr "أعد ملأه من جديد"
 
-#: ../bin/src/ui_networkremotesettingspage.h:192
+#: ../bin/src/ui_networkremotesettingspage.h:236
 msgid "Require authentication code"
 msgstr "يتطلب كود التحقق"
 
@@ -4177,7 +4191,7 @@ msgid ""
 "Restart the track, or play the previous track if within 8 seconds of start."
 msgstr "أعد تشغيل المقطع، أو شغل المقطع السابق إن كان لم يتجاوز 8 ثوانٍ من بدء التشغيل."
 
-#: ../bin/src/ui_organisedialog.h:252
+#: ../bin/src/ui_organisedialog.h:258
 msgid "Restrict to ASCII characters"
 msgstr "اكتف بأحرف ASCII"
 
@@ -4239,7 +4253,7 @@ msgstr "حدث خطأ بتبادل SSL، تحقق من إعدادات الخاد
 msgid "Safely remove device"
 msgstr "احذف الجهاز بأمان"
 
-#: ../bin/src/ui_organisedialog.h:242
+#: ../bin/src/ui_organisedialog.h:248
 msgid "Safely remove the device after copying"
 msgstr "احذف الجهاز بأمان بعد انتهاء النسخ"
 
@@ -4483,7 +4497,7 @@ msgstr "اجعل درجة الصوت بنسبة <value>"
 msgid "Set value for all selected tracks..."
 msgstr "اجعل هذه القيمة لجميع المقاطع المختارة"
 
-#: ../bin/src/ui_networkremotesettingspage.h:180
+#: ../bin/src/ui_networkremotesettingspage.h:224
 msgid "Settings"
 msgstr "الإعدادات"
 
@@ -4815,7 +4829,7 @@ msgid ""
 "list"
 msgstr "ابدأ بكتابة شيء ما في خانة البحث أعلاه لملء هذه اللائحة من النتائج"
 
-#: transcoder/transcoder.cpp:400
+#: transcoder/transcoder.cpp:397
 #, qt-format
 msgid "Starting %1"
 msgstr "بدأ %1"
@@ -4888,7 +4902,7 @@ msgstr "Subsonic"
 msgid "Success!"
 msgstr "نجاح!"
 
-#: transcoder/transcoder.cpp:188
+#: transcoder/transcoder.cpp:189
 #, qt-format
 msgid "Successfully written %1"
 msgstr "تم كتابة %1 بنجاح"
@@ -5192,7 +5206,7 @@ msgstr "سجل محول الصوتيات"
 msgid "Transcoding"
 msgstr "تحويل الصوتيات"
 
-#: transcoder/transcoder.cpp:305
+#: transcoder/transcoder.cpp:317
 #, qt-format
 msgid "Transcoding %1 files using %2 threads"
 msgstr "جاري تحويل %1 ملفات على %2 أشغال"
@@ -5262,7 +5276,7 @@ msgstr "إلغاء تجاوز المسارات المختارة"
 msgid "Unskip track"
 msgstr "إلغاء تجاوز المسار"
 
-#: podcasts/addpodcastdialog.cpp:65 podcasts/podcastservice.cpp:351
+#: podcasts/addpodcastdialog.cpp:65 podcasts/podcastservice.cpp:354
 msgid "Unsubscribe"
 msgstr "ألغ الاشتراك"
 
@@ -5278,7 +5292,7 @@ msgstr "تحديث"
 msgid "Update Grooveshark playlist"
 msgstr "حدّث قائمة تشغيل Grooveshark"
 
-#: podcasts/podcastservice.cpp:331
+#: podcasts/podcastservice.cpp:334
 msgid "Update all podcasts"
 msgstr "حدّث جميع البودكاست"
 
@@ -5290,7 +5304,7 @@ msgstr "حدّث المجلدات التي تغيرت في المكتبة"
 msgid "Update the library when Clementine starts"
 msgstr "حدّث المكتبة عند بدء كلمنتاين"
 
-#: podcasts/podcastservice.cpp:339
+#: podcasts/podcastservice.cpp:342
 msgid "Update this podcast"
 msgstr "حدّث هذا البودكاست"
 
@@ -5344,7 +5358,7 @@ msgstr "استخدم تجميعة ألوان مخصصة"
 msgid "Use a custom message for notifications"
 msgstr "استخدم رسالة مخصصة للتنبيهات"
 
-#: ../bin/src/ui_networkremotesettingspage.h:179
+#: ../bin/src/ui_networkremotesettingspage.h:223
 msgid "Use a network remote control"
 msgstr "استخدم شبكة تحكم عن بعد"
 
@@ -5479,7 +5493,7 @@ msgstr ""
 msgid "Warn me when closing a playlist tab"
 msgstr "نبهني عند إغلاق لسان قائمة تشغيل"
 
-#: core/song.cpp:400 transcoder/transcoder.cpp:253
+#: core/song.cpp:400 transcoder/transcoder.cpp:256
 msgid "Wav"
 msgstr "Wav"
 
@@ -5563,7 +5577,7 @@ msgstr "Windows Media 40k"
 msgid "Windows Media 64k"
 msgstr "Windows Media 64k"
 
-#: core/song.cpp:380 transcoder/transcoder.cpp:250
+#: core/song.cpp:380 transcoder/transcoder.cpp:253
 msgid "Windows Media audio"
 msgstr "Windows Media audio"
 
@@ -5720,7 +5734,7 @@ msgstr "يجب أن تشغل تفضيلات النظام وتفعل \"<span styl
 msgid "You will need to restart Clementine if you change the language."
 msgstr "سيتوجب عليك إعادة تشغيل كلمنتاين إذا غيرت اللغة."
 
-#: ../bin/src/ui_networkremotesettingspage.h:201
+#: ../bin/src/ui_networkremotesettingspage.h:241
 msgid "Your IP address:"
 msgstr "عنوان الايبي الخاص بك هو:"
 
@@ -5895,7 +5909,7 @@ msgstr "مفعل"
 msgid "options"
 msgstr "الخيارات"
 
-#: ../bin/src/ui_networkremotesettingspage.h:203
+#: ../bin/src/ui_networkremotesettingspage.h:254
 msgid "or scan the QR code!"
 msgstr "أو افحص شفرة QR"
 

@@ -11,7 +11,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
-"PO-Revision-Date: 2014-10-31 11:46+0000\n"
+"PO-Revision-Date: 2014-11-13 22:18+0000\n"
 "Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
 "Language-Team: Latvian (http://www.transifex.com/projects/p/clementine/language/lv/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -313,7 +313,7 @@ msgid ""
 "activated.</p></body></html>"
 msgstr ""
 
-#: ../bin/src/ui_organisedialog.h:245
+#: ../bin/src/ui_organisedialog.h:251
 msgid ""
 "<p>Tokens start with %, for example: %artist %album %title </p>\n"
 "\n"
@@ -328,7 +328,7 @@ msgstr "Nepieciešams Grooveshark Anywhere profils"
 msgid "A Spotify Premium account is required."
 msgstr "Nepieciešams Spotify Premium konts."
 
-#: ../bin/src/ui_networkremotesettingspage.h:190
+#: ../bin/src/ui_networkremotesettingspage.h:234
 msgid "A client can connect only, if the correct code was entered."
 msgstr ""
 
@@ -487,7 +487,7 @@ msgstr "Pievienot jaunu mapi..."
 msgid "Add podcast"
 msgstr "Pievienot podraidi"
 
-#: podcasts/podcastservice.cpp:328 ../bin/src/ui_mainwindow.h:709
+#: podcasts/podcastservice.cpp:331 ../bin/src/ui_mainwindow.h:709
 msgid "Add podcast..."
 msgstr "Pievienot podraidi..."
 
@@ -656,7 +656,7 @@ msgstr "Advancēta grupēšana..."
 msgid "After "
 msgstr "Pēc"
 
-#: ../bin/src/ui_organisedialog.h:236
+#: ../bin/src/ui_organisedialog.h:242
 msgid "After copying..."
 msgstr "Pēc kopēšanas..."
 
@@ -733,11 +733,11 @@ msgstr "Visi tulkotāji"
 msgid "All tracks"
 msgstr "Visas dziesmas"
 
-#: ../bin/src/ui_networkremotesettingspage.h:195
+#: ../bin/src/ui_networkremotesettingspage.h:243
 msgid "Allow a client to download music from this computer."
 msgstr ""
 
-#: ../bin/src/ui_networkremotesettingspage.h:197
+#: ../bin/src/ui_networkremotesettingspage.h:245
 msgid "Allow downloads"
 msgstr "Atļaut lejupielādes"
 
@@ -856,7 +856,8 @@ msgstr "Izpildītājā iciāļi"
 msgid "Ask when saving"
 msgstr ""
 
-#: ../bin/src/ui_transcodedialog.h:222 ../bin/src/ui_ripcd.h:323
+#: ../bin/src/ui_transcodedialog.h:222
+#: ../bin/src/ui_networkremotesettingspage.h:251 ../bin/src/ui_ripcd.h:323
 msgid "Audio format"
 msgstr "Audio formāts"
 
@@ -1350,7 +1351,7 @@ msgstr ""
 msgid "Configure library..."
 msgstr "Konfigurēt bibliotēku..."
 
-#: podcasts/addpodcastdialog.cpp:71 podcasts/podcastservice.cpp:362
+#: podcasts/addpodcastdialog.cpp:71 podcasts/podcastservice.cpp:365
 msgid "Configure podcasts..."
 msgstr "Konfigurēt podraides..."
 
@@ -1404,6 +1405,14 @@ msgstr "Konvertēt visu mūziku"
 msgid "Convert any music that the device can't play"
 msgstr "Konvertēt mūziku, ko ierīce nespēj atskaņot"
 
+#: ../bin/src/ui_networkremotesettingspage.h:248
+msgid "Convert lossless audiofiles before sending them to the remote."
+msgstr ""
+
+#: ../bin/src/ui_networkremotesettingspage.h:250
+msgid "Convert lossless files"
+msgstr ""
+
 #: internet/vkservice.cpp:322
 msgid "Copy share url to clipboard"
 msgstr ""
@@ -1412,7 +1421,7 @@ msgstr ""
 msgid "Copy to clipboard"
 msgstr "Kopēt starpliktuvē"
 
-#: library/libraryview.cpp:400 podcasts/podcastservice.cpp:349
+#: library/libraryview.cpp:400 podcasts/podcastservice.cpp:352
 #: ui/mainwindow.cpp:616 widgets/fileviewlist.cpp:43
 msgid "Copy to device..."
 msgstr "Kopēt uz ierīci..."
@@ -1432,7 +1441,7 @@ msgid ""
 "http://localhost:4040/"
 msgstr ""
 
-#: transcoder/transcoder.cpp:57
+#: transcoder/transcoder.cpp:58
 #, qt-format
 msgid ""
 "Could not create the GStreamer element \"%1\" - make sure you have all the "
@@ -1443,14 +1452,14 @@ msgstr "Nespēj izveidot GStreamer elementu \"%1\" - pārbaudiet, vai ir uzstād
 msgid "Couldn't create playlist"
 msgstr ""
 
-#: transcoder/transcoder.cpp:428
+#: transcoder/transcoder.cpp:425
 #, qt-format
 msgid ""
 "Couldn't find a muxer for %1, check you have the correct GStreamer plugins "
 "installed"
 msgstr "Nevar atrast jaucēju priekš %1, pārbaudiet vai jums ir uzstādīti pareizi GStreamer spraudņi"
 
-#: transcoder/transcoder.cpp:422
+#: transcoder/transcoder.cpp:419
 #, qt-format
 msgid ""
 "Couldn't find an encoder for %1, check you have the correct GStreamer "
@@ -1664,7 +1673,7 @@ msgstr "Dzēst"
 msgid "Delete Grooveshark playlist"
 msgstr "Izdzēst Grooveshark atskaņošanas sarakstu"
 
-#: podcasts/podcastservice.cpp:345
+#: podcasts/podcastservice.cpp:348
 msgid "Delete downloaded data"
 msgstr "Dzēst lejuplādētos datus"
 
@@ -1694,7 +1703,7 @@ msgstr "Dzēst uzstādījumu"
 msgid "Delete smart playlist"
 msgstr "Dzēst Smart Playlist"
 
-#: ../bin/src/ui_organisedialog.h:240
+#: ../bin/src/ui_organisedialog.h:246
 msgid "Delete the original files"
 msgstr "Dzēst oriģinālos failus"
 
@@ -1710,7 +1719,7 @@ msgstr "Izņemt dziesmas no rindas"
 msgid "Dequeue track"
 msgstr "Izņemt dziesmu no rindas"
 
-#: ../bin/src/ui_transcodedialog.h:224 ../bin/src/ui_organisedialog.h:235
+#: ../bin/src/ui_transcodedialog.h:224 ../bin/src/ui_organisedialog.h:241
 #: ../bin/src/ui_ripcd.h:321
 msgid "Destination"
 msgstr "Galamērķis"
@@ -1861,7 +1870,7 @@ msgstr "Dubultklikšķis lai atvērtu"
 msgid "Double clicking a song will..."
 msgstr "Dubultklikšķis uz dziesmas..."
 
-#: podcasts/podcastservice.cpp:437
+#: podcasts/podcastservice.cpp:440
 #, c-format, qt-plural-format
 msgctxt ""
 msgid "Download %n episodes"
@@ -1883,11 +1892,15 @@ msgstr "Lejupielādēt dalību"
 msgid "Download new episodes automatically"
 msgstr "Automātiski lejuplādēt jaunās sērijas"
 
-#: podcasts/podcastservice.cpp:253
+#: podcasts/podcastservice.cpp:256
 msgid "Download queued"
 msgstr ""
 
-#: ../bin/src/ui_networkremotesettingspage.h:202
+#: ../bin/src/ui_networkremotesettingspage.h:246
+msgid "Download settings"
+msgstr ""
+
+#: ../bin/src/ui_networkremotesettingspage.h:253
 msgid "Download the Android app"
 msgstr "Lejupielādēt Android aplikāciju"
 
@@ -1899,7 +1912,7 @@ msgstr "Lejupielādēt šo albumu"
 msgid "Download this album..."
 msgstr "Lejupielādēt šo albumu..."
 
-#: podcasts/podcastservice.cpp:439
+#: podcasts/podcastservice.cpp:442
 msgid "Download this episode"
 msgstr "Lejuplādēt šo sēriju"
 
@@ -1907,7 +1920,7 @@ msgstr "Lejuplādēt šo sēriju"
 msgid "Download..."
 msgstr "Lejupielādēt..."
 
-#: podcasts/podcastservice.cpp:261
+#: podcasts/podcastservice.cpp:264
 #, qt-format
 msgid "Downloading (%1%)..."
 msgstr "Lejuplādē (%1%)..."
@@ -2078,7 +2091,7 @@ msgstr "Ievadiet interneta radio straumes adresi (URL):"
 msgid "Enter the name of the folder"
 msgstr ""
 
-#: ../bin/src/ui_networkremotesettingspage.h:199
+#: ../bin/src/ui_networkremotesettingspage.h:239
 msgid "Enter this IP in the App to connect to Clementine."
 msgstr ""
 
@@ -2135,7 +2148,7 @@ msgstr "Kļūda ielādējot %1"
 msgid "Error loading di.fm playlist"
 msgstr "Kļūda ielādējot di.fm atskaņošanas sarakstu"
 
-#: transcoder/transcoder.cpp:393
+#: transcoder/transcoder.cpp:390
 #, qt-format
 msgid "Error processing %1: %2"
 msgstr "Kļūda apstrādājot %1: %2"
@@ -2394,7 +2407,7 @@ msgstr "Pirmais līmenis"
 msgid "Fit cover to width"
 msgstr ""
 
-#: core/song.cpp:382 transcoder/transcoder.cpp:230
+#: core/song.cpp:382 transcoder/transcoder.cpp:233
 msgid "Flac"
 msgstr "Flac"
 
@@ -2679,7 +2692,7 @@ msgstr "Ja jūs turpināsiet, šī ierīce var darboties lēni un dziesmu kopē�
 msgid "If you know the URL of a podcast, enter it below and press Go."
 msgstr ""
 
-#: ../bin/src/ui_organisedialog.h:250
+#: ../bin/src/ui_organisedialog.h:256
 msgid "Ignore \"The\" in artist names"
 msgstr "Ignorēt \"The\" izpildītāju nosaukumos"
 
@@ -2760,7 +2773,7 @@ msgstr "Informācija"
 msgid "Input options"
 msgstr ""
 
-#: ../bin/src/ui_organisedialog.h:249
+#: ../bin/src/ui_organisedialog.h:255
 msgid "Insert..."
 msgstr "Ievietot..."
 
@@ -2865,7 +2878,7 @@ msgstr "Turiet pogas %1 sekundes..."
 msgid "Keep running in the background when the window is closed"
 msgstr "Darboties fonā, kad logs ir aizvērts"
 
-#: ../bin/src/ui_organisedialog.h:239
+#: ../bin/src/ui_organisedialog.h:245
 msgid "Keep the original files"
 msgstr "Atstāt oriģinālos failus"
 
@@ -3038,7 +3051,7 @@ msgstr "Ielādē dziesmas info"
 #: library/librarymodel.cpp:152 podcasts/podcastdiscoverymodel.cpp:102
 #: widgets/prettyimage.cpp:168 widgets/widgetfadehelper.cpp:96
 #: ../bin/src/ui_addpodcastdialog.h:180 ../bin/src/ui_searchpreview.h:106
-#: ../bin/src/ui_organisedialog.h:255 internet/vkservice.cpp:497
+#: ../bin/src/ui_organisedialog.h:262 internet/vkservice.cpp:497
 #: internet/vksettingspage.cpp:121
 msgid "Loading..."
 msgstr "Ielādē..."
@@ -3101,11 +3114,11 @@ msgstr "Dziesmas vārdi"
 msgid "Lyrics from %1"
 msgstr "Dziesmas vārdi no %1"
 
-#: transcoder/transcoder.cpp:232
+#: transcoder/transcoder.cpp:235
 msgid "M4A AAC"
 msgstr ""
 
-#: core/song.cpp:388 transcoder/transcoder.cpp:235
+#: core/song.cpp:388 transcoder/transcoder.cpp:238
 #: ../bin/src/ui_transcodersettingspage.h:175
 msgid "MP3"
 msgstr "MP3"
@@ -3172,11 +3185,11 @@ msgstr ""
 msgid "Manufacturer"
 msgstr "Ražotājs"
 
-#: podcasts/podcastservice.cpp:357
+#: podcasts/podcastservice.cpp:360 ../bin/src/ui_organisedialog.h:260
 msgid "Mark as listened"
 msgstr "Atzīmēt kā dzirdētu"
 
-#: podcasts/podcastservice.cpp:356
+#: podcasts/podcastservice.cpp:359
 msgid "Mark as new"
 msgstr "Atzīmēt kā jaunu"
 
@@ -3322,7 +3335,7 @@ msgctxt "Category label"
 msgid "Name"
 msgstr ""
 
-#: ../bin/src/ui_organisedialog.h:243
+#: ../bin/src/ui_organisedialog.h:249
 msgid "Naming options"
 msgstr "Nosaukšanas opcijas"
 
@@ -3334,7 +3347,7 @@ msgstr "Šaura josla (NB)"
 msgid "Network Proxy"
 msgstr "Tīkla starpniekserveris"
 
-#: ../bin/src/ui_networkremotesettingspage.h:178
+#: ../bin/src/ui_networkremotesettingspage.h:222
 msgid "Network Remote"
 msgstr ""
 
@@ -3493,19 +3506,19 @@ msgstr "Paziņojumu loga piemērs"
 msgid "Off"
 msgstr ""
 
-#: core/song.cpp:390 transcoder/transcoder.cpp:241
+#: core/song.cpp:390 transcoder/transcoder.cpp:244
 msgid "Ogg Flac"
 msgstr "Ogg Flac"
 
-#: core/song.cpp:396 transcoder/transcoder.cpp:247
+#: core/song.cpp:396 transcoder/transcoder.cpp:250
 msgid "Ogg Opus"
 msgstr ""
 
-#: core/song.cpp:392 transcoder/transcoder.cpp:244
+#: core/song.cpp:392 transcoder/transcoder.cpp:247
 msgid "Ogg Speex"
 msgstr "Ogg Speex"
 
-#: core/song.cpp:394 transcoder/transcoder.cpp:238
+#: core/song.cpp:394 transcoder/transcoder.cpp:241
 #: ../bin/src/ui_magnatunedownloaddialog.h:139
 #: ../bin/src/ui_magnatunesettingspage.h:170
 msgid "Ogg Vorbis"
@@ -3519,7 +3532,7 @@ msgstr ""
 msgid "OneDrive"
 msgstr ""
 
-#: ../bin/src/ui_networkremotesettingspage.h:183
+#: ../bin/src/ui_networkremotesettingspage.h:227
 msgid ""
 "Only accept connections from clients within the ip ranges:\n"
 "10.x.x.x\n"
@@ -3527,7 +3540,7 @@ msgid ""
 "192.168.x.x"
 msgstr ""
 
-#: ../bin/src/ui_networkremotesettingspage.h:188
+#: ../bin/src/ui_networkremotesettingspage.h:232
 msgid "Only allow connections from the local network"
 msgstr "Atļaut savienojumus tikai no lokālā tīkla"
 
@@ -3607,7 +3620,8 @@ msgstr "Optimizēts bitreitam"
 msgid "Optimize for quality"
 msgstr "Optimizēts kvalitātei"
 
-#: ../bin/src/ui_transcodedialog.h:223 ../bin/src/ui_ripcd.h:322
+#: ../bin/src/ui_transcodedialog.h:223
+#: ../bin/src/ui_networkremotesettingspage.h:252 ../bin/src/ui_ripcd.h:322
 msgid "Options..."
 msgstr "Opcijas..."
 
@@ -3615,7 +3629,7 @@ msgstr "Opcijas..."
 msgid "Opus"
 msgstr ""
 
-#: ../bin/src/ui_organisedialog.h:234
+#: ../bin/src/ui_organisedialog.h:240
 msgid "Organise Files"
 msgstr "Organizēt Failus"
 
@@ -3623,7 +3637,7 @@ msgstr "Organizēt Failus"
 msgid "Organise files..."
 msgstr "Organizēt failus..."
 
-#: core/organise.cpp:67
+#: core/organise.cpp:69
 msgid "Organising files"
 msgstr "Kārtoju failus"
 
@@ -3651,7 +3665,7 @@ msgstr "Atskaņošanas opcijas"
 msgid "Overwrite all"
 msgstr ""
 
-#: ../bin/src/ui_organisedialog.h:253
+#: ../bin/src/ui_organisedialog.h:259
 msgid "Overwrite existing files"
 msgstr "Pārrakstīt esošos failus"
 
@@ -3775,7 +3789,7 @@ msgstr "Lūdzu, aizveriet pārlūku un atgriezieties Clementine."
 msgid "Plugin status:"
 msgstr "Spraudņa statuss:"
 
-#: podcasts/podcastservice.cpp:120 ../bin/src/ui_podcastsettingspage.h:226
+#: podcasts/podcastservice.cpp:123 ../bin/src/ui_podcastsettingspage.h:226
 msgid "Podcasts"
 msgstr "Podraides"
 
@@ -3800,7 +3814,7 @@ msgid "Popup duration"
 msgstr "Paziņojuma ilgums"
 
 #: ../bin/src/ui_networkproxysettingspage.h:166
-#: ../bin/src/ui_networkremotesettingspage.h:181
+#: ../bin/src/ui_networkremotesettingspage.h:225
 msgid "Port"
 msgstr "Ports"
 
@@ -3867,7 +3881,7 @@ msgstr ""
 
 #: ../bin/src/ui_searchpreview.h:105 ../bin/src/ui_songinfosettingspage.h:158
 #: ../bin/src/ui_notificationssettingspage.h:453
-#: ../bin/src/ui_organisedialog.h:254
+#: ../bin/src/ui_organisedialog.h:261
 msgid "Preview"
 msgstr "Priekšskatīt"
 
@@ -4140,7 +4154,7 @@ msgstr "Aizstāt pašreizējo dziesmu listi"
 msgid "Replace the playlist"
 msgstr "Aizstāt dziesmu listi"
 
-#: ../bin/src/ui_organisedialog.h:251
+#: ../bin/src/ui_organisedialog.h:257
 msgid "Replaces spaces with underscores"
 msgstr "Aizstāj atstarpes ar pasvītrojumiem"
 
@@ -4156,7 +4170,7 @@ msgstr ""
 msgid "Repopulate"
 msgstr "Atjaunot"
 
-#: ../bin/src/ui_networkremotesettingspage.h:192
+#: ../bin/src/ui_networkremotesettingspage.h:236
 msgid "Require authentication code"
 msgstr "Nepieciešams autentifikācijas kods"
 
@@ -4173,7 +4187,7 @@ msgid ""
 "Restart the track, or play the previous track if within 8 seconds of start."
 msgstr ""
 
-#: ../bin/src/ui_organisedialog.h:252
+#: ../bin/src/ui_organisedialog.h:258
 msgid "Restrict to ASCII characters"
 msgstr "Atļaut tikai ASCII simbolus"
 
@@ -4235,7 +4249,7 @@ msgstr ""
 msgid "Safely remove device"
 msgstr "Saudzīgi atvienot ierīci"
 
-#: ../bin/src/ui_organisedialog.h:242
+#: ../bin/src/ui_organisedialog.h:248
 msgid "Safely remove the device after copying"
 msgstr "Saudzīgi atvienot ierīci pēc kopēšanas"
 
@@ -4479,7 +4493,7 @@ msgstr "Uzstādīt skaļumu uz <value> procentiem"
 msgid "Set value for all selected tracks..."
 msgstr "Saglabāt vērtību izvēlētajām dziesmām..."
 
-#: ../bin/src/ui_networkremotesettingspage.h:180
+#: ../bin/src/ui_networkremotesettingspage.h:224
 msgid "Settings"
 msgstr "Iestatījumi"
 
@@ -4811,7 +4825,7 @@ msgid ""
 "list"
 msgstr ""
 
-#: transcoder/transcoder.cpp:400
+#: transcoder/transcoder.cpp:397
 #, qt-format
 msgid "Starting %1"
 msgstr "Palaiž %1"
@@ -4884,7 +4898,7 @@ msgstr "Subsonic"
 msgid "Success!"
 msgstr "Izdevās!"
 
-#: transcoder/transcoder.cpp:188
+#: transcoder/transcoder.cpp:189
 #, qt-format
 msgid "Successfully written %1"
 msgstr "Veiksmīgi ierakstīts %1"
@@ -5188,7 +5202,7 @@ msgstr "Kodēšanas piezīmes"
 msgid "Transcoding"
 msgstr "Pārkodēšana"
 
-#: transcoder/transcoder.cpp:305
+#: transcoder/transcoder.cpp:317
 #, qt-format
 msgid "Transcoding %1 files using %2 threads"
 msgstr ""
@@ -5258,7 +5272,7 @@ msgstr ""
 msgid "Unskip track"
 msgstr ""
 
-#: podcasts/addpodcastdialog.cpp:65 podcasts/podcastservice.cpp:351
+#: podcasts/addpodcastdialog.cpp:65 podcasts/podcastservice.cpp:354
 msgid "Unsubscribe"
 msgstr "Atabonēt"
 
@@ -5274,7 +5288,7 @@ msgstr ""
 msgid "Update Grooveshark playlist"
 msgstr ""
 
-#: podcasts/podcastservice.cpp:331
+#: podcasts/podcastservice.cpp:334
 msgid "Update all podcasts"
 msgstr ""
 
@@ -5286,7 +5300,7 @@ msgstr "Atjaunot mainītās bibliotēkas mapes"
 msgid "Update the library when Clementine starts"
 msgstr "Atjaunot bibliotēku ieslēdzot Clementine"
 
-#: podcasts/podcastservice.cpp:339
+#: podcasts/podcastservice.cpp:342
 msgid "Update this podcast"
 msgstr "Atjaunot šo podraidi"
 
@@ -5340,7 +5354,7 @@ msgstr ""
 msgid "Use a custom message for notifications"
 msgstr ""
 
-#: ../bin/src/ui_networkremotesettingspage.h:179
+#: ../bin/src/ui_networkremotesettingspage.h:223
 msgid "Use a network remote control"
 msgstr ""
 
@@ -5475,7 +5489,7 @@ msgstr ""
 msgid "Warn me when closing a playlist tab"
 msgstr ""
 
-#: core/song.cpp:400 transcoder/transcoder.cpp:253
+#: core/song.cpp:400 transcoder/transcoder.cpp:256
 msgid "Wav"
 msgstr "Wav"
 
@@ -5559,7 +5573,7 @@ msgstr ""
 msgid "Windows Media 64k"
 msgstr "Windows Media 64k"
 
-#: core/song.cpp:380 transcoder/transcoder.cpp:250
+#: core/song.cpp:380 transcoder/transcoder.cpp:253
 msgid "Windows Media audio"
 msgstr "Windows Media audio"
 
@@ -5716,7 +5730,7 @@ msgstr ""
 msgid "You will need to restart Clementine if you change the language."
 msgstr "Ja jūs mainīsiet valodu, jums nāksies restartēt Clementine."
 
-#: ../bin/src/ui_networkremotesettingspage.h:201
+#: ../bin/src/ui_networkremotesettingspage.h:241
 msgid "Your IP address:"
 msgstr "Jūsu IP adrese:"
 
@@ -5891,7 +5905,7 @@ msgstr "uz"
 msgid "options"
 msgstr "opcijas"
 
-#: ../bin/src/ui_networkremotesettingspage.h:203
+#: ../bin/src/ui_networkremotesettingspage.h:254
 msgid "or scan the QR code!"
 msgstr "vai nolasi šo QR kodu!"
 

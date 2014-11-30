@@ -10,7 +10,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
-"PO-Revision-Date: 2014-10-31 14:28+0000\n"
+"PO-Revision-Date: 2014-11-14 17:35+0000\n"
 "Last-Translator: Mladen Pejaković <pejakm@autistici.org>\n"
 "Language-Team: Serbian (http://www.transifex.com/projects/p/clementine/language/sr/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -312,7 +312,7 @@ msgid ""
 "activated.</p></body></html>"
 msgstr "<html><head/><body><p>Упис статистике и оцена песама у ознаке фајлова за све песме ваше библиотеке.</p><p>Није потребно ако је поставка „Упиши оцену/статистику песме у ознаке кад је то могуће“ увек била активирана.</p></body></html>"
 
-#: ../bin/src/ui_organisedialog.h:245
+#: ../bin/src/ui_organisedialog.h:251
 msgid ""
 "<p>Tokens start with %, for example: %artist %album %title </p>\n"
 "\n"
@@ -327,7 +327,7 @@ msgstr "Потребан је Грувшарков Билокуд налог."
 msgid "A Spotify Premium account is required."
 msgstr "Потребан је Спотифај Премијум налог"
 
-#: ../bin/src/ui_networkremotesettingspage.h:190
+#: ../bin/src/ui_networkremotesettingspage.h:234
 msgid "A client can connect only, if the correct code was entered."
 msgstr "Клијент може да се повеже само ако је унесен исправан кôд."
 
@@ -486,7 +486,7 @@ msgstr "Додај нову фасциклу..."
 msgid "Add podcast"
 msgstr "Додавање подкаста"
 
-#: podcasts/podcastservice.cpp:328 ../bin/src/ui_mainwindow.h:709
+#: podcasts/podcastservice.cpp:331 ../bin/src/ui_mainwindow.h:709
 msgid "Add podcast..."
 msgstr "Додај подкаст..."
 
@@ -655,7 +655,7 @@ msgstr "Напредно груписање..."
 msgid "After "
 msgstr "након "
 
-#: ../bin/src/ui_organisedialog.h:236
+#: ../bin/src/ui_organisedialog.h:242
 msgid "After copying..."
 msgstr "Након копирања:"
 
@@ -732,11 +732,11 @@ msgstr "свим преводиоцима"
 msgid "All tracks"
 msgstr "Све нумере"
 
-#: ../bin/src/ui_networkremotesettingspage.h:195
+#: ../bin/src/ui_networkremotesettingspage.h:243
 msgid "Allow a client to download music from this computer."
 msgstr "Дозволи клијенту да преузима музику са овог рачунара."
 
-#: ../bin/src/ui_networkremotesettingspage.h:197
+#: ../bin/src/ui_networkremotesettingspage.h:245
 msgid "Allow downloads"
 msgstr "Дозволи преузимања"
 
@@ -855,7 +855,8 @@ msgstr "иницијали извођача"
 msgid "Ask when saving"
 msgstr "Питај приликом уписа"
 
-#: ../bin/src/ui_transcodedialog.h:222 ../bin/src/ui_ripcd.h:323
+#: ../bin/src/ui_transcodedialog.h:222
+#: ../bin/src/ui_networkremotesettingspage.h:251 ../bin/src/ui_ripcd.h:323
 msgid "Audio format"
 msgstr "Формат звука"
 
@@ -1349,7 +1350,7 @@ msgstr "Подеси општу претрагу..."
 msgid "Configure library..."
 msgstr "Подеси библиотеку..."
 
-#: podcasts/addpodcastdialog.cpp:71 podcasts/podcastservice.cpp:362
+#: podcasts/addpodcastdialog.cpp:71 podcasts/podcastservice.cpp:365
 msgid "Configure podcasts..."
 msgstr "Подеси подкасте..."
 
@@ -1403,6 +1404,14 @@ msgstr "Претвори сву музику"
 msgid "Convert any music that the device can't play"
 msgstr "Претвори сву музику коју уређај не може да пусти"
 
+#: ../bin/src/ui_networkremotesettingspage.h:248
+msgid "Convert lossless audiofiles before sending them to the remote."
+msgstr ""
+
+#: ../bin/src/ui_networkremotesettingspage.h:250
+msgid "Convert lossless files"
+msgstr ""
+
 #: internet/vkservice.cpp:322
 msgid "Copy share url to clipboard"
 msgstr "Копирај УРЛ дељења на клипборд"
@@ -1411,7 +1420,7 @@ msgstr "Копирај УРЛ дељења на клипборд"
 msgid "Copy to clipboard"
 msgstr "Копирај на клипборд"
 
-#: library/libraryview.cpp:400 podcasts/podcastservice.cpp:349
+#: library/libraryview.cpp:400 podcasts/podcastservice.cpp:352
 #: ui/mainwindow.cpp:616 widgets/fileviewlist.cpp:43
 msgid "Copy to device..."
 msgstr "Копирај на уређај...."
@@ -1431,7 +1440,7 @@ msgid ""
 "http://localhost:4040/"
 msgstr "Не могу да се повежем на Субсоник, проверите УРЛ сервера. Пример: http://localhost:4040/"
 
-#: transcoder/transcoder.cpp:57
+#: transcoder/transcoder.cpp:58
 #, qt-format
 msgid ""
 "Could not create the GStreamer element \"%1\" - make sure you have all the "
@@ -1442,14 +1451,14 @@ msgstr "Не могу да направим Гстример елемент „%
 msgid "Couldn't create playlist"
 msgstr "Не могу да направим листу нумера"
 
-#: transcoder/transcoder.cpp:428
+#: transcoder/transcoder.cpp:425
 #, qt-format
 msgid ""
 "Couldn't find a muxer for %1, check you have the correct GStreamer plugins "
 "installed"
 msgstr "Не могу да нађем муксер за %1, проверите да ли имате инсталиране потребне прикључке за Гстример"
 
-#: transcoder/transcoder.cpp:422
+#: transcoder/transcoder.cpp:419
 #, qt-format
 msgid ""
 "Couldn't find an encoder for %1, check you have the correct GStreamer "
@@ -1663,7 +1672,7 @@ msgstr "Обриши"
 msgid "Delete Grooveshark playlist"
 msgstr "Обриши Грувшаркову листу нумера"
 
-#: podcasts/podcastservice.cpp:345
+#: podcasts/podcastservice.cpp:348
 msgid "Delete downloaded data"
 msgstr "Обриши преузете податке"
 
@@ -1693,7 +1702,7 @@ msgstr "Обриши препоставку"
 msgid "Delete smart playlist"
 msgstr "Обриши паметну листу"
 
-#: ../bin/src/ui_organisedialog.h:240
+#: ../bin/src/ui_organisedialog.h:246
 msgid "Delete the original files"
 msgstr "обриши оригиналне фајлове"
 
@@ -1709,7 +1718,7 @@ msgstr "Избаци изабране нумере из реда"
 msgid "Dequeue track"
 msgstr "Избаци нумеру из реда"
 
-#: ../bin/src/ui_transcodedialog.h:224 ../bin/src/ui_organisedialog.h:235
+#: ../bin/src/ui_transcodedialog.h:224 ../bin/src/ui_organisedialog.h:241
 #: ../bin/src/ui_ripcd.h:321
 msgid "Destination"
 msgstr "Одредиште"
@@ -1860,7 +1869,7 @@ msgstr "Кликните двапут да отворите"
 msgid "Double clicking a song will..."
 msgstr "Двоклик на песму ће да је..."
 
-#: podcasts/podcastservice.cpp:437
+#: podcasts/podcastservice.cpp:440
 #, c-format, qt-plural-format
 msgctxt ""
 msgid "Download %n episodes"
@@ -1882,11 +1891,15 @@ msgstr "преузимања садржаја"
 msgid "Download new episodes automatically"
 msgstr "Преузимај нове епизоде аутоматски"
 
-#: podcasts/podcastservice.cpp:253
+#: podcasts/podcastservice.cpp:256
 msgid "Download queued"
 msgstr "Преузимање је на чекању"
 
-#: ../bin/src/ui_networkremotesettingspage.h:202
+#: ../bin/src/ui_networkremotesettingspage.h:246
+msgid "Download settings"
+msgstr "Поставке преузимања"
+
+#: ../bin/src/ui_networkremotesettingspage.h:253
 msgid "Download the Android app"
 msgstr "Преузмите апликацију за Андроид"
 
@@ -1898,7 +1911,7 @@ msgstr "Преузми овај албум"
 msgid "Download this album..."
 msgstr "Преузми овај албум..."
 
-#: podcasts/podcastservice.cpp:439
+#: podcasts/podcastservice.cpp:442
 msgid "Download this episode"
 msgstr "Преузми ову епизоду"
 
@@ -1906,7 +1919,7 @@ msgstr "Преузми ову епизоду"
 msgid "Download..."
 msgstr "Преузми..."
 
-#: podcasts/podcastservice.cpp:261
+#: podcasts/podcastservice.cpp:264
 #, qt-format
 msgid "Downloading (%1%)..."
 msgstr "Преузимам (%1%)..."
@@ -2077,7 +2090,7 @@ msgstr "Унесите УРЛ тока интернет радија:"
 msgid "Enter the name of the folder"
 msgstr "Унесите име фасцикле"
 
-#: ../bin/src/ui_networkremotesettingspage.h:199
+#: ../bin/src/ui_networkremotesettingspage.h:239
 msgid "Enter this IP in the App to connect to Clementine."
 msgstr "Унесите овај ИП у апликацију да бисте је повезали са Клементином."
 
@@ -2134,7 +2147,7 @@ msgstr "Грешка учитавања %1"
 msgid "Error loading di.fm playlist"
 msgstr "Грешка учитавања di.fm листе нумера"
 
-#: transcoder/transcoder.cpp:393
+#: transcoder/transcoder.cpp:390
 #, qt-format
 msgid "Error processing %1: %2"
 msgstr "Грешка обраде %1: %2"
@@ -2393,7 +2406,7 @@ msgstr "Први ниво"
 msgid "Fit cover to width"
 msgstr "Уклопи омот по ширини"
 
-#: core/song.cpp:382 transcoder/transcoder.cpp:230
+#: core/song.cpp:382 transcoder/transcoder.cpp:233
 msgid "Flac"
 msgstr "ФЛАЦ"
 
@@ -2678,7 +2691,7 @@ msgstr "Ако наставите, овај уређај ће радити сп�
 msgid "If you know the URL of a podcast, enter it below and press Go."
 msgstr "Ако знате УРЛ подкаста, унесите га испод и кликните на „Иди“."
 
-#: ../bin/src/ui_organisedialog.h:250
+#: ../bin/src/ui_organisedialog.h:256
 msgid "Ignore \"The\" in artist names"
 msgstr "Игонориши „The“ у имену извођача"
 
@@ -2759,7 +2772,7 @@ msgstr "Подаци"
 msgid "Input options"
 msgstr "Опције улаза"
 
-#: ../bin/src/ui_organisedialog.h:249
+#: ../bin/src/ui_organisedialog.h:255
 msgid "Insert..."
 msgstr "Уметни..."
 
@@ -2864,7 +2877,7 @@ msgstr "Држите тастере %1 секунди..."
 msgid "Keep running in the background when the window is closed"
 msgstr "Настави рад у позадини кад се прозор затвори"
 
-#: ../bin/src/ui_organisedialog.h:239
+#: ../bin/src/ui_organisedialog.h:245
 msgid "Keep the original files"
 msgstr "задржи оригиналне фајлове"
 
@@ -3037,7 +3050,7 @@ msgstr "Учитавам податке о нумерама"
 #: library/librarymodel.cpp:152 podcasts/podcastdiscoverymodel.cpp:102
 #: widgets/prettyimage.cpp:168 widgets/widgetfadehelper.cpp:96
 #: ../bin/src/ui_addpodcastdialog.h:180 ../bin/src/ui_searchpreview.h:106
-#: ../bin/src/ui_organisedialog.h:255 internet/vkservice.cpp:497
+#: ../bin/src/ui_organisedialog.h:262 internet/vkservice.cpp:497
 #: internet/vksettingspage.cpp:121
 msgid "Loading..."
 msgstr "Учитавам..."
@@ -3100,11 +3113,11 @@ msgstr "Стихови"
 msgid "Lyrics from %1"
 msgstr "Стихови са %1"
 
-#: transcoder/transcoder.cpp:232
+#: transcoder/transcoder.cpp:235
 msgid "M4A AAC"
 msgstr "М4А ААЦ"
 
-#: core/song.cpp:388 transcoder/transcoder.cpp:235
+#: core/song.cpp:388 transcoder/transcoder.cpp:238
 #: ../bin/src/ui_transcodersettingspage.h:175
 msgid "MP3"
 msgstr "MП3"
@@ -3171,11 +3184,11 @@ msgstr "ручно"
 msgid "Manufacturer"
 msgstr "Произвођач"
 
-#: podcasts/podcastservice.cpp:357
+#: podcasts/podcastservice.cpp:360 ../bin/src/ui_organisedialog.h:260
 msgid "Mark as listened"
 msgstr "Означи као преслушано"
 
-#: podcasts/podcastservice.cpp:356
+#: podcasts/podcastservice.cpp:359
 msgid "Mark as new"
 msgstr "Означи као ново"
 
@@ -3321,7 +3334,7 @@ msgctxt "Category label"
 msgid "Name"
 msgstr "име"
 
-#: ../bin/src/ui_organisedialog.h:243
+#: ../bin/src/ui_organisedialog.h:249
 msgid "Naming options"
 msgstr "Опције именовања"
 
@@ -3333,7 +3346,7 @@ msgstr "уски опсег (NB)"
 msgid "Network Proxy"
 msgstr "Мрежни прокси"
 
-#: ../bin/src/ui_networkremotesettingspage.h:178
+#: ../bin/src/ui_networkremotesettingspage.h:222
 msgid "Network Remote"
 msgstr "Мрежни даљински"
 
@@ -3492,19 +3505,19 @@ msgstr "ОСД преглед"
 msgid "Off"
 msgstr "искључено"
 
-#: core/song.cpp:390 transcoder/transcoder.cpp:241
+#: core/song.cpp:390 transcoder/transcoder.cpp:244
 msgid "Ogg Flac"
 msgstr "ОГГ ФЛАЦ"
 
-#: core/song.cpp:396 transcoder/transcoder.cpp:247
+#: core/song.cpp:396 transcoder/transcoder.cpp:250
 msgid "Ogg Opus"
 msgstr "ОГГ Опус"
 
-#: core/song.cpp:392 transcoder/transcoder.cpp:244
+#: core/song.cpp:392 transcoder/transcoder.cpp:247
 msgid "Ogg Speex"
 msgstr "ОГГ Спикс"
 
-#: core/song.cpp:394 transcoder/transcoder.cpp:238
+#: core/song.cpp:394 transcoder/transcoder.cpp:241
 #: ../bin/src/ui_magnatunedownloaddialog.h:139
 #: ../bin/src/ui_magnatunesettingspage.h:170
 msgid "Ogg Vorbis"
@@ -3518,7 +3531,7 @@ msgstr "укључено"
 msgid "OneDrive"
 msgstr "Ван Драјв"
 
-#: ../bin/src/ui_networkremotesettingspage.h:183
+#: ../bin/src/ui_networkremotesettingspage.h:227
 msgid ""
 "Only accept connections from clients within the ip ranges:\n"
 "10.x.x.x\n"
@@ -3526,7 +3539,7 @@ msgid ""
 "192.168.x.x"
 msgstr "Прихватај везе само од клијената унутар овог распона ип адреса:\n10.x.x.x\n172.16.0.0 - 172.31.255.255\n192.168.x.x"
 
-#: ../bin/src/ui_networkremotesettingspage.h:188
+#: ../bin/src/ui_networkremotesettingspage.h:232
 msgid "Only allow connections from the local network"
 msgstr "Дозволи само везе са локалне мреже"
 
@@ -3606,7 +3619,8 @@ msgstr "Оптимизуј битски проток"
 msgid "Optimize for quality"
 msgstr "Оптимизуј квалитет"
 
-#: ../bin/src/ui_transcodedialog.h:223 ../bin/src/ui_ripcd.h:322
+#: ../bin/src/ui_transcodedialog.h:223
+#: ../bin/src/ui_networkremotesettingspage.h:252 ../bin/src/ui_ripcd.h:322
 msgid "Options..."
 msgstr "Опције..."
 
@@ -3614,7 +3628,7 @@ msgstr "Опције..."
 msgid "Opus"
 msgstr "Опус"
 
-#: ../bin/src/ui_organisedialog.h:234
+#: ../bin/src/ui_organisedialog.h:240
 msgid "Organise Files"
 msgstr "Организовање фајлова"
 
@@ -3622,7 +3636,7 @@ msgstr "Организовање фајлова"
 msgid "Organise files..."
 msgstr "Организуј фајлове..."
 
-#: core/organise.cpp:67
+#: core/organise.cpp:69
 msgid "Organising files"
 msgstr "Организујем фајлове"
 
@@ -3650,7 +3664,7 @@ msgstr "Опције излаза"
 msgid "Overwrite all"
 msgstr "Пребриши све"
 
-#: ../bin/src/ui_organisedialog.h:253
+#: ../bin/src/ui_organisedialog.h:259
 msgid "Overwrite existing files"
 msgstr "Пребриши постојеће фајлове"
 
@@ -3774,7 +3788,7 @@ msgstr "Затворите ваш прегледач и вратите се на
 msgid "Plugin status:"
 msgstr "Стање прикључка:"
 
-#: podcasts/podcastservice.cpp:120 ../bin/src/ui_podcastsettingspage.h:226
+#: podcasts/podcastservice.cpp:123 ../bin/src/ui_podcastsettingspage.h:226
 msgid "Podcasts"
 msgstr "Подкасти"
 
@@ -3799,7 +3813,7 @@ msgid "Popup duration"
 msgstr "Трајање"
 
 #: ../bin/src/ui_networkproxysettingspage.h:166
-#: ../bin/src/ui_networkremotesettingspage.h:181
+#: ../bin/src/ui_networkremotesettingspage.h:225
 msgid "Port"
 msgstr "Порт"
 
@@ -3866,7 +3880,7 @@ msgstr "Опције лепог ОСД-а"
 
 #: ../bin/src/ui_searchpreview.h:105 ../bin/src/ui_songinfosettingspage.h:158
 #: ../bin/src/ui_notificationssettingspage.h:453
-#: ../bin/src/ui_organisedialog.h:254
+#: ../bin/src/ui_organisedialog.h:261
 msgid "Preview"
 msgstr "Преглед"
 
@@ -4139,7 +4153,7 @@ msgstr "Замени текућу листу"
 msgid "Replace the playlist"
 msgstr "замени листу нумера"
 
-#: ../bin/src/ui_organisedialog.h:251
+#: ../bin/src/ui_organisedialog.h:257
 msgid "Replaces spaces with underscores"
 msgstr "Замени размаке подвлаком"
 
@@ -4155,7 +4169,7 @@ msgstr "Режим нивелатора јачине"
 msgid "Repopulate"
 msgstr "Попуни поново"
 
-#: ../bin/src/ui_networkremotesettingspage.h:192
+#: ../bin/src/ui_networkremotesettingspage.h:236
 msgid "Require authentication code"
 msgstr "Захтевај аутентификацијски кôд"
 
@@ -4172,7 +4186,7 @@ msgid ""
 "Restart the track, or play the previous track if within 8 seconds of start."
 msgstr "Поново пусти нумеру или пусти претходну ако је текућа унутар почетних 8 секунди."
 
-#: ../bin/src/ui_organisedialog.h:252
+#: ../bin/src/ui_organisedialog.h:258
 msgid "Restrict to ASCII characters"
 msgstr "Ограничи се на АСКИ знакове"
 
@@ -4234,7 +4248,7 @@ msgstr "Грешка ССЛ руковања, проверите поставк�
 msgid "Safely remove device"
 msgstr "Безбедно извади уређај"
 
-#: ../bin/src/ui_organisedialog.h:242
+#: ../bin/src/ui_organisedialog.h:248
 msgid "Safely remove the device after copying"
 msgstr "Безбедно извади уређај после копирања"
 
@@ -4478,7 +4492,7 @@ msgstr "Постави јачину звука на <вредност> проц�
 msgid "Set value for all selected tracks..."
 msgstr "Подеси вредност за све изабране нумере..."
 
-#: ../bin/src/ui_networkremotesettingspage.h:180
+#: ../bin/src/ui_networkremotesettingspage.h:224
 msgid "Settings"
 msgstr "Подешавања"
 
@@ -4810,7 +4824,7 @@ msgid ""
 "list"
 msgstr "Почните нешто да куцате у поље за претрагу изнад да бисте испунили овај списак резултата претраге"
 
-#: transcoder/transcoder.cpp:400
+#: transcoder/transcoder.cpp:397
 #, qt-format
 msgid "Starting %1"
 msgstr "Почињем %1"
@@ -4883,7 +4897,7 @@ msgstr "Субсоник"
 msgid "Success!"
 msgstr "Успех!"
 
-#: transcoder/transcoder.cpp:188
+#: transcoder/transcoder.cpp:189
 #, qt-format
 msgid "Successfully written %1"
 msgstr "Успешно уписано %1"
@@ -5187,7 +5201,7 @@ msgstr "Дневник прекодирања"
 msgid "Transcoding"
 msgstr "Прекодирање"
 
-#: transcoder/transcoder.cpp:305
+#: transcoder/transcoder.cpp:317
 #, qt-format
 msgid "Transcoding %1 files using %2 threads"
 msgstr "Прекодирам %1 фајлова користећи %2 ниски"
@@ -5257,7 +5271,7 @@ msgstr "Уклони прескакање нумера"
 msgid "Unskip track"
 msgstr "Уклони прескакање"
 
-#: podcasts/addpodcastdialog.cpp:65 podcasts/podcastservice.cpp:351
+#: podcasts/addpodcastdialog.cpp:65 podcasts/podcastservice.cpp:354
 msgid "Unsubscribe"
 msgstr "Уклони претплату"
 
@@ -5273,7 +5287,7 @@ msgstr "Ажурирај"
 msgid "Update Grooveshark playlist"
 msgstr "Ажурирај Грувшаркову листу нумера"
 
-#: podcasts/podcastservice.cpp:331
+#: podcasts/podcastservice.cpp:334
 msgid "Update all podcasts"
 msgstr "Ажурирај све подкасте"
 
@@ -5285,7 +5299,7 @@ msgstr "Ажурирај измењене фасцикле библиотеке"
 msgid "Update the library when Clementine starts"
 msgstr "Ажурирај библиотеку при покретању Клементине"
 
-#: podcasts/podcastservice.cpp:339
+#: podcasts/podcastservice.cpp:342
 msgid "Update this podcast"
 msgstr "Ажурирај овај подкаст"
 
@@ -5339,7 +5353,7 @@ msgstr "Посебна палета боја"
 msgid "Use a custom message for notifications"
 msgstr "Користи посебну поруку за обавештења"
 
-#: ../bin/src/ui_networkremotesettingspage.h:179
+#: ../bin/src/ui_networkremotesettingspage.h:223
 msgid "Use a network remote control"
 msgstr "Укључи даљинско управљање преко мреже"
 
@@ -5474,7 +5488,7 @@ msgstr "Зид"
 msgid "Warn me when closing a playlist tab"
 msgstr "Упозори ме приликом затварања језичка листе нумера"
 
-#: core/song.cpp:400 transcoder/transcoder.cpp:253
+#: core/song.cpp:400 transcoder/transcoder.cpp:256
 msgid "Wav"
 msgstr "ВАВ"
 
@@ -5558,7 +5572,7 @@ msgstr "Виндоуз медија 40k"
 msgid "Windows Media 64k"
 msgstr "Виндоуз медија 64k"
 
-#: core/song.cpp:380 transcoder/transcoder.cpp:250
+#: core/song.cpp:380 transcoder/transcoder.cpp:253
 msgid "Windows Media audio"
 msgstr "Виндоуз медија аудио"
 
@@ -5715,7 +5729,7 @@ msgstr "Да бисте користили опште пречице у Клем
 msgid "You will need to restart Clementine if you change the language."
 msgstr "Морате поново да покренете Клементину да бисте променили језик."
 
-#: ../bin/src/ui_networkremotesettingspage.h:201
+#: ../bin/src/ui_networkremotesettingspage.h:241
 msgid "Your IP address:"
 msgstr "Ваша ИП адреса:"
 
@@ -5890,7 +5904,7 @@ msgstr "на дан"
 msgid "options"
 msgstr "Опције"
 
-#: ../bin/src/ui_networkremotesettingspage.h:203
+#: ../bin/src/ui_networkremotesettingspage.h:254
 msgid "or scan the QR code!"
 msgstr "или скенирајте кôд испод!"
 

@@ -1,5 +1,8 @@
 /* This file is part of Clementine.
-   Copyright 2010, David Sansome <me@davidsansome.com>
+   Copyright 2010-2011, David Sansome <me@davidsansome.com>
+   Copyright 2014, Arnaud Bienner <arnaud.bienner@gmail.com>
+   Copyright 2014, Krzysztof A. Sobiecki <sobkas@gmail.com>
+   Copyright 2014, John Maguire <john.maguire@gmail.com>
 
    Clementine is free software: you can redistribute it and/or modify
    it under the terms of the GNU General Public License as published by
@@ -71,8 +74,8 @@ void Organise::Start() {
 
   thread_ = new QThread;
   connect(thread_, SIGNAL(started()), SLOT(ProcessSomeFiles()));
-  connect(transcoder_, SIGNAL(JobComplete(QString, bool)),
-          SLOT(FileTranscoded(QString, bool)));
+  connect(transcoder_, SIGNAL(JobComplete(QString, QString, bool)),
+          SLOT(FileTranscoded(QString, QString, bool)));
 
   moveToThread(thread_);
   thread_->start();
@@ -189,9 +192,8 @@ void Organise::ProcessSomeFiles() {
 
     if (!destination_->CopyToStorage(job)) {
       files_with_errors_ << task.song_info_.song_.basefilename();
-    }
-    else {
-      if(job.mark_as_listened_) {
+    } else {
+      if (job.mark_as_listened_) {
         emit FileCopied(job.metadata_.id());
       }
     }
@@ -272,13 +274,13 @@ void Organise::UpdateProgress() {
   task_manager_->SetTaskProgress(task_id_, progress, total);
 }
 
-void Organise::FileTranscoded(const QString& filename, bool success) {
-  qLog(Info) << "File finished" << filename << success;
+void Organise::FileTranscoded(const QString& input, const QString& output, bool success) {
+  qLog(Info) << "File finished" << input << success;
   transcode_progress_timer_.stop();
 
-  Task task = tasks_transcoding_.take(filename);
+  Task task = tasks_transcoding_.take(input);
   if (!success) {
-    files_with_errors_ << filename;
+    files_with_errors_ << input;
   } else {
     tasks_pending_ << task;
   }

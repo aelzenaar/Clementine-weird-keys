@@ -17,7 +17,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
-"PO-Revision-Date: 2014-10-31 11:46+0000\n"
+"PO-Revision-Date: 2014-11-13 22:18+0000\n"
 "Last-Translator: Clementine Buildbot <clementinebuildbot@davidsansome.com>\n"
 "Language-Team: Korean (http://www.transifex.com/projects/p/clementine/language/ko/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -319,7 +319,7 @@ msgid ""
 "activated.</p></body></html>"
 msgstr ""
 
-#: ../bin/src/ui_organisedialog.h:245
+#: ../bin/src/ui_organisedialog.h:251
 msgid ""
 "<p>Tokens start with %, for example: %artist %album %title </p>\n"
 "\n"
@@ -334,7 +334,7 @@ msgstr "그루브샤크 Anywhere 계정이 필요합니다."
 msgid "A Spotify Premium account is required."
 msgstr "Spotify 프리미엄 계정이 필요합니다."
 
-#: ../bin/src/ui_networkremotesettingspage.h:190
+#: ../bin/src/ui_networkremotesettingspage.h:234
 msgid "A client can connect only, if the correct code was entered."
 msgstr ""
 
@@ -493,7 +493,7 @@ msgstr "새로운 폴더 추가..."
 msgid "Add podcast"
 msgstr "팟케스트 추가"
 
-#: podcasts/podcastservice.cpp:328 ../bin/src/ui_mainwindow.h:709
+#: podcasts/podcastservice.cpp:331 ../bin/src/ui_mainwindow.h:709
 msgid "Add podcast..."
 msgstr "팟케스트 추가..."
 
@@ -662,7 +662,7 @@ msgstr "고급 그룹화..."
 msgid "After "
 msgstr "이후"
 
-#: ../bin/src/ui_organisedialog.h:236
+#: ../bin/src/ui_organisedialog.h:242
 msgid "After copying..."
 msgstr "복사 한 후...."
 
@@ -739,11 +739,11 @@ msgstr "모든 번역가"
 msgid "All tracks"
 msgstr "모든 트랙"
 
-#: ../bin/src/ui_networkremotesettingspage.h:195
+#: ../bin/src/ui_networkremotesettingspage.h:243
 msgid "Allow a client to download music from this computer."
 msgstr "클라이언트가 이 PC에서 음악을 다운로드 하도록 허가합니다."
 
-#: ../bin/src/ui_networkremotesettingspage.h:197
+#: ../bin/src/ui_networkremotesettingspage.h:245
 msgid "Allow downloads"
 msgstr "다운로드 허용"
 
@@ -862,7 +862,8 @@ msgstr "음악가 이니셜"
 msgid "Ask when saving"
 msgstr ""
 
-#: ../bin/src/ui_transcodedialog.h:222 ../bin/src/ui_ripcd.h:323
+#: ../bin/src/ui_transcodedialog.h:222
+#: ../bin/src/ui_networkremotesettingspage.h:251 ../bin/src/ui_ripcd.h:323
 msgid "Audio format"
 msgstr "오디오 형식"
 
@@ -1356,7 +1357,7 @@ msgstr "글로벌 검색 설정..."
 msgid "Configure library..."
 msgstr "라이브러리 설정..."
 
-#: podcasts/addpodcastdialog.cpp:71 podcasts/podcastservice.cpp:362
+#: podcasts/addpodcastdialog.cpp:71 podcasts/podcastservice.cpp:365
 msgid "Configure podcasts..."
 msgstr "팟케스트 설정..."
 
@@ -1410,6 +1411,14 @@ msgstr "모든 곡 변환"
 msgid "Convert any music that the device can't play"
 msgstr "장치가 재생할 수 없는 곡 변환"
 
+#: ../bin/src/ui_networkremotesettingspage.h:248
+msgid "Convert lossless audiofiles before sending them to the remote."
+msgstr ""
+
+#: ../bin/src/ui_networkremotesettingspage.h:250
+msgid "Convert lossless files"
+msgstr ""
+
 #: internet/vkservice.cpp:322
 msgid "Copy share url to clipboard"
 msgstr "공유 URL 복사"
@@ -1418,7 +1427,7 @@ msgstr "공유 URL 복사"
 msgid "Copy to clipboard"
 msgstr "클립보드로 복사"
 
-#: library/libraryview.cpp:400 podcasts/podcastservice.cpp:349
+#: library/libraryview.cpp:400 podcasts/podcastservice.cpp:352
 #: ui/mainwindow.cpp:616 widgets/fileviewlist.cpp:43
 msgid "Copy to device..."
 msgstr "장치에 복사..."
@@ -1438,7 +1447,7 @@ msgid ""
 "http://localhost:4040/"
 msgstr "Subsonic에 접속할 수 없습니다. 서버 URL을 확인 하세요. 예시:http://localhost:4040/"
 
-#: transcoder/transcoder.cpp:57
+#: transcoder/transcoder.cpp:58
 #, qt-format
 msgid ""
 "Could not create the GStreamer element \"%1\" - make sure you have all the "
@@ -1449,14 +1458,14 @@ msgstr "GStreamer 요소 \"%1\"를 찾을 수 없습니다  - 필요한 모든 G
 msgid "Couldn't create playlist"
 msgstr "재생목록을 생성할수 없습니다."
 
-#: transcoder/transcoder.cpp:428
+#: transcoder/transcoder.cpp:425
 #, qt-format
 msgid ""
 "Couldn't find a muxer for %1, check you have the correct GStreamer plugins "
 "installed"
 msgstr "%1 먹서를 찾을 수 없습니다, GStreamer 플러그인이 올바르게 설치되어 있는지 확인하세요"
 
-#: transcoder/transcoder.cpp:422
+#: transcoder/transcoder.cpp:419
 #, qt-format
 msgid ""
 "Couldn't find an encoder for %1, check you have the correct GStreamer "
@@ -1670,7 +1679,7 @@ msgstr "삭제"
 msgid "Delete Grooveshark playlist"
 msgstr "Grooveshark 재생목록 지우기"
 
-#: podcasts/podcastservice.cpp:345
+#: podcasts/podcastservice.cpp:348
 msgid "Delete downloaded data"
 msgstr "다운로드된 데이터 삭제"
 
@@ -1700,7 +1709,7 @@ msgstr "프리셋 삭제"
 msgid "Delete smart playlist"
 msgstr "스마트 재생목록 지우기"
 
-#: ../bin/src/ui_organisedialog.h:240
+#: ../bin/src/ui_organisedialog.h:246
 msgid "Delete the original files"
 msgstr "원본 파일 삭제"
 
@@ -1716,7 +1725,7 @@ msgstr "선택한 트랙을 대기열에서 해제"
 msgid "Dequeue track"
 msgstr "트랙을 대기열에서 해제"
 
-#: ../bin/src/ui_transcodedialog.h:224 ../bin/src/ui_organisedialog.h:235
+#: ../bin/src/ui_transcodedialog.h:224 ../bin/src/ui_organisedialog.h:241
 #: ../bin/src/ui_ripcd.h:321
 msgid "Destination"
 msgstr "대상"
@@ -1867,7 +1876,7 @@ msgstr "열려면 더블클릭하세요"
 msgid "Double clicking a song will..."
 msgstr "노래를 더블클릭하면..."
 
-#: podcasts/podcastservice.cpp:437
+#: podcasts/podcastservice.cpp:440
 #, c-format, qt-plural-format
 msgctxt ""
 msgid "Download %n episodes"
@@ -1889,11 +1898,15 @@ msgstr "멤버십 다운로드"
 msgid "Download new episodes automatically"
 msgstr "자동으로 새로운 에피소드 다운로드"
 
-#: podcasts/podcastservice.cpp:253
+#: podcasts/podcastservice.cpp:256
 msgid "Download queued"
 msgstr "다운로드 대기열 추가됨"
 
-#: ../bin/src/ui_networkremotesettingspage.h:202
+#: ../bin/src/ui_networkremotesettingspage.h:246
+msgid "Download settings"
+msgstr ""
+
+#: ../bin/src/ui_networkremotesettingspage.h:253
 msgid "Download the Android app"
 msgstr "Android 앱 다운로드"
 
@@ -1905,7 +1918,7 @@ msgstr "이 앨범 다운로드"
 msgid "Download this album..."
 msgstr "이 앨범 다운로드..."
 
-#: podcasts/podcastservice.cpp:439
+#: podcasts/podcastservice.cpp:442
 msgid "Download this episode"
 msgstr "이 에피소드 다운로드"
 
@@ -1913,7 +1926,7 @@ msgstr "이 에피소드 다운로드"
 msgid "Download..."
 msgstr "다운로드..."
 
-#: podcasts/podcastservice.cpp:261
+#: podcasts/podcastservice.cpp:264
 #, qt-format
 msgid "Downloading (%1%)..."
 msgstr "다운로드 중 (%1%)..."
@@ -2084,7 +2097,7 @@ msgstr "인터넷 라디오 스트림 URL 주소를 입력하세요"
 msgid "Enter the name of the folder"
 msgstr "폴더의 이름 입력"
 
-#: ../bin/src/ui_networkremotesettingspage.h:199
+#: ../bin/src/ui_networkremotesettingspage.h:239
 msgid "Enter this IP in the App to connect to Clementine."
 msgstr "Clementine에 연결하기 위한 앱에서 다음의 IP를 입력하세요."
 
@@ -2141,7 +2154,7 @@ msgstr "%1 불러오기 오류"
 msgid "Error loading di.fm playlist"
 msgstr "dl.fm 재생목록 불러오기 오류"
 
-#: transcoder/transcoder.cpp:393
+#: transcoder/transcoder.cpp:390
 #, qt-format
 msgid "Error processing %1: %2"
 msgstr "%1: %2 처리 오류"
@@ -2400,7 +2413,7 @@ msgstr "첫 단계"
 msgid "Fit cover to width"
 msgstr "앨범 커버를 너비에 맞춤"
 
-#: core/song.cpp:382 transcoder/transcoder.cpp:230
+#: core/song.cpp:382 transcoder/transcoder.cpp:233
 msgid "Flac"
 msgstr "Flac"
 
@@ -2685,7 +2698,7 @@ msgstr "계속 한다면, 이 장치는 느리고 복사된 음악들이 작동 
 msgid "If you know the URL of a podcast, enter it below and press Go."
 msgstr "팟케스트에 URL을 알고 있다면, 아래에 입력하고 버튼을 누르세요."
 
-#: ../bin/src/ui_organisedialog.h:250
+#: ../bin/src/ui_organisedialog.h:256
 msgid "Ignore \"The\" in artist names"
 msgstr "음악가 이름에서 \"The\" 제거"
 
@@ -2766,7 +2779,7 @@ msgstr "정보"
 msgid "Input options"
 msgstr "옵션 "
 
-#: ../bin/src/ui_organisedialog.h:249
+#: ../bin/src/ui_organisedialog.h:255
 msgid "Insert..."
 msgstr "추가..."
 
@@ -2871,7 +2884,7 @@ msgstr "%1 초 동안 버튼 유지..."
 msgid "Keep running in the background when the window is closed"
 msgstr "창을 닫을 때 백그라운드에서 계속 실행"
 
-#: ../bin/src/ui_organisedialog.h:239
+#: ../bin/src/ui_organisedialog.h:245
 msgid "Keep the original files"
 msgstr "원본 파일들 "
 
@@ -3044,7 +3057,7 @@ msgstr "트랙 정보 불러오는중"
 #: library/librarymodel.cpp:152 podcasts/podcastdiscoverymodel.cpp:102
 #: widgets/prettyimage.cpp:168 widgets/widgetfadehelper.cpp:96
 #: ../bin/src/ui_addpodcastdialog.h:180 ../bin/src/ui_searchpreview.h:106
-#: ../bin/src/ui_organisedialog.h:255 internet/vkservice.cpp:497
+#: ../bin/src/ui_organisedialog.h:262 internet/vkservice.cpp:497
 #: internet/vksettingspage.cpp:121
 msgid "Loading..."
 msgstr "여는 중..."
@@ -3107,11 +3120,11 @@ msgstr "가사"
 msgid "Lyrics from %1"
 msgstr "%1 의 가사"
 
-#: transcoder/transcoder.cpp:232
+#: transcoder/transcoder.cpp:235
 msgid "M4A AAC"
 msgstr "MP4 AAC"
 
-#: core/song.cpp:388 transcoder/transcoder.cpp:235
+#: core/song.cpp:388 transcoder/transcoder.cpp:238
 #: ../bin/src/ui_transcodersettingspage.h:175
 msgid "MP3"
 msgstr "MP3"
@@ -3178,11 +3191,11 @@ msgstr "수동적"
 msgid "Manufacturer"
 msgstr "제조회사"
 
-#: podcasts/podcastservice.cpp:357
+#: podcasts/podcastservice.cpp:360 ../bin/src/ui_organisedialog.h:260
 msgid "Mark as listened"
 msgstr "들음으로 기록"
 
-#: podcasts/podcastservice.cpp:356
+#: podcasts/podcastservice.cpp:359
 msgid "Mark as new"
 msgstr "새로 기록"
 
@@ -3328,7 +3341,7 @@ msgctxt "Category label"
 msgid "Name"
 msgstr "이름"
 
-#: ../bin/src/ui_organisedialog.h:243
+#: ../bin/src/ui_organisedialog.h:249
 msgid "Naming options"
 msgstr "명명 옵션"
 
@@ -3340,7 +3353,7 @@ msgstr "협대역(NB)"
 msgid "Network Proxy"
 msgstr "네트워크 프록시"
 
-#: ../bin/src/ui_networkremotesettingspage.h:178
+#: ../bin/src/ui_networkremotesettingspage.h:222
 msgid "Network Remote"
 msgstr "네트워크 리모콘"
 
@@ -3499,19 +3512,19 @@ msgstr "OSD 미리보기"
 msgid "Off"
 msgstr "꺼짐"
 
-#: core/song.cpp:390 transcoder/transcoder.cpp:241
+#: core/song.cpp:390 transcoder/transcoder.cpp:244
 msgid "Ogg Flac"
 msgstr "OGG Flac"
 
-#: core/song.cpp:396 transcoder/transcoder.cpp:247
+#: core/song.cpp:396 transcoder/transcoder.cpp:250
 msgid "Ogg Opus"
 msgstr "Ogg Opus"
 
-#: core/song.cpp:392 transcoder/transcoder.cpp:244
+#: core/song.cpp:392 transcoder/transcoder.cpp:247
 msgid "Ogg Speex"
 msgstr "Ogg Speex"
 
-#: core/song.cpp:394 transcoder/transcoder.cpp:238
+#: core/song.cpp:394 transcoder/transcoder.cpp:241
 #: ../bin/src/ui_magnatunedownloaddialog.h:139
 #: ../bin/src/ui_magnatunesettingspage.h:170
 msgid "Ogg Vorbis"
@@ -3525,7 +3538,7 @@ msgstr "켜짐"
 msgid "OneDrive"
 msgstr "One드라이브"
 
-#: ../bin/src/ui_networkremotesettingspage.h:183
+#: ../bin/src/ui_networkremotesettingspage.h:227
 msgid ""
 "Only accept connections from clients within the ip ranges:\n"
 "10.x.x.x\n"
@@ -3533,7 +3546,7 @@ msgid ""
 "192.168.x.x"
 msgstr "다음의 ip 대역에 포함된 클라이언트의 연결만 받아들입니다 :\n10.x.x.x\n172.16.0.0 - 172.31.255.255\n192.168.x.x"
 
-#: ../bin/src/ui_networkremotesettingspage.h:188
+#: ../bin/src/ui_networkremotesettingspage.h:232
 msgid "Only allow connections from the local network"
 msgstr "로컬 네트워크로 부터의 연결만 허용"
 
@@ -3613,7 +3626,8 @@ msgstr "비트 전송률 최적화"
 msgid "Optimize for quality"
 msgstr "음질 최적화"
 
-#: ../bin/src/ui_transcodedialog.h:223 ../bin/src/ui_ripcd.h:322
+#: ../bin/src/ui_transcodedialog.h:223
+#: ../bin/src/ui_networkremotesettingspage.h:252 ../bin/src/ui_ripcd.h:322
 msgid "Options..."
 msgstr "옵션..."
 
@@ -3621,7 +3635,7 @@ msgstr "옵션..."
 msgid "Opus"
 msgstr "Opus"
 
-#: ../bin/src/ui_organisedialog.h:234
+#: ../bin/src/ui_organisedialog.h:240
 msgid "Organise Files"
 msgstr "파일 정리"
 
@@ -3629,7 +3643,7 @@ msgstr "파일 정리"
 msgid "Organise files..."
 msgstr "파일 정리..."
 
-#: core/organise.cpp:67
+#: core/organise.cpp:69
 msgid "Organising files"
 msgstr "파일 정리 중..."
 
@@ -3657,7 +3671,7 @@ msgstr "저장 옵션"
 msgid "Overwrite all"
 msgstr "모두 덮어쓰기"
 
-#: ../bin/src/ui_organisedialog.h:253
+#: ../bin/src/ui_organisedialog.h:259
 msgid "Overwrite existing files"
 msgstr "기존 파일들 "
 
@@ -3781,7 +3795,7 @@ msgstr "브라우저를 닫고 Clementine으로 돌아오세요"
 msgid "Plugin status:"
 msgstr "플러그인 상태:"
 
-#: podcasts/podcastservice.cpp:120 ../bin/src/ui_podcastsettingspage.h:226
+#: podcasts/podcastservice.cpp:123 ../bin/src/ui_podcastsettingspage.h:226
 msgid "Podcasts"
 msgstr "팟케스트"
 
@@ -3806,7 +3820,7 @@ msgid "Popup duration"
 msgstr "팝업 시간"
 
 #: ../bin/src/ui_networkproxysettingspage.h:166
-#: ../bin/src/ui_networkremotesettingspage.h:181
+#: ../bin/src/ui_networkremotesettingspage.h:225
 msgid "Port"
 msgstr "포트"
 
@@ -3873,7 +3887,7 @@ msgstr "예쁜 OSD 옵션"
 
 #: ../bin/src/ui_searchpreview.h:105 ../bin/src/ui_songinfosettingspage.h:158
 #: ../bin/src/ui_notificationssettingspage.h:453
-#: ../bin/src/ui_organisedialog.h:254
+#: ../bin/src/ui_organisedialog.h:261
 msgid "Preview"
 msgstr "미리보기"
 
@@ -4146,7 +4160,7 @@ msgstr "현재 재생목록 교체"
 msgid "Replace the playlist"
 msgstr "재생목록 교체"
 
-#: ../bin/src/ui_organisedialog.h:251
+#: ../bin/src/ui_organisedialog.h:257
 msgid "Replaces spaces with underscores"
 msgstr "공백을 및줄로 대체"
 
@@ -4162,7 +4176,7 @@ msgstr "리플레이 게인 모드"
 msgid "Repopulate"
 msgstr "다시 채우기"
 
-#: ../bin/src/ui_networkremotesettingspage.h:192
+#: ../bin/src/ui_networkremotesettingspage.h:236
 msgid "Require authentication code"
 msgstr "인증 코드 "
 
@@ -4179,7 +4193,7 @@ msgid ""
 "Restart the track, or play the previous track if within 8 seconds of start."
 msgstr ""
 
-#: ../bin/src/ui_organisedialog.h:252
+#: ../bin/src/ui_organisedialog.h:258
 msgid "Restrict to ASCII characters"
 msgstr "ASCII 문자로 제한"
 
@@ -4241,7 +4255,7 @@ msgstr ""
 msgid "Safely remove device"
 msgstr "안전하게 장치 제거"
 
-#: ../bin/src/ui_organisedialog.h:242
+#: ../bin/src/ui_organisedialog.h:248
 msgid "Safely remove the device after copying"
 msgstr "복사 후 안전하게 장치 제거"
 
@@ -4485,7 +4499,7 @@ msgstr "음량을 <value> 퍼센트로 설정"
 msgid "Set value for all selected tracks..."
 msgstr "모든 선택 트랙의 값을 설정..."
 
-#: ../bin/src/ui_networkremotesettingspage.h:180
+#: ../bin/src/ui_networkremotesettingspage.h:224
 msgid "Settings"
 msgstr "설정"
 
@@ -4817,7 +4831,7 @@ msgid ""
 "list"
 msgstr ""
 
-#: transcoder/transcoder.cpp:400
+#: transcoder/transcoder.cpp:397
 #, qt-format
 msgid "Starting %1"
 msgstr "%1 시작중"
@@ -4890,7 +4904,7 @@ msgstr "Subsonic"
 msgid "Success!"
 msgstr "성공!"
 
-#: transcoder/transcoder.cpp:188
+#: transcoder/transcoder.cpp:189
 #, qt-format
 msgid "Successfully written %1"
 msgstr "%1 작성 완료"
@@ -5194,7 +5208,7 @@ msgstr "변환 기록"
 msgid "Transcoding"
 msgstr "변환"
 
-#: transcoder/transcoder.cpp:305
+#: transcoder/transcoder.cpp:317
 #, qt-format
 msgid "Transcoding %1 files using %2 threads"
 msgstr "%2개의 쓰레드를 이용하여 %1 파일을 변환 중"
@@ -5264,7 +5278,7 @@ msgstr "선택된 트랙들 넘기기 "
 msgid "Unskip track"
 msgstr "트랙 넘기기 "
 
-#: podcasts/addpodcastdialog.cpp:65 podcasts/podcastservice.cpp:351
+#: podcasts/addpodcastdialog.cpp:65 podcasts/podcastservice.cpp:354
 msgid "Unsubscribe"
 msgstr "구독 안함"
 
@@ -5280,7 +5294,7 @@ msgstr "갱신"
 msgid "Update Grooveshark playlist"
 msgstr "Grooveshark 재생목록 업데이트"
 
-#: podcasts/podcastservice.cpp:331
+#: podcasts/podcastservice.cpp:334
 msgid "Update all podcasts"
 msgstr "모든 팟케스트 업데이트"
 
@@ -5292,7 +5306,7 @@ msgstr "변경된 라이브러리 폴더 업데이트"
 msgid "Update the library when Clementine starts"
 msgstr "Clementine이 시작될 때 라이브러리 업데이트"
 
-#: podcasts/podcastservice.cpp:339
+#: podcasts/podcastservice.cpp:342
 msgid "Update this podcast"
 msgstr "이 팟케스트 업데이트"
 
@@ -5346,7 +5360,7 @@ msgstr "사용자 정의 색상 사용"
 msgid "Use a custom message for notifications"
 msgstr "알림을 위한 사용자 정의 메시지 설정"
 
-#: ../bin/src/ui_networkremotesettingspage.h:179
+#: ../bin/src/ui_networkremotesettingspage.h:223
 msgid "Use a network remote control"
 msgstr "네트워크 리모콘 사용"
 
@@ -5481,7 +5495,7 @@ msgstr ""
 msgid "Warn me when closing a playlist tab"
 msgstr "재생목록 탭을 닫으면 알림"
 
-#: core/song.cpp:400 transcoder/transcoder.cpp:253
+#: core/song.cpp:400 transcoder/transcoder.cpp:256
 msgid "Wav"
 msgstr "Wav"
 
@@ -5565,7 +5579,7 @@ msgstr "윈도우 미디어 40k"
 msgid "Windows Media 64k"
 msgstr "윈도우 미디어 64k"
 
-#: core/song.cpp:380 transcoder/transcoder.cpp:250
+#: core/song.cpp:380 transcoder/transcoder.cpp:253
 msgid "Windows Media audio"
 msgstr "윈도우 미디어 오디오"
 
@@ -5722,7 +5736,7 @@ msgstr ""
 msgid "You will need to restart Clementine if you change the language."
 msgstr "언어를 변경을 하였다면 Clementine을 재시작 해야합니다."
 
-#: ../bin/src/ui_networkremotesettingspage.h:201
+#: ../bin/src/ui_networkremotesettingspage.h:241
 msgid "Your IP address:"
 msgstr "당신의 IP 주소:"
 
@@ -5897,7 +5911,7 @@ msgstr ""
 msgid "options"
 msgstr "옵션"
 
-#: ../bin/src/ui_networkremotesettingspage.h:203
+#: ../bin/src/ui_networkremotesettingspage.h:254
 msgid "or scan the QR code!"
 msgstr "또는 QR 코드를 스캔하세요!"
 

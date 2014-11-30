@@ -12,7 +12,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Clementine Music Player\n"
-"PO-Revision-Date: 2014-10-31 11:49+0000\n"
+"PO-Revision-Date: 2014-11-14 07:04+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish (http://www.transifex.com/projects/p/clementine/language/fi/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -314,7 +314,7 @@ msgid ""
 "activated.</p></body></html>"
 msgstr "<html><head/><body><p>Tämä kirjoittaa kappaleiden arvosanat ja tilastot suoraan tiedostoihisi.</p><p>Tätä ei tarvita jos &quot;Tallenna arvostelut ja tilastot tiedostojen tageihin&quot; on valittuna.</p></body></html>"
 
-#: ../bin/src/ui_organisedialog.h:245
+#: ../bin/src/ui_organisedialog.h:251
 msgid ""
 "<p>Tokens start with %, for example: %artist %album %title </p>\n"
 "\n"
@@ -329,7 +329,7 @@ msgstr "Grooveshark Anywhere -tili vaaditaan käyttöön."
 msgid "A Spotify Premium account is required."
 msgstr "Spotify Premium -tili vaaditaan."
 
-#: ../bin/src/ui_networkremotesettingspage.h:190
+#: ../bin/src/ui_networkremotesettingspage.h:234
 msgid "A client can connect only, if the correct code was entered."
 msgstr "Asiakas voi yhdistää vain oikealla koodilla."
 
@@ -488,7 +488,7 @@ msgstr "Lisää uusi kansio..."
 msgid "Add podcast"
 msgstr "Lisää podcast"
 
-#: podcasts/podcastservice.cpp:328 ../bin/src/ui_mainwindow.h:709
+#: podcasts/podcastservice.cpp:331 ../bin/src/ui_mainwindow.h:709
 msgid "Add podcast..."
 msgstr "Lisää podcast..."
 
@@ -657,7 +657,7 @@ msgstr "Kirjaston tarkempi järjestely..."
 msgid "After "
 msgstr "Jälkeen"
 
-#: ../bin/src/ui_organisedialog.h:236
+#: ../bin/src/ui_organisedialog.h:242
 msgid "After copying..."
 msgstr "Kopioinnin jälkeen..."
 
@@ -734,11 +734,11 @@ msgstr "Kaikki kääntäjät"
 msgid "All tracks"
 msgstr "Kaikki kappaleet"
 
-#: ../bin/src/ui_networkremotesettingspage.h:195
+#: ../bin/src/ui_networkremotesettingspage.h:243
 msgid "Allow a client to download music from this computer."
 msgstr "Salli asiakkaan ladata musiikkia tältä tietokoneelta."
 
-#: ../bin/src/ui_networkremotesettingspage.h:197
+#: ../bin/src/ui_networkremotesettingspage.h:245
 msgid "Allow downloads"
 msgstr "Salli lataukset"
 
@@ -857,7 +857,8 @@ msgstr "Esittäjän nimen ensimmäinen kirjain"
 msgid "Ask when saving"
 msgstr "Kysy tallennettaessa"
 
-#: ../bin/src/ui_transcodedialog.h:222 ../bin/src/ui_ripcd.h:323
+#: ../bin/src/ui_transcodedialog.h:222
+#: ../bin/src/ui_networkremotesettingspage.h:251 ../bin/src/ui_ripcd.h:323
 msgid "Audio format"
 msgstr "Äänimuoto"
 
@@ -1351,7 +1352,7 @@ msgstr "Muokkaa hakua..."
 msgid "Configure library..."
 msgstr "Kirjaston asetukset..."
 
-#: podcasts/addpodcastdialog.cpp:71 podcasts/podcastservice.cpp:362
+#: podcasts/addpodcastdialog.cpp:71 podcasts/podcastservice.cpp:365
 msgid "Configure podcasts..."
 msgstr "Muokkaa podcasteja..."
 
@@ -1405,6 +1406,14 @@ msgstr "Muunna kaikki musiikki"
 msgid "Convert any music that the device can't play"
 msgstr "Muuta musiikki, jota laite ei voi muuten toistaa"
 
+#: ../bin/src/ui_networkremotesettingspage.h:248
+msgid "Convert lossless audiofiles before sending them to the remote."
+msgstr "Muunna häviöttömät äänitiedostot ennen niiden etäpäähän lähettämistä."
+
+#: ../bin/src/ui_networkremotesettingspage.h:250
+msgid "Convert lossless files"
+msgstr "Muunna häviöttömät tiedostot"
+
 #: internet/vkservice.cpp:322
 msgid "Copy share url to clipboard"
 msgstr "Kopioi jakamisosoite leikepöydälle"
@@ -1413,7 +1422,7 @@ msgstr "Kopioi jakamisosoite leikepöydälle"
 msgid "Copy to clipboard"
 msgstr "Kopioi leikepöydälle"
 
-#: library/libraryview.cpp:400 podcasts/podcastservice.cpp:349
+#: library/libraryview.cpp:400 podcasts/podcastservice.cpp:352
 #: ui/mainwindow.cpp:616 widgets/fileviewlist.cpp:43
 msgid "Copy to device..."
 msgstr "Kopioi laitteelle..."
@@ -1433,7 +1442,7 @@ msgid ""
 "http://localhost:4040/"
 msgstr "Yhteys Subsonic-palvelimeen epäonnistui, tarkista palvelimen osoite. Esimerkki: http://localhost:4040/"
 
-#: transcoder/transcoder.cpp:57
+#: transcoder/transcoder.cpp:58
 #, qt-format
 msgid ""
 "Could not create the GStreamer element \"%1\" - make sure you have all the "
@@ -1444,14 +1453,14 @@ msgstr "GStreamer-elementin \"%1\" luonti epäonnistui - varmista, että kaikki 
 msgid "Couldn't create playlist"
 msgstr "Soittolistan luominen epäonnistui"
 
-#: transcoder/transcoder.cpp:428
+#: transcoder/transcoder.cpp:425
 #, qt-format
 msgid ""
 "Couldn't find a muxer for %1, check you have the correct GStreamer plugins "
 "installed"
 msgstr "Ei löydetty %1 -multiplekseriä, tarkista että sinulla on oikeat GStreamer-liitännäiset asennettuna"
 
-#: transcoder/transcoder.cpp:422
+#: transcoder/transcoder.cpp:419
 #, qt-format
 msgid ""
 "Couldn't find an encoder for %1, check you have the correct GStreamer "
@@ -1665,7 +1674,7 @@ msgstr "Poista"
 msgid "Delete Grooveshark playlist"
 msgstr "Poista Grooveshark-soittolista"
 
-#: podcasts/podcastservice.cpp:345
+#: podcasts/podcastservice.cpp:348
 msgid "Delete downloaded data"
 msgstr "Poista ladattu data"
 
@@ -1695,7 +1704,7 @@ msgstr "Poista asetus"
 msgid "Delete smart playlist"
 msgstr "Poista älykäs soittolista"
 
-#: ../bin/src/ui_organisedialog.h:240
+#: ../bin/src/ui_organisedialog.h:246
 msgid "Delete the original files"
 msgstr "Poista alkuperäiset tiedostot"
 
@@ -1711,7 +1720,7 @@ msgstr "Poista valitut kappaleet jonosta"
 msgid "Dequeue track"
 msgstr "Poista kappale jonosta"
 
-#: ../bin/src/ui_transcodedialog.h:224 ../bin/src/ui_organisedialog.h:235
+#: ../bin/src/ui_transcodedialog.h:224 ../bin/src/ui_organisedialog.h:241
 #: ../bin/src/ui_ripcd.h:321
 msgid "Destination"
 msgstr "Kohde"
@@ -1862,7 +1871,7 @@ msgstr "Kaksoisnapsauta avataksesi"
 msgid "Double clicking a song will..."
 msgstr "Kappaleen kaksoisnapsautus..."
 
-#: podcasts/podcastservice.cpp:437
+#: podcasts/podcastservice.cpp:440
 #, c-format, qt-plural-format
 msgctxt ""
 msgid "Download %n episodes"
@@ -1884,11 +1893,15 @@ msgstr "Latausjäsenyys"
 msgid "Download new episodes automatically"
 msgstr "Lataa uudet jaksot automaattisesti"
 
-#: podcasts/podcastservice.cpp:253
+#: podcasts/podcastservice.cpp:256
 msgid "Download queued"
 msgstr "Lataus asetettu jonoon"
 
-#: ../bin/src/ui_networkremotesettingspage.h:202
+#: ../bin/src/ui_networkremotesettingspage.h:246
+msgid "Download settings"
+msgstr ""
+
+#: ../bin/src/ui_networkremotesettingspage.h:253
 msgid "Download the Android app"
 msgstr "Lataa Android-sovellus"
 
@@ -1900,7 +1913,7 @@ msgstr "Lataa tämä levy"
 msgid "Download this album..."
 msgstr "Lataa tämä levy..."
 
-#: podcasts/podcastservice.cpp:439
+#: podcasts/podcastservice.cpp:442
 msgid "Download this episode"
 msgstr "Lataa tämä jakso"
 
@@ -1908,7 +1921,7 @@ msgstr "Lataa tämä jakso"
 msgid "Download..."
 msgstr "Lataa..."
 
-#: podcasts/podcastservice.cpp:261
+#: podcasts/podcastservice.cpp:264
 #, qt-format
 msgid "Downloading (%1%)..."
 msgstr "Ladataan (%1%)..."
@@ -2079,7 +2092,7 @@ msgstr "Anna suoratoiston osoite:"
 msgid "Enter the name of the folder"
 msgstr "Anna kansion nimi"
 
-#: ../bin/src/ui_networkremotesettingspage.h:199
+#: ../bin/src/ui_networkremotesettingspage.h:239
 msgid "Enter this IP in the App to connect to Clementine."
 msgstr "Kirjoita tämä IP sovellukseen yhdistääksesi Clementineen."
 
@@ -2136,7 +2149,7 @@ msgstr "Virhe ladattaessa %1"
 msgid "Error loading di.fm playlist"
 msgstr "Virhe ladattaessa di.fm soittolistaa"
 
-#: transcoder/transcoder.cpp:393
+#: transcoder/transcoder.cpp:390
 #, qt-format
 msgid "Error processing %1: %2"
 msgstr "Virhe käsitellessä %1:%2"
@@ -2395,7 +2408,7 @@ msgstr "Ensimmäinen taso"
 msgid "Fit cover to width"
 msgstr "Sovita kansi leveyteen"
 
-#: core/song.cpp:382 transcoder/transcoder.cpp:230
+#: core/song.cpp:382 transcoder/transcoder.cpp:233
 msgid "Flac"
 msgstr "Flac"
 
@@ -2680,7 +2693,7 @@ msgstr "Jos jatkat, laite toimii hitaasti ja sille kopioidut kappaleet eivät v�
 msgid "If you know the URL of a podcast, enter it below and press Go."
 msgstr "Jos tiedät podcastin verkko-osoitteen, kirjoita se alle ja napsauta Mene."
 
-#: ../bin/src/ui_organisedialog.h:250
+#: ../bin/src/ui_organisedialog.h:256
 msgid "Ignore \"The\" in artist names"
 msgstr "Älä huomioi sanaa \"The\" esiintyjien nimissä"
 
@@ -2761,7 +2774,7 @@ msgstr "Tiedot"
 msgid "Input options"
 msgstr ""
 
-#: ../bin/src/ui_organisedialog.h:249
+#: ../bin/src/ui_organisedialog.h:255
 msgid "Insert..."
 msgstr "Lisää..."
 
@@ -2866,7 +2879,7 @@ msgstr "Paina painikkeita %1 sekuntia..."
 msgid "Keep running in the background when the window is closed"
 msgstr "Pidä käynnissä taustalla, kun ikkuna suljetaan"
 
-#: ../bin/src/ui_organisedialog.h:239
+#: ../bin/src/ui_organisedialog.h:245
 msgid "Keep the original files"
 msgstr "Säilytä alkuperäiset tiedostot"
 
@@ -3039,7 +3052,7 @@ msgstr "Lataa kappaleen tietoja"
 #: library/librarymodel.cpp:152 podcasts/podcastdiscoverymodel.cpp:102
 #: widgets/prettyimage.cpp:168 widgets/widgetfadehelper.cpp:96
 #: ../bin/src/ui_addpodcastdialog.h:180 ../bin/src/ui_searchpreview.h:106
-#: ../bin/src/ui_organisedialog.h:255 internet/vkservice.cpp:497
+#: ../bin/src/ui_organisedialog.h:262 internet/vkservice.cpp:497
 #: internet/vksettingspage.cpp:121
 msgid "Loading..."
 msgstr "Ladataan..."
@@ -3102,11 +3115,11 @@ msgstr "Sanoitukset"
 msgid "Lyrics from %1"
 msgstr "Sanoitukset tarjoaa %1"
 
-#: transcoder/transcoder.cpp:232
+#: transcoder/transcoder.cpp:235
 msgid "M4A AAC"
 msgstr "M4A AAC"
 
-#: core/song.cpp:388 transcoder/transcoder.cpp:235
+#: core/song.cpp:388 transcoder/transcoder.cpp:238
 #: ../bin/src/ui_transcodersettingspage.h:175
 msgid "MP3"
 msgstr "MP3"
@@ -3173,11 +3186,11 @@ msgstr "Käsin"
 msgid "Manufacturer"
 msgstr "Valmistaja"
 
-#: podcasts/podcastservice.cpp:357
+#: podcasts/podcastservice.cpp:360 ../bin/src/ui_organisedialog.h:260
 msgid "Mark as listened"
 msgstr "Merkitse kuunnelluksi"
 
-#: podcasts/podcastservice.cpp:356
+#: podcasts/podcastservice.cpp:359
 msgid "Mark as new"
 msgstr "Merkitse uudeksi"
 
@@ -3323,7 +3336,7 @@ msgctxt "Category label"
 msgid "Name"
 msgstr "Nimi"
 
-#: ../bin/src/ui_organisedialog.h:243
+#: ../bin/src/ui_organisedialog.h:249
 msgid "Naming options"
 msgstr "Nimeämisvalinnat"
 
@@ -3335,7 +3348,7 @@ msgstr "Kapeakaistainen (NB)"
 msgid "Network Proxy"
 msgstr "Verkon välityspalvelin"
 
-#: ../bin/src/ui_networkremotesettingspage.h:178
+#: ../bin/src/ui_networkremotesettingspage.h:222
 msgid "Network Remote"
 msgstr "Verkkokaukosäädin"
 
@@ -3494,19 +3507,19 @@ msgstr "Kuvaruutunäytön esikatselu"
 msgid "Off"
 msgstr "Pois"
 
-#: core/song.cpp:390 transcoder/transcoder.cpp:241
+#: core/song.cpp:390 transcoder/transcoder.cpp:244
 msgid "Ogg Flac"
 msgstr "Ogg Flac"
 
-#: core/song.cpp:396 transcoder/transcoder.cpp:247
+#: core/song.cpp:396 transcoder/transcoder.cpp:250
 msgid "Ogg Opus"
 msgstr "Ogg Opus"
 
-#: core/song.cpp:392 transcoder/transcoder.cpp:244
+#: core/song.cpp:392 transcoder/transcoder.cpp:247
 msgid "Ogg Speex"
 msgstr "Ogg Speex"
 
-#: core/song.cpp:394 transcoder/transcoder.cpp:238
+#: core/song.cpp:394 transcoder/transcoder.cpp:241
 #: ../bin/src/ui_magnatunedownloaddialog.h:139
 #: ../bin/src/ui_magnatunesettingspage.h:170
 msgid "Ogg Vorbis"
@@ -3520,7 +3533,7 @@ msgstr "Päällä"
 msgid "OneDrive"
 msgstr "OneDrive"
 
-#: ../bin/src/ui_networkremotesettingspage.h:183
+#: ../bin/src/ui_networkremotesettingspage.h:227
 msgid ""
 "Only accept connections from clients within the ip ranges:\n"
 "10.x.x.x\n"
@@ -3528,7 +3541,7 @@ msgid ""
 "192.168.x.x"
 msgstr "Hyväksy yhteydet vain seuraavilta verkkoalueilta:\n10.x.x.x\n172.16.0.0 - 172.31.255.255\n192.168.x.x"
 
-#: ../bin/src/ui_networkremotesettingspage.h:188
+#: ../bin/src/ui_networkremotesettingspage.h:232
 msgid "Only allow connections from the local network"
 msgstr "Salli yhteydet vain paikallisverkosta"
 
@@ -3608,7 +3621,8 @@ msgstr "Optimoi bittinopeuteen"
 msgid "Optimize for quality"
 msgstr "Optimoi laatuun"
 
-#: ../bin/src/ui_transcodedialog.h:223 ../bin/src/ui_ripcd.h:322
+#: ../bin/src/ui_transcodedialog.h:223
+#: ../bin/src/ui_networkremotesettingspage.h:252 ../bin/src/ui_ripcd.h:322
 msgid "Options..."
 msgstr "Valinnat..."
 
@@ -3616,7 +3630,7 @@ msgstr "Valinnat..."
 msgid "Opus"
 msgstr "Opus"
 
-#: ../bin/src/ui_organisedialog.h:234
+#: ../bin/src/ui_organisedialog.h:240
 msgid "Organise Files"
 msgstr "Hallitse tiedostoja"
 
@@ -3624,7 +3638,7 @@ msgstr "Hallitse tiedostoja"
 msgid "Organise files..."
 msgstr "Hallitse tiedostoja..."
 
-#: core/organise.cpp:67
+#: core/organise.cpp:69
 msgid "Organising files"
 msgstr "Hallinnoidaan tiedostoja"
 
@@ -3652,7 +3666,7 @@ msgstr "Muunnoksen asetukset"
 msgid "Overwrite all"
 msgstr "Korvaa kaikki"
 
-#: ../bin/src/ui_organisedialog.h:253
+#: ../bin/src/ui_organisedialog.h:259
 msgid "Overwrite existing files"
 msgstr "Korvaa olemassa olevat tiedostot"
 
@@ -3776,7 +3790,7 @@ msgstr "Sulje selain ja palaa Clementineen."
 msgid "Plugin status:"
 msgstr "Liitännäisen tila:"
 
-#: podcasts/podcastservice.cpp:120 ../bin/src/ui_podcastsettingspage.h:226
+#: podcasts/podcastservice.cpp:123 ../bin/src/ui_podcastsettingspage.h:226
 msgid "Podcasts"
 msgstr "Podcastit"
 
@@ -3801,7 +3815,7 @@ msgid "Popup duration"
 msgstr "Ponnahdusikkunan kesto"
 
 #: ../bin/src/ui_networkproxysettingspage.h:166
-#: ../bin/src/ui_networkremotesettingspage.h:181
+#: ../bin/src/ui_networkremotesettingspage.h:225
 msgid "Port"
 msgstr "Portti"
 
@@ -3868,7 +3882,7 @@ msgstr "Kuvaruutunäytön valinnat"
 
 #: ../bin/src/ui_searchpreview.h:105 ../bin/src/ui_songinfosettingspage.h:158
 #: ../bin/src/ui_notificationssettingspage.h:453
-#: ../bin/src/ui_organisedialog.h:254
+#: ../bin/src/ui_organisedialog.h:261
 msgid "Preview"
 msgstr "Esikatselu"
 
@@ -4141,7 +4155,7 @@ msgstr "Korvaa nykyinen soittolista"
 msgid "Replace the playlist"
 msgstr "Korvaa soittolista"
 
-#: ../bin/src/ui_organisedialog.h:251
+#: ../bin/src/ui_organisedialog.h:257
 msgid "Replaces spaces with underscores"
 msgstr "Korvaa välilyönnit alaviivoilla"
 
@@ -4157,7 +4171,7 @@ msgstr "Replay Gain -tila"
 msgid "Repopulate"
 msgstr "Täytä uudelleen"
 
-#: ../bin/src/ui_networkremotesettingspage.h:192
+#: ../bin/src/ui_networkremotesettingspage.h:236
 msgid "Require authentication code"
 msgstr "Vaadi varmistuskoodi"
 
@@ -4174,7 +4188,7 @@ msgid ""
 "Restart the track, or play the previous track if within 8 seconds of start."
 msgstr "Toista kappale uudelleen, tai toista edellinen kappale, jos alle 8 sekunnin päästä alusta."
 
-#: ../bin/src/ui_organisedialog.h:252
+#: ../bin/src/ui_organisedialog.h:258
 msgid "Restrict to ASCII characters"
 msgstr "Rajoita ASCII-merkkeihin"
 
@@ -4236,7 +4250,7 @@ msgstr "SSL-käsittelyvirhe, tarkista palvelimen asetukset. SSLv3-valinta alla s
 msgid "Safely remove device"
 msgstr "Poista laite turvallisesti"
 
-#: ../bin/src/ui_organisedialog.h:242
+#: ../bin/src/ui_organisedialog.h:248
 msgid "Safely remove the device after copying"
 msgstr "Poista laite turvallisesti kopioinnin jälkeen"
 
@@ -4480,7 +4494,7 @@ msgstr "Säädä äänenvoimakkuus <value> prosenttia"
 msgid "Set value for all selected tracks..."
 msgstr "Aseta arvo kaikille valituille kappaleille..."
 
-#: ../bin/src/ui_networkremotesettingspage.h:180
+#: ../bin/src/ui_networkremotesettingspage.h:224
 msgid "Settings"
 msgstr "Asetukset"
 
@@ -4812,7 +4826,7 @@ msgid ""
 "list"
 msgstr "Kirjoita jotain yllä olevaan hakukenttään täyttääksesi tämän hakutuloslistan"
 
-#: transcoder/transcoder.cpp:400
+#: transcoder/transcoder.cpp:397
 #, qt-format
 msgid "Starting %1"
 msgstr "Aloittaa %1"
@@ -4885,7 +4899,7 @@ msgstr "Subsonic"
 msgid "Success!"
 msgstr "Onnistui!"
 
-#: transcoder/transcoder.cpp:188
+#: transcoder/transcoder.cpp:189
 #, qt-format
 msgid "Successfully written %1"
 msgstr "Onnistuneesti kirjoitettu %1"
@@ -5189,7 +5203,7 @@ msgstr "Muunnosloki"
 msgid "Transcoding"
 msgstr "Muunnos"
 
-#: transcoder/transcoder.cpp:305
+#: transcoder/transcoder.cpp:317
 #, qt-format
 msgid "Transcoding %1 files using %2 threads"
 msgstr "Muunnetaan %1 tiedostoa käyttäen %2 säiettä"
@@ -5259,7 +5273,7 @@ msgstr ""
 msgid "Unskip track"
 msgstr ""
 
-#: podcasts/addpodcastdialog.cpp:65 podcasts/podcastservice.cpp:351
+#: podcasts/addpodcastdialog.cpp:65 podcasts/podcastservice.cpp:354
 msgid "Unsubscribe"
 msgstr "Poista tilaus"
 
@@ -5275,7 +5289,7 @@ msgstr "Päivitä"
 msgid "Update Grooveshark playlist"
 msgstr "Päivitä Grooveshark-soittolista"
 
-#: podcasts/podcastservice.cpp:331
+#: podcasts/podcastservice.cpp:334
 msgid "Update all podcasts"
 msgstr "Päivitä kaikki podcastit"
 
@@ -5287,7 +5301,7 @@ msgstr "Päivitä muuttuneet kirjastokansiot"
 msgid "Update the library when Clementine starts"
 msgstr "Päivitä kirjasto Clementine käynnistyessä"
 
-#: podcasts/podcastservice.cpp:339
+#: podcasts/podcastservice.cpp:342
 msgid "Update this podcast"
 msgstr "Päivitä tämä podcast"
 
@@ -5341,7 +5355,7 @@ msgstr "Käytä omia värimäärityksiä"
 msgid "Use a custom message for notifications"
 msgstr "Käytä omaa viestiä ilmoituksissa"
 
-#: ../bin/src/ui_networkremotesettingspage.h:179
+#: ../bin/src/ui_networkremotesettingspage.h:223
 msgid "Use a network remote control"
 msgstr "Käytä verkkokaukosäädintä"
 
@@ -5476,7 +5490,7 @@ msgstr "Seinä"
 msgid "Warn me when closing a playlist tab"
 msgstr "Varoita suljettaessa soittolistan sisältävää välilehteä"
 
-#: core/song.cpp:400 transcoder/transcoder.cpp:253
+#: core/song.cpp:400 transcoder/transcoder.cpp:256
 msgid "Wav"
 msgstr "Wav"
 
@@ -5560,7 +5574,7 @@ msgstr "Windows Media 40k"
 msgid "Windows Media 64k"
 msgstr "Windows Media 64k"
 
-#: core/song.cpp:380 transcoder/transcoder.cpp:250
+#: core/song.cpp:380 transcoder/transcoder.cpp:253
 msgid "Windows Media audio"
 msgstr "Windows Media -ääni"
 
@@ -5717,7 +5731,7 @@ msgstr "Avaa Järjestelmäasetukset -> Käyttöapu ja ota käyttön \"<span styl
 msgid "You will need to restart Clementine if you change the language."
 msgstr "Clementine tulee käynnistää uudelleen, jos vaihdat kieltä."
 
-#: ../bin/src/ui_networkremotesettingspage.h:201
+#: ../bin/src/ui_networkremotesettingspage.h:241
 msgid "Your IP address:"
 msgstr "IP-osoitteesi:"
 
@@ -5892,7 +5906,7 @@ msgstr "päällä"
 msgid "options"
 msgstr "valinnat"
 
-#: ../bin/src/ui_networkremotesettingspage.h:203
+#: ../bin/src/ui_networkremotesettingspage.h:254
 msgid "or scan the QR code!"
 msgstr "tai skannaa QR-koodi!"
 
